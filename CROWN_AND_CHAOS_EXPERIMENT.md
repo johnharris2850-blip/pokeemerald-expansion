@@ -36,3 +36,21 @@ Priority custom features:
 6. Add only the custom locations/events needed to support these arcs rather than rebuilding every map.
 
 Development rule: preserve existing systems wherever possible and make small reversible changes with a green CI build after each milestone.
+
+
+## Player customisation implementation plan
+
+The existing new-game flow already selects a player presentation and name before entering the world. Preserve that stable flow for the first playable custom build.
+
+Phase A (safe first implementation):
+- John remains the player's chosen name; do not hard-code it into save data.
+- Treat the existing two player avatar sets as the first appearance presets while the custom art is prepared.
+- Keep all movement modes (walking, bike, surf, field move, fishing, watering) mapped consistently to the selected preset.
+- Do not alter the save-block layout for cosmetic choices yet.
+
+Phase B:
+- Add original Crown & Chaos player sprite/palette sets and a simple appearance-choice screen.
+- Persist the cosmetic preset only after the sprite pipeline and CI build are proven.
+- Keep appearance cosmetic: it must not alter story progression, battles, stats, or compatibility with existing maps.
+
+This staged approach avoids a save-format change before the first customised ROM is testable.
