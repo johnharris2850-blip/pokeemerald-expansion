@@ -234,11 +234,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
     {
         // Minimal native custom-species milestone. Add identity, graphics,
         // learnset and evolution only after this core data is proven by CI.
-        .baseHP        = 95,
-        .baseAttack    = 110,
-        .baseDefense   = 90,
-        .baseSpeed     = 105,
-        .baseSpAttack  = 125,
+        .baseHP        = 110,
+        .baseAttack    = 120,
+        .baseDefense   = 105,
+        .baseSpeed     = 115,
+        .baseSpAttack  = 130,
         .baseSpDefense = 100,
         .types = MON_TYPES(TYPE_DRAGON, TYPE_FAIRY),
         .catchRate = 45,
