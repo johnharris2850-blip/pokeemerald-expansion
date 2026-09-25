@@ -258,10 +258,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .height = 12,
         .weight = 325,
         .description = COMPOUND_STRING(
-            "A rare evolution born from an enduring bond.\n"
-            "Its draconic power awakens when its chosen\n"
-            "Trainer faces the gathering darkness.\n"
-            "It fights with unwavering courage."),
+            "Born from an enduring bond, its draconic\n"
+            "power awakens beside its chosen Trainer.\n"
+            "It faces gathering darkness with courage\n"
+            "and unwavering loyalty."),
     },
 
     /* You may add any custom species below this point based on the following structure: */
