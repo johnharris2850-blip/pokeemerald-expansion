@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - upcoming
+      - crown-and-chaos-experiment
   pull_request:
 
 env:
@@ -51,6 +52,14 @@ jobs:
         env:
           GAME_VERSION: EMERALD
         run: make -j$(nproc) -O all
+
+      - name: Package Crown and Chaos experiment ROM
+        if: github.ref == 'refs/heads/crown-and-chaos-experiment'
+        uses: actions/upload-artifact@v4
+        with:
+          name: crown-and-chaos-expansion-baseline-${{ github.sha }}
+          path: pokeemerald.gba
+          if-no-files-found: error
 
   build-firered:
     if: github.actor != 'allcontributors[bot]'
