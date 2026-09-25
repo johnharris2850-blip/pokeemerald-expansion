@@ -176,15 +176,17 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_EEVEE_CROWN] =
     {
+        // Safe scaffold: reuse complete Eevee assets while Crown-specific art/evolution
+        // is added incrementally. Keep this entry independent of family-local macros.
         .baseHP        = 55,
         .baseAttack    = 55,
         .baseDefense   = 50,
         .baseSpeed     = 55,
-        .baseSpAttack  = (P_UPDATED_STATS >= GEN_2 ? 45 : 65),
+        .baseSpAttack  = 45,
         .baseSpDefense = 65,
         .types = MON_TYPES(TYPE_NORMAL),
         .catchRate = 45,
-        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 65 : 92,
+        .expYield = 65,
         .evYield_SpDefense = 1,
         .genderRatio = PERCENT_FEMALE(12.5),
         .eggCycles = 35,
@@ -199,25 +201,18 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .categoryName = _("Mysterious"),
         .height = 3,
         .weight = 65,
-        .description = COMPOUND_STRING(
-            "Its unusually bright blue eyes and a\\n"
-            "pale diamond-shaped marking set it apart.\\n"
-            "It seems drawn toward a purpose that even\\n"
-            "its Trainer does not yet understand."),
+        .description = gEeveePokedexText,
         .pokemonScale = 476,
         .pokemonOffset = 18,
         .trainerScale = 256,
         .trainerOffset = 0,
         .frontPic = gMonFrontPic_Eevee,
         .frontPicSize = MON_COORDS_SIZE(40, 48),
-        .frontPicYOffset = P_GBA_STYLE_SPECIES_GFX ? 9 : 11,
-        .frontAnimFrames = ANIM_FRAMES(
-            ANIMCMD_FRAME(1, 33),
-            ANIMCMD_FRAME(0, 5),
-        ),
+        .frontPicYOffset = 11,
+        .frontAnimFrames = sAnims_TwoFramePlaceHolder,
         .frontAnimId = ANIM_V_STRETCH,
         .backPic = gMonBackPic_Eevee,
-        .backPicSize = P_GBA_STYLE_SPECIES_GFX ? MON_COORDS_SIZE(48, 48) : MON_COORDS_SIZE(56, 48),
+        .backPicSize = MON_COORDS_SIZE(56, 48),
         .backPicYOffset = 10,
         .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
         .palette = gMonPalette_Eevee,
@@ -227,15 +222,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .pokemonJumpType = PKMN_JUMP_TYPE_NORMAL,
         SHADOW(-2, 2, SHADOW_SIZE_S)
         FOOTPRINT(Eevee)
-        OVERWORLD(
-            sPicTable_Eevee,
-            SIZE_32x32,
-            SHADOW_SIZE_M,
-            TRACKS_FOOT,
-            sAnimTable_Following,
-            gOverworldPalette_Eevee,
-            gShinyOverworldPalette_Eevee
-        )
         .levelUpLearnset = sEeveeLevelUpLearnset,
         .teachableLearnset = sEeveeTeachableLearnset,
         .eggMoveLearnset = sEeveeEggMoveLearnset,
