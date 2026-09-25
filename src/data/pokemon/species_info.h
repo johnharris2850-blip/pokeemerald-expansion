@@ -261,24 +261,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "Its draconic power awakens when its chosen\n"
             "Trainer faces the gathering darkness.\n"
             "It fights with unwavering courage."),
-        // Use built-in placeholder art until Celesteon's original GBA sprites are ready.
-        .pokemonScale = 256,
-        .pokemonOffset = 0,
-        .trainerScale = 256,
-        .trainerOffset = 0,
-        .frontPic = gMonFrontPic_CircledQuestionMark,
-        .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
-        .frontAnimFrames = sAnims_None,
-        .backPic = gMonBackPic_CircledQuestionMark,
-        .backPicSize = MON_COORDS_SIZE(64, 64),
-        .backPicYOffset = 7,
-        .backAnimId = BACK_ANIM_NONE,
-        .palette = gMonPalette_CircledQuestionMark,
-        .shinyPalette = gMonShinyPalette_CircledQuestionMark,
-        .iconSprite = gMonIcon_QuestionMark,
-        .iconPalIndex = 0,
-        FOOTPRINT(QuestionMark)
     },
 
     /* You may add any custom species below this point based on the following structure: */
