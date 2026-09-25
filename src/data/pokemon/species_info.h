@@ -229,6 +229,29 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
 
 
+    [SPECIES_CELESTEON] =
+    {
+        // Minimal native custom-species milestone. Add identity, graphics,
+        // learnset and evolution only after this core data is proven by CI.
+        .baseHP        = 95,
+        .baseAttack    = 110,
+        .baseDefense   = 90,
+        .baseSpeed     = 105,
+        .baseSpAttack  = 125,
+        .baseSpDefense = 100,
+        .types = MON_TYPES(TYPE_DRAGON, TYPE_FAIRY),
+        .catchRate = 45,
+        .expYield = 184,
+        .evYield_SpAttack = 2,
+        .genderRatio = PERCENT_FEMALE(12.5),
+        .eggCycles = 35,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
+        .abilities = { ABILITY_INNER_FOCUS, ABILITY_NONE, ABILITY_NONE },
+        .bodyColor = BODY_COLOR_WHITE,
+    },
+
     /* You may add any custom species below this point based on the following structure: */
 
     /*
