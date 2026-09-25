@@ -228,58 +228,6 @@ const struct SpeciesInfo gSpeciesInfo[] =
     },
 
 
-    [SPECIES_CELESTEON] =
-    {
-        // Crown & Chaos custom evolution. Placeholder graphics are intentional
-        // until the original Celesteon GBA art is imported.
-        .baseHP        = 95,
-        .baseAttack    = 110,
-        .baseDefense   = 90,
-        .baseSpeed     = 105,
-        .baseSpAttack  = 125,
-        .baseSpDefense = 100,
-        .types = MON_TYPES(TYPE_DRAGON, TYPE_FAIRY),
-        .catchRate = 45,
-        .expYield = 184,
-        .evYield_SpAttack = 2,
-        .genderRatio = PERCENT_FEMALE(12.5),
-        .eggCycles = 35,
-        .friendship = STANDARD_FRIENDSHIP,
-        .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
-        .abilities = { ABILITY_INNER_FOCUS, ABILITY_SYNCHRONIZE, ABILITY_MULTISCALE },
-        .bodyColor = BODY_COLOR_WHITE,
-        .speciesName = _("Celesteon"),
-        .cryId = CRY_EEVEE,
-        .natDexNum = NATIONAL_DEX_NONE,
-        .categoryName = _("Celestial"),
-        .height = 12,
-        .weight = 325,
-        .description = COMPOUND_STRING(
-            "A rare evolution born from an enduring bond.\\n"
-            "Its draconic power awakens when its chosen\\n"
-            "Trainer faces the gathering darkness.\\n"
-            "It fights with unwavering courage."),
-        .pokemonScale = 256,
-        .pokemonOffset = 0,
-        .trainerScale = 256,
-        .trainerOffset = 0,
-        .frontPic = gMonFrontPic_CircledQuestionMark,
-        .frontPicSize = MON_COORDS_SIZE(64, 64),
-        .frontPicYOffset = 0,
-        .frontAnimFrames = sAnims_None,
-        .backPic = gMonBackPic_CircledQuestionMark,
-        .backPicSize = MON_COORDS_SIZE(64, 64),
-        .backPicYOffset = 7,
-        .backAnimId = BACK_ANIM_NONE,
-        .palette = gMonPalette_CircledQuestionMark,
-        .shinyPalette = gMonShinyPalette_CircledQuestionMark,
-        .iconSprite = gMonIcon_QuestionMark,
-        .iconPalIndex = 0,
-        FOOTPRINT(QuestionMark)
-        .levelUpLearnset = sEeveeLevelUpLearnset,
-        .teachableLearnset = sEeveeTeachableLearnset,
-    },
 
     /* You may add any custom species below this point based on the following structure: */
 
