@@ -42,3 +42,39 @@ EVs: 252 Atk / 252 SpA / 6 SpD
 - Protect
 - Solar Beam
 - Dragon Claw
+
+
+=== PARTNER_MAY ===
+Name: MAY
+Class: Pkmn Trainer 1
+Pic: May
+Gender: Female
+Music: Female
+AI: Basic Trainer
+
+Combusken
+Adamant Nature
+Level: 42
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Double Kick
+- Quick Attack
+- Bulk Up
+- Blaze Kick
+
+Lombre
+Modest Nature
+Level: 42
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Fake Out
+- Water Pulse
+- Giga Drain
+- Nature Power
+
+Pelipper
+Bold Nature
+Level: 42
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect
+- Aerial Ace
+- Water Pulse
+- Supersonic
