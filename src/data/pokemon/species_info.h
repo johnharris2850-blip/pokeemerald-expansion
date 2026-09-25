@@ -227,6 +227,63 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .eggMoveLearnset = sEeveeEggMoveLearnset,
     },
 
+    [SPECIES_CELESTEON] =
+    {
+        // Crown & Chaos: unique late-game evolution of John's special Eevee.
+        // Temporary Eevee graphics keep this milestone buildable until original
+        // Celesteon battle/icon/follower artwork is added.
+        .baseHP        = 95,
+        .baseAttack    = 110,
+        .baseDefense   = 90,
+        .baseSpeed     = 105,
+        .baseSpAttack  = 125,
+        .baseSpDefense = 100,
+        .types = MON_TYPES(TYPE_DRAGON, TYPE_FAIRY),
+        .catchRate = 45,
+        .expYield = 184,
+        .evYield_SpAttack = 2,
+        .genderRatio = PERCENT_FEMALE(12.5),
+        .eggCycles = 35,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
+        .abilities = { ABILITY_INNER_FOCUS, ABILITY_SYNCHRONIZE, ABILITY_MULTISCALE },
+        .bodyColor = BODY_COLOR_WHITE,
+        .speciesName = _("Celesteon"),
+        .cryId = CRY_EEVEE,
+        .natDexNum = NATIONAL_DEX_NONE,
+        .categoryName = _("Celestial"),
+        .height = 12,
+        .weight = 325,
+        .description = COMPOUND_STRING(
+            "A rare evolution whose presence is said\\n"
+            "to bring courage in the face of darkness.\\n"
+            "It forms an unbreakable bond with the\\n"
+            "Trainer it has chosen."),
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_Eevee,
+        .frontPicSize = MON_COORDS_SIZE(40, 48),
+        .frontPicYOffset = 11,
+        .frontAnimFrames = sAnims_TwoFramePlaceHolder,
+        .frontAnimId = ANIM_V_STRETCH,
+        .backPic = gMonBackPic_Eevee,
+        .backPicSize = MON_COORDS_SIZE(56, 48),
+        .backPicYOffset = 10,
+        .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
+        .palette = gMonPalette_Eevee,
+        .shinyPalette = gMonShinyPalette_Eevee,
+        .iconSprite = gMonIcon_Eevee,
+        .iconPalIndex = 2,
+        .pokemonJumpType = PKMN_JUMP_TYPE_NORMAL,
+        SHADOW(-2, 2, SHADOW_SIZE_S)
+        FOOTPRINT(Eevee)
+        .levelUpLearnset = sEeveeLevelUpLearnset,
+        .teachableLearnset = sEeveeTeachableLearnset,
+    },
+
     /* You may add any custom species below this point based on the following structure: */
 
     /*
