@@ -301,7 +301,9 @@ Route103_Text_MayLetsBattle:
 
 Route103_Text_MayDefeated:
 	.string "Wow! That's great!\n"
-	.string "{PLAYER}{KUN}, you're pretty good!$"
+	.string "{PLAYER}{KUN}, you're pretty good!\p"
+	.string "I had a feeling there was something\n"
+	.string "special about you.$"
 
 Route103_Text_MayTimeToHeadBack:
 	.string "MAY: I think I know why my dad has\n"
@@ -310,8 +312,9 @@ Route103_Text_MayTimeToHeadBack:
 	.string "but it already likes you.\p"
 	.string "You might be able to befriend any\n"
 	.string "kind of POKéMON easily.\p"
-	.string "Well, it's time to head back to\n"
-	.string "the LAB.$"
+	.string "I'm glad you moved to LITTLEROOT.\p"
+	.string "Come on, let's head back to the LAB\n"
+	.string "together.$"
 
 Route103_Text_BrendanRoute103Pokemon:
 	.string "BRENDAN: Okay, so it's this one and\n"
