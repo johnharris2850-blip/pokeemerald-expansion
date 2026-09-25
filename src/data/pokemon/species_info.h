@@ -253,6 +253,9 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .speciesName = _("Celesteon"),
         .cryId = CRY_EEVEE,
         .natDexNum = NATIONAL_DEX_NONE,
+        .categoryName = _("Celestial"),
+        .height = 12,
+        .weight = 325,
     },
 
     /* You may add any custom species below this point based on the following structure: */
