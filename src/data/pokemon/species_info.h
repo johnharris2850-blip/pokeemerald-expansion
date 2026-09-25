@@ -251,6 +251,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .abilities = { ABILITY_INNER_FOCUS, ABILITY_NONE, ABILITY_NONE },
         .bodyColor = BODY_COLOR_WHITE,
         .speciesName = _("Celesteon"),
+        .cryId = CRY_EEVEE,
     },
 
     /* You may add any custom species below this point based on the following structure: */
