@@ -436,17 +436,23 @@ LilycoveCity_Text_MayWontBeBeaten:
 
 LilycoveCity_Text_MayDefeat:
 	.string "… … … … … … … …\p"
-	.string "I remember the battle I had with you,\n"
-	.string "{PLAYER}{KUN}, on ROUTE 103.\p"
-	.string "That battle helped you become this\n"
-	.string "strong, {PLAYER}{KUN}, didn't it?$"
+	.string "I remember our first battle on\n"
+	.string "ROUTE 103.\p"
+	.string "Back then I thought you were just an\n"
+	.string "interesting new TRAINER.\p"
+	.string "Now, whenever I see you, my heart\n"
+	.string "starts racing before the battle does.\p"
+	.string "{PLAYER}{KUN}... I think you know this\n"
+	.string "isn't just rivalry anymore.$"
 
 LilycoveCity_Text_MayGoingBackToLittleroot:
 	.string "MAY: I'm thinking of going back to\n"
 	.string "LITTLEROOT soon.\p"
 	.string "I've caught a decent group of POKéMON,\n"
 	.string "and my POKéDEX is coming along, so\l"
-	.string "I'm going home to show my dad.$"
+	.string "I'm going home to show my dad.\p"
+	.string "But I don't really want this to be\n"
+	.string "goodbye. Promise we'll meet again?$"
 
 LilycoveCity_Text_MayYouGoingToCollectBadges:
 	.string "{PLAYER}{KUN}, what are you going to do?\p"
