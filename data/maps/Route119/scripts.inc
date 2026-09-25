@@ -486,8 +486,8 @@ Route119_Text_MayIntro:
 Route119_Text_MayDefeat:
 	.string "Achah!\n"
 	.string "{PLAYER}{KUN}, you're strong!\p"
-	.string "I was worried that you might be\n"
-	.string "struggling with your training.$"
+	.string "I was worried about you out here.\n"
+	.string "Not just your training... you.$"
 
 Route119_Text_MayPresentForYou:
 	.string "MAY: But I had absolutely nothing to\n"
@@ -505,7 +505,10 @@ Route119_Text_MayExplainFly:
 	.string "LITTLEROOT for a change.\p"
 	.string "I bet your mom's worried about you,\n"
 	.string "{PLAYER}{KUN}.\p"
-	.string "Well, let's meet again somewhere!$"
+	.string "And... I worry about you too. More than\n"
+	.string "I expected to.\p"
+	.string "Be careful, okay? I want to see you\n"
+	.string "again soon.$"
 
 Route119_Text_BrendanIntro:
 	.string "BRENDAN: {PLAYER}! So this is where\n"
