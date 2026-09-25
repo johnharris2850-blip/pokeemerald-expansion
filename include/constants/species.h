@@ -1691,7 +1691,10 @@ enum __attribute__((packed)) Species
     SPECIES_GLIMMORA_MEGA = 1572,
 
     SPECIES_CUSTOM_START = SPECIES_GLIMMORA_MEGA,
-    // Add any custom species between here and SPECIES_CUSTOM_END
+    // Crown & Chaos custom species are appended here so existing species IDs remain stable.
+    // The special story Eevee is its own species entry. This lets scripts/evolution logic
+    // distinguish John's blue-eyed, white-marked partner from ordinary Eevee.
+    SPECIES_EEVEE_CROWN,
     SPECIES_CUSTOM_END,
 
     SPECIES_EGG = SPECIES_CUSTOM_END,
