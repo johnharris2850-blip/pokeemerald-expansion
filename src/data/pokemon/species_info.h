@@ -174,6 +174,73 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .iconPalIndex = 1,
     },
 
+    [SPECIES_EEVEE_CROWN] =
+    {
+        .baseHP        = 55,
+        .baseAttack    = 55,
+        .baseDefense   = 50,
+        .baseSpeed     = 55,
+        .baseSpAttack  = EEVEE_SP_ATK,
+        .baseSpDefense = 65,
+        .types = MON_TYPES(TYPE_NORMAL),
+        .catchRate = 45,
+        .expYield = (P_UPDATED_EXP_YIELDS >= GEN_5) ? 65 : 92,
+        .evYield_SpDefense = 1,
+        .genderRatio = PERCENT_FEMALE(12.5),
+        .eggCycles = 35,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD),
+        .abilities = EEVEE_ABILITIES,
+        .bodyColor = BODY_COLOR_BROWN,
+        .speciesName = _("Eevee"),
+        .cryId = CRY_EEVEE,
+        .natDexNum = NATIONAL_DEX_EEVEE,
+        .categoryName = _("Mysterious"),
+        .height = 3,
+        .weight = 65,
+        .description = COMPOUND_STRING(
+            "Its unusually bright blue eyes and a\\n"
+            "pale diamond-shaped marking set it apart.\\n"
+            "It seems drawn toward a purpose that even\\n"
+            "its Trainer does not yet understand."),
+        .pokemonScale = 476,
+        .pokemonOffset = 18,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_Eevee,
+        .frontPicSize = MON_COORDS_SIZE(40, 48),
+        .frontPicYOffset = P_GBA_STYLE_SPECIES_GFX ? 9 : 11,
+        .frontAnimFrames = ANIM_FRAMES(
+            ANIMCMD_FRAME(1, 33),
+            ANIMCMD_FRAME(0, 5),
+        ),
+        .frontAnimId = ANIM_V_STRETCH,
+        .backPic = gMonBackPic_Eevee,
+        .backPicSize = P_GBA_STYLE_SPECIES_GFX ? MON_COORDS_SIZE(48, 48) : MON_COORDS_SIZE(56, 48),
+        .backPicYOffset = 10,
+        .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
+        .palette = gMonPalette_Eevee,
+        .shinyPalette = gMonShinyPalette_Eevee,
+        .iconSprite = gMonIcon_Eevee,
+        .iconPalIndex = 2,
+        .pokemonJumpType = PKMN_JUMP_TYPE_NORMAL,
+        SHADOW(-2, 2, SHADOW_SIZE_S)
+        FOOTPRINT(Eevee)
+        OVERWORLD(
+            sPicTable_Eevee,
+            SIZE_32x32,
+            SHADOW_SIZE_M,
+            TRACKS_FOOT,
+            sAnimTable_Following,
+            gOverworldPalette_Eevee,
+            gShinyOverworldPalette_Eevee
+        )
+        .levelUpLearnset = sEeveeLevelUpLearnset,
+        .teachableLearnset = sEeveeTeachableLearnset,
+        .eggMoveLearnset = sEeveeEggMoveLearnset,
+    },
+
     /* You may add any custom species below this point based on the following structure: */
 
     /*
