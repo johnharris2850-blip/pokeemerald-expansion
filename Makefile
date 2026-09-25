@@ -1,6 +1,6 @@
 GAME_VERSION ?= EMERALD
-TITLE        ?= POKEMON EMER
-GAME_CODE    ?= BPEE
+TITLE        ?= CROWN CHAOS
+GAME_CODE    ?= CCHA
 BUILD_NAME   ?= emerald
 MAP_VERSION  ?= emerald
 
@@ -26,7 +26,7 @@ REVISION    := 0
 KEEP_TEMPS  ?= 0
 
 # `File name`.gba
-FILE_NAME := poke$(BUILD_NAME)
+FILE_NAME := crown_and_chaos
 BUILD_DIR := build
 
 # Compares the ROM to a checksum of the original - only makes sense using when non-modern
