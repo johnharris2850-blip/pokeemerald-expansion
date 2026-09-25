@@ -225,6 +225,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .levelUpLearnset = sEeveeLevelUpLearnset,
         .teachableLearnset = sEeveeTeachableLearnset,
         .eggMoveLearnset = sEeveeEggMoveLearnset,
+        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_CELESTEON}),
     },
 
 
