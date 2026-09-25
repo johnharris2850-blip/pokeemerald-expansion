@@ -252,6 +252,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_WHITE,
         .speciesName = _("Celesteon"),
         .cryId = CRY_EEVEE,
+        .natDexNum = NATIONAL_DEX_NONE,
     },
 
     /* You may add any custom species below this point based on the following structure: */
