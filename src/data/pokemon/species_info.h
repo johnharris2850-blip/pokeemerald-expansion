@@ -225,6 +225,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .levelUpLearnset = sEeveeLevelUpLearnset,
         .teachableLearnset = sEeveeTeachableLearnset,
         .eggMoveLearnset = sEeveeEggMoveLearnset,
+        // The Crown Eevee alone can reach Celesteon. High friendship + level 40
+        // keeps the transformation as a later bond milestone rather than an early evolution.
+        .evolutions = EVOLUTION(
+            {EVO_LEVEL, 40, SPECIES_CELESTEON, CONDITIONS({IF_MIN_FRIENDSHIP, FRIENDSHIP_EVO_THRESHOLD})}
+        ),
     },
 
     [SPECIES_CELESTEON] =
