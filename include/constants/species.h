@@ -1695,6 +1695,9 @@ enum __attribute__((packed)) Species
     // The special story Eevee is its own species entry. This lets scripts/evolution logic
     // distinguish John's blue-eyed, white-marked partner from ordinary Eevee.
     SPECIES_EEVEE_CROWN,
+    // Reserved final evolution for John's special Eevee. Data/assets are added
+    // separately so the build stays testable after each small milestone.
+    SPECIES_CELESTEON,
     SPECIES_CUSTOM_END,
 
     SPECIES_EGG = SPECIES_CUSTOM_END,
