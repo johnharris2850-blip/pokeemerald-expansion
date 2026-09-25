@@ -763,7 +763,9 @@ Route110_Text_MayLetsBattle:
 
 Route110_Text_MayDefeated:
 	.string "Yikes!\n"
-	.string "You're better than I expected!$"
+	.string "You're better than I expected!\p"
+	.string "Every time we meet, you surprise me.\n"
+	.string "I really like that about you.$"
 
 Route110_Text_MayTakeThis:
 	.string "MAY: {PLAYER}{KUN}, you've been busy\n"
@@ -776,9 +778,10 @@ Route110_Text_MayExplainItemfinder:
 	.string "Try it out. If there is an item that's\n"
 	.string "not visible, it emits a sound.\p"
 	.string "Okay, {PLAYER}{KUN}, let's meet again!\p"
-	.string "I know it's a little silly coming from\n"
-	.string "me, but I think you should train a lot\l"
-	.string "harder for the next time.$"
+	.string "And don't disappear for so long next\n"
+	.string "time, okay?\p"
+	.string "Battling is fun, but I think I'm starting\n"
+	.string "to look forward to seeing you even more.$"
 
 Route110_Text_BrendanLetsBattle:
 	.string "BRENDAN: Hey, {PLAYER}.\n"
