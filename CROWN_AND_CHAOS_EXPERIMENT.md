@@ -21,3 +21,18 @@ This branch is a separate technical experiment for evaluating pokeemerald-expans
 No decision to abandon the existing project is implied by this branch.
 
 CI trigger marker: workflows enabled on fork.
+
+
+## Revised scope: enhanced-adventure route
+
+We are no longer replacing the whole base adventure. Keep the mature engine, world structure, battles, catching, party, PC, items, shops, saving, and most existing content intact, then layer Crown & Chaos features on top.
+
+Priority custom features:
+1. Customisable player character (John), starting with practical appearance choices.
+2. Candy as a recurring character with an optional love-story arc woven into selected events.
+3. Special Eevee: bright blue eyes, white diamond-like marking, mystery revealed gradually.
+4. A unique late-game evolution for the special Eevee, using original Crown & Chaos art/data.
+5. Add a small curated roster of original Fakemon, beginning with Tideling and Emberoo.
+6. Add only the custom locations/events needed to support these arcs rather than rebuilding every map.
+
+Development rule: preserve existing systems wherever possible and make small reversible changes with a green CI build after each milestone.
