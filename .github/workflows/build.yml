@@ -59,7 +59,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: crown-and-chaos-expansion-baseline-${{ github.sha }}
-          path: pokeemerald.gba
+          path: crown_and_chaos.gba
           if-no-files-found: error
 
   build-firered:
