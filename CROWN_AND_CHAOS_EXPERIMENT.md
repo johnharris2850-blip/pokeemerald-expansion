@@ -19,3 +19,5 @@ This branch is a separate technical experiment for evaluating pokeemerald-expans
 5. Compare battle, party, save, map and event workflows with the existing Butano build.
 
 No decision to abandon the existing project is implied by this branch.
+
+CI trigger marker: workflows enabled on fork.
