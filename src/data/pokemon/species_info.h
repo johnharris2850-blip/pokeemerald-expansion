@@ -262,6 +262,9 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "power awakens beside its chosen Trainer.\n"
             "It faces gathering darkness with courage\n"
             "and unwavering loyalty."),
+        // Temporary native learnsets while Celesteon's signature move is developed.
+        .levelUpLearnset = sDragoniteLevelUpLearnset,
+        .teachableLearnset = sDragoniteTeachableLearnset,
     },
 
     /* You may add any custom species below this point based on the following structure: */
