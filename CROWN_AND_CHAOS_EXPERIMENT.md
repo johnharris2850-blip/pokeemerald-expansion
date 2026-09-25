@@ -54,3 +54,14 @@ Phase B:
 - Keep appearance cosmetic: it must not alter story progression, battles, stats, or compatibility with existing maps.
 
 This staged approach avoids a save-format change before the first customised ROM is testable.
+
+
+## John and May relationship direction
+
+- John and May are adult characters, age 18+.
+- Roughly double May's meaningful story encounters by reusing existing maps and story beats where practical.
+- Let the relationship grow from friendly rivalry, to attraction, to love over time.
+- Include one tasteful, non-graphic intimacy milestone between the adult characters: private conversation, kiss, fade to black, and an affectionate morning-after scene. This is the point where their attraction becomes an established loving relationship.
+- After the relationship develops, use May as John's recurring partner against the villain teams, including selected double-battle/story sequences.
+- Keep the main Emerald adventure recognizable and avoid replacing the whole campaign.
+- Keep Celesteon unique to John's special Crown Eevee; ordinary NPC progression must not grant access to it.
