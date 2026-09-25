@@ -256,6 +256,11 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .categoryName = _("Celestial"),
         .height = 12,
         .weight = 325,
+        .description = COMPOUND_STRING(
+            "A rare evolution born from an enduring bond.\n"
+            "Its draconic power awakens when its chosen\n"
+            "Trainer faces the gathering darkness.\n"
+            "It fights with unwavering courage."),
     },
 
     /* You may add any custom species below this point based on the following structure: */
