@@ -262,6 +262,33 @@ const struct SpeciesInfo gSpeciesInfo[] =
             "power awakens beside its chosen Trainer.\n"
             "It faces gathering darkness with courage\n"
             "and unwavering loyalty."),
+        // Crown & Chaos milestone: use Dragonite's complete battle/overworld art
+        // as a safe placeholder until Celesteon's bespoke sprite sheet is imported.
+        .frontPic = gMonFrontPic_Dragonite,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 1,
+        .frontAnimFrames = sAnims_TwoFramePlaceHolder,
+        .frontAnimId = ANIM_V_SHAKE,
+        .backPic = gMonBackPic_Dragonite,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 0,
+        .backAnimId = BACK_ANIM_H_SHAKE,
+        .palette = gMonPalette_Dragonite,
+        .shinyPalette = gMonShinyPalette_Dragonite,
+        .iconSprite = gMonIcon_Dragonite,
+        .iconPalIndex = 0,
+        .pokemonJumpType = PKMN_JUMP_TYPE_NONE,
+        SHADOW(0, 0, SHADOW_SIZE_L)
+        FOOTPRINT(Dragonite)
+        OVERWORLD(
+            sPicTable_Dragonite,
+            SIZE_32x32,
+            SHADOW_SIZE_M,
+            TRACKS_FOOT,
+            sAnimTable_Following,
+            gOverworldPalette_Dragonite,
+            gShinyOverworldPalette_Dragonite
+        )
         // Temporary native learnsets while Celesteon's signature move is developed.
         .levelUpLearnset = sDragoniteLevelUpLearnset,
         .teachableLearnset = sDragoniteTeachableLearnset,
