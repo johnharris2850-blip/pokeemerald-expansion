@@ -1,6 +1,6 @@
 GAME_VERSION ?= EMERALD
 TITLE        ?= CROWN CHAOS
-GAME_CODE    ?= CCHA
+GAME_CODE    ?= BPEE
 BUILD_NAME   ?= emerald
 MAP_VERSION  ?= emerald
 
