@@ -321,27 +321,27 @@ PetalburgWoods_EventScript_JamesRematch::
 	end
 
 PetalburgWoods_Text_CrownEeveeNeedsHelp:
-	.string "An EEVEE is cornered ahead!\\p"
-	.string "It looks frightened... but it refuses\\n"
+	.string "An EEVEE is cornered ahead!\p"
+	.string "It looks frightened... but it refuses\n"
 	.string "to back down.$"
 
 PetalburgWoods_Text_AquaWantsEevee:
-	.string "There you are, EEVEE!\\p"
-	.string "TEAM AQUA has plans for a rare\\n"
+	.string "There you are, EEVEE!\p"
+	.string "TEAM AQUA has plans for a rare\n"
 	.string "POKéMON like you!$"
 
 PetalburgWoods_Text_CrownEeveeCriesOut:
-	.string "Eevee! EEVEE!\\p"
-	.string "It looks straight at you, asking\\n"
+	.string "Eevee! EEVEE!\p"
+	.string "It looks straight at you, asking\n"
 	.string "for help.$"
 
 PetalburgWoods_Text_EeveeChoosesJohn:
-	.string "The EEVEE runs to your side.\\p"
-	.string "It could flee into the woods...\\n"
+	.string "The EEVEE runs to your side.\p"
+	.string "It could flee into the woods...\n"
 	.string "but it chooses to stay with you.$"
 
 PetalburgWoods_Text_EeveeJoinedYou:
-	.string "The mysterious EEVEE joined\\n"
+	.string "The mysterious EEVEE joined\n"
 	.string "{PLAYER}'s team!$"
 
 PetalburgWoods_Text_NotAOneToBeFound:
