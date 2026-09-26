@@ -424,6 +424,7 @@ Route110_EventScript_MayDefeated::
 	msgbox Route110_Text_MayTakeThis, MSGBOX_DEFAULT
 	call Route110_EventScript_GiveItemfinder
 	msgbox Route110_Text_MayExplainItemfinder, MSGBOX_DEFAULT
+	msgbox Route110_Text_MayStayAWhile, MSGBOX_DEFAULT
 	goto Route110_EventScript_RivalExit
 	end
 
@@ -782,6 +783,17 @@ Route110_Text_MayExplainItemfinder:
 	.string "time, okay?\p"
 	.string "Battling is fun, but I think I'm starting\n"
 	.string "to look forward to seeing you even more.$"
+
+Route110_Text_MayStayAWhile:
+	.string "MAY: Wait... before I go.\\p"
+	.string "Could we stay here for a minute?\\n"
+	.string "No battling. No racing ahead.\\p"
+	.string "I spend so much time thinking about\\n"
+	.string "where I have to be next...\\p"
+	.string "But when I run into you, I kind of wish\\n"
+	.string "the road would slow down.\\p"
+	.string "Hehe... that sounded embarrassing.\\n"
+	.string "Just promise we will meet again soon.$"
 
 Route110_Text_BrendanLetsBattle:
 	.string "BRENDAN: Hey, {PLAYER}.\n"
