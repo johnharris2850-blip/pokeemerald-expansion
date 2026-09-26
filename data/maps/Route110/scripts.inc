@@ -785,14 +785,14 @@ Route110_Text_MayExplainItemfinder:
 	.string "to look forward to seeing you even more.$"
 
 Route110_Text_MayStayAWhile:
-	.string "MAY: Wait... before I go.\\p"
-	.string "Could we stay here for a minute?\\n"
-	.string "No battling. No racing ahead.\\p"
-	.string "I spend so much time thinking about\\n"
-	.string "where I have to be next...\\p"
-	.string "But when I run into you, I kind of wish\\n"
-	.string "the road would slow down.\\p"
-	.string "Hehe... that sounded embarrassing.\\n"
+	.string "MAY: Wait... before I go.\p"
+	.string "Could we stay here for a minute?\n"
+	.string "No battling. No racing ahead.\p"
+	.string "I spend so much time thinking about\n"
+	.string "where I have to be next...\p"
+	.string "But when I run into you, I kind of wish\n"
+	.string "the road would slow down.\p"
+	.string "Hehe... that sounded embarrassing.\n"
 	.string "Just promise we will meet again soon.$"
 
 Route110_Text_BrendanLetsBattle:
