@@ -6,7 +6,7 @@ PetalburgWoods_EventScript_DevonResearcherLeft::
 	call PetalburgWoods_EventScript_DevonResearcherIntro
 	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherApproachPlayerLeft
 	waitmovement 0
-	msgbox PetalburgWoods_Text_HaveYouSeenShroomish, MSGBOX_DEFAULT
+	msgbox PetalburgWoods_Text_CrownEeveeNeedsHelp, MSGBOX_DEFAULT
 	closemessage
 	playbgm MUS_ENCOUNTER_AQUA, FALSE
 	applymovement LOCALID_PETALBURG_WOODS_GRUNT, PetalburgWoods_Movement_AquaEntrance
@@ -17,11 +17,11 @@ PetalburgWoods_EventScript_DevonResearcherLeft::
 	waitmovement 0
 	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
-	msgbox PetalburgWoods_Text_HandOverThosePapers, MSGBOX_DEFAULT
+	msgbox PetalburgWoods_Text_AquaWantsEevee, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherFleeToPlayerLeft
 	waitmovement 0
-	msgbox PetalburgWoods_Text_YouHaveToHelpMe, MSGBOX_DEFAULT
+	msgbox PetalburgWoods_Text_CrownEeveeCriesOut, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_PETALBURG_WOODS_GRUNT, PetalburgWoods_Movement_AquaApproachPlayer
 	waitmovement 0
@@ -29,7 +29,7 @@ PetalburgWoods_EventScript_DevonResearcherLeft::
 	trainerbattle_no_intro TRAINER_GRUNT_PETALBURG_WOODS, PetalburgWoods_Text_YoureKiddingMe
 	applymovement LOCALID_PETALBURG_WOODS_GRUNT, PetalburgWoods_Movement_AquaBackOff
 	waitmovement 0
-	call PetalburgWoods_EventScript_DevonResearcherPostBattle
+	call PetalburgWoods_EventScript_CrownEeveePostBattle
 	applymovement LOCALID_PLAYER, PetalburgWoods_Movement_WatchResearcherLeave
 	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherExitLeft
 	waitmovement 0
@@ -65,7 +65,7 @@ PetalburgWoods_EventScript_DevonResearcherRight::
 	trainerbattle_no_intro TRAINER_GRUNT_PETALBURG_WOODS, PetalburgWoods_Text_YoureKiddingMe
 	applymovement LOCALID_PETALBURG_WOODS_GRUNT, PetalburgWoods_Movement_AquaBackOff
 	waitmovement 0
-	call PetalburgWoods_EventScript_DevonResearcherPostBattle
+	call PetalburgWoods_EventScript_CrownEeveePostBattle
 	applymovement LOCALID_PLAYER, PetalburgWoods_Movement_WatchResearcherLeave
 	applymovement LOCALID_PETALBURG_WOODS_DEVON_EMPLOYEE, PetalburgWoods_Movement_DevonResearcherExitRight
 	waitmovement 0
@@ -77,6 +77,19 @@ PetalburgWoods_EventScript_DevonResearcherIntro::
 	waitmovement 0
 	msgbox PetalburgWoods_Text_NotAOneToBeFound, MSGBOX_DEFAULT
 	closemessage
+	return
+
+PetalburgWoods_EventScript_CrownEeveePostBattle::
+	msgbox PetalburgWoods_Text_YouveGotSomeNerve, MSGBOX_DEFAULT
+	closemessage
+	applymovement LOCALID_PETALBURG_WOODS_GRUNT, PetalburgWoods_Movement_AquaRunAway
+	waitmovement 0
+	removeobject LOCALID_PETALBURG_WOODS_GRUNT
+	applymovement LOCALID_PLAYER, Common_Movement_WalkInPlaceFasterDown
+	waitmovement 0
+	msgbox PetalburgWoods_Text_EeveeChoosesJohn, MSGBOX_DEFAULT
+	givemon SPECIES_EEVEE_CROWN, 10
+	msgbox PetalburgWoods_Text_EeveeJoinedYou, MSGBOX_DEFAULT
 	return
 
 PetalburgWoods_EventScript_DevonResearcherPostBattle::
@@ -314,6 +327,30 @@ PetalburgWoods_EventScript_JamesRematch::
 	trainerbattle_rematch TRAINER_JAMES_1, PetalburgWoods_Text_MyPokemonHaveGrown, PetalburgWoods_Text_CantBePopularIfLose
 	msgbox PetalburgWoods_Text_IveBeenTrainingHard, MSGBOX_AUTOCLOSE
 	end
+
+PetalburgWoods_Text_CrownEeveeNeedsHelp:
+	.string "An EEVEE is cornered ahead!\\p"
+	.string "It looks frightened... but it refuses\\n"
+	.string "to back down.$"
+
+PetalburgWoods_Text_AquaWantsEevee:
+	.string "There you are, EEVEE!\\p"
+	.string "TEAM AQUA has plans for a rare\\n"
+	.string "POKéMON like you!$"
+
+PetalburgWoods_Text_CrownEeveeCriesOut:
+	.string "Eevee! EEVEE!\\p"
+	.string "It looks straight at you, asking\\n"
+	.string "for help.$"
+
+PetalburgWoods_Text_EeveeChoosesJohn:
+	.string "The EEVEE runs to your side.\\p"
+	.string "It could flee into the woods...\\n"
+	.string "but it chooses to stay with you.$"
+
+PetalburgWoods_Text_EeveeJoinedYou:
+	.string "The mysterious EEVEE joined\\n"
+	.string "{PLAYER}'s team!$"
 
 PetalburgWoods_Text_NotAOneToBeFound:
 	.string "Hmmm…\n"
