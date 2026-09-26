@@ -1,5 +1,8 @@
 GAME_VERSION ?= EMERALD
-TITLE        ?= CROWN CHAOS
+# Preserve Emerald's cartridge header identity for iOS emulators that use it
+# to select the required 1Mbit/128K Flash save hardware. The ROM filename and
+# in-game Crown & Chaos content remain custom.
+TITLE        ?= POKEMON EMER
 GAME_CODE    ?= BPEE
 BUILD_NAME   ?= emerald
 MAP_VERSION  ?= emerald
