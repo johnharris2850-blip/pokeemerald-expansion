@@ -231,13 +231,8 @@ const struct SpeciesInfo gSpeciesInfo[] =
             gOverworldPalette_Eevee,
             gShinyOverworldPalette_Eevee
         )
-        OVERWORLD_FEMALE(
-            sPicTable_EeveeF,
-            SIZE_32x32,
-            SHADOW_SIZE_M,
-            TRACKS_FOOT,
-            sAnimTable_Following
-        )
+        // Crown Eevee deliberately uses the standard Eevee follower sprite for both genders.
+        // This keeps John's special partner visually identical to classic Eevee before evolution.
         .levelUpLearnset = sEeveeLevelUpLearnset,
         .teachableLearnset = sEeveeTeachableLearnset,
         .eggMoveLearnset = sEeveeEggMoveLearnset,
