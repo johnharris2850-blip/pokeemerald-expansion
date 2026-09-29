@@ -203,6 +203,9 @@ void NewGameInitData(void)
     gSaveBlock1Ptr->registeredItem = ITEM_NONE;
     ClearBag();
     NewGameInitPCItems();
+    // Crown & Chaos playtest supplies.
+    AddPCItem(ITEM_MASTER_BALL, 500);
+    AddPCItem(ITEM_RARE_CANDY, 500);
     ClearPokeblocks();
     ClearDecorationInventories();
     InitEasyChatPhrases();
