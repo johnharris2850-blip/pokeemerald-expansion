@@ -2,7 +2,7 @@ GAME_VERSION ?= EMERALD
 # Preserve Emerald's cartridge header identity for iOS emulators that use it
 # to select the required 1Mbit/128K Flash save hardware. The ROM filename and
 # in-game Crown & Chaos content remain custom.
-TITLE        ?= POKEMON EMER
+TITLE        ?= EMERALD NIGHT
 GAME_CODE    ?= BPEE
 BUILD_NAME   ?= emerald
 MAP_VERSION  ?= emerald
@@ -29,7 +29,7 @@ REVISION    := 0
 KEEP_TEMPS  ?= 0
 
 # `File name`.gba
-FILE_NAME := crown_and_chaos
+FILE_NAME := emerald_nightmare
 BUILD_DIR := build
 
 # Compares the ROM to a checksum of the original - only makes sense using when non-modern
