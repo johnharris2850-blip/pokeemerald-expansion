@@ -908,12 +908,12 @@ LittlerootTown_Text_OurNewHomeLetsGoInside:
 	.string "MOM: {PLAYER}, we're here, honey!\p"
 	.string "It must be tiring riding with our things\n"
 	.string "in the moving truck.\p"
-	.string "Well, this is LITTLEROOT TOWN.\p"
-	.string "How do you like it?\n"
-	.string "This is our new home!\p"
-	.string "It has a quaint feel, but it seems to be\n"
-	.string "an easy place to live, don't you think?\p"
-	.string "And, you get your own room, {PLAYER}!\n"
+	.string "Well... this is LITTLEROOT TOWN.\p"
+	.string "It's quieter than I remember.\n"
+	.string "Much quieter.\p"
+	.string "That's strange... I could have sworn\n"
+	.string "there was another house here.\p"
+	.string "Never mind. You get your own room!\n"
 	.string "Let's go inside.$"
 
 LittlerootTown_Text_WaitPlayer:
@@ -953,16 +953,16 @@ LittlerootTown_Text_ComeHomeIfAnythingHappens:
 	.string "Go on, go get them, honey!$"
 
 LittlerootTown_Text_CanUsePCToStoreItems:
-	.string "If you use a PC, you can store items\n"
-	.string "and POKéMON.\p"
-	.string "The power of science is staggering!$"
+	.string "PCs store POKéMON, items... records.\p"
+	.string "Funny thing is, some old records have\n"
+	.string "started turning up completely blank.\p"
+	.string "Probably just a glitch... right?$"
 
 LittlerootTown_Text_BirchSpendsDaysInLab:
-	.string "PROF. BIRCH spends days in his LAB\n"
-	.string "studying, then he'll suddenly go out in\l"
-	.string "the wild to do more research…\p"
-	.string "When does PROF. BIRCH spend time\n"
-	.string "at home?$"
+	.string "PROF. BIRCH hasn't slept much lately.\p"
+	.string "He keeps asking people if they remember\n"
+	.string "a POKéMON none of us have heard of.\p"
+	.string "Yesterday he asked me my name twice.$"
 
 LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut:
 	.string "Um, um, um!\p"
@@ -992,7 +992,9 @@ LittlerootTown_Text_GoodLuckCatchingPokemon:
 
 LittlerootTown_Text_TownSign:
 	.string "LITTLEROOT TOWN\n"
-	.string "“A town that can't be shaded any hue.”$"
+	.string "“A town that can't be shaded any hue.”\p"
+	.string "Someone has scratched beneath it:\n"
+	.string "“DON'T LET IT FORGET YOU.”$"
 
 LittlerootTown_Text_ProfBirchsLab:
 	.string "PROF. BIRCH'S POKéMON LAB$"
