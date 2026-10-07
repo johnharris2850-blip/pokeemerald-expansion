@@ -80,20 +80,25 @@ GraniteCave_StevensRoom_Movement_StevenExitSouth:
 	step_end
 
 GraniteCave_StevensRoom_Text_ImStevenLetterForMe:
-	.string "My name is STEVEN.\p"
-	.string "I'm interested in rare stones,\n"
-	.string "so I travel here and there.\p"
-	.string "Oh?\n"
-	.string "A LETTER for me?$"
+	.string "I'm STEVEN.\p"
+	.string "...You have a LETTER from MR. STONE?\p"
+	.string "ARCHIVE 317 IS ACTIVE...\p"
+	.string "Then the fragment in RUSTBORO woke up\n"
+	.string "at the same time this cave did.\p"
+	.string "{PLAYER}, before you arrived, words\n"
+	.string "appeared on this wall behind me.\p"
+	.string "They say: HE CAME BACK.$"
 
 GraniteCave_StevensRoom_Text_ThankYouTakeThis:
-	.string "STEVEN: Okay, thank you.\p"
-	.string "You went through all this trouble to\n"
-	.string "deliver that. I need to thank you.\p"
-	.string "Let me see…\n"
-	.string "I'll give you this TM.\p"
-	.string "It contains my favorite move,\n"
-	.string "STEEL WING.$"
+	.string "STEVEN: I found black stone here too.\p"
+	.string "Same composition. Same impossible gap\n"
+	.string "in every photograph.\p"
+	.string "But this isn't ordinary rock.\n"
+	.string "It behaves more like a boundary.\p"
+	.string "Something exists on the other side.\n"
+	.string "Something Hoenn has forgotten.\p"
+	.string "Take this TM. You may need it.\n"
+	.string "It contains STEEL WING.$"
 
 GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister:
 	.string "STEVEN: Your POKéMON appear quite\n"
@@ -111,7 +116,13 @@ GraniteCave_StevensRoom_Text_RegisteredSteven:
 	.string "in the POKéNAV.$"
 
 GraniteCave_StevensRoom_Text_IveGotToHurryAlong:
-	.string "Now, I've got to hurry along.$"
+	.string "STEVEN: I'm going to investigate where\n"
+	.string "this stone appears elsewhere in HOENN.\p"
+	.string "One warning, {PLAYER}.\p"
+	.string "I don't think The Forgotten is a thing\n"
+	.string "hunting you.\p"
+	.string "I think it's a place.\n"
+	.string "And somehow... you've been there.$"
 
 GraniteCave_StevensRoom_Text_OhBagIsFull:
 	.string "Oh, your BAG is full…\n"
