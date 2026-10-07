@@ -232,9 +232,11 @@ MeteorFalls_1F_1R_EventScript_MetCozmo::
 	end
 
 MeteorFalls_1F_1R_Text_WithThisMeteorite:
-	.string "Hehehe!\p"
-	.string "With this METEORITE, that thing in\n"
-	.string "MT. CHIMNEY will…$"
+	.string "We've got it!\p"
+	.string "This METEORITE resonates with the black\n"
+	.string "stone beneath HOENN.\p"
+	.string "At MT. CHIMNEY, we'll force the buried\n"
+	.string "structure to answer us!$"
 
 MeteorFalls_1F_1R_Text_DontExpectMercyFromMagma:
 	.string "Heh?\p"
@@ -289,21 +291,22 @@ MeteorFalls_1F_1R_Text_ArchieFarewell:
 	.string "Farewell!$"
 
 MeteorFalls_1F_1R_Text_MeetProfCozmo:
-	.string "I… I'm COZMO…\n"
-	.string "I'm a PROFESSOR…\p"
-	.string "TEAM MAGMA asked me to guide them\n"
-	.string "to METEOR FALLS…\p"
-	.string "But they tricked me.\n"
-	.string "They even took my METEORITE away…\p"
-	.string "And then another similar bunch,\n"
-	.string "TEAM AQUA showed up.\p"
-	.string "After that…\n"
-	.string "I don't understand any of it.\p"
-	.string "But that TEAM MAGMA…\p"
-	.string "What are they going to do with that\n"
-	.string "METEORITE at MT. CHIMNEY?$"
+	.string "I'm PROF. COZMO.\p"
+	.string "TEAM MAGMA stole my METEORITE.\n"
+	.string "But that's not what frightens me.\p"
+	.string "My surveys found black stone beneath\n"
+	.string "METEOR FALLS at impossible depths.\p"
+	.string "It isn't one buried building, {PLAYER}.\n"
+	.string "The readings continue for miles.\p"
+	.string "Walls. Corridors. Empty chambers.\n"
+	.string "All underneath HOENN.\p"
+	.string "When I mapped them, one chamber appeared\n"
+	.string "directly beneath RUSTBORO.\p"
+	.string "The computer named it ROOM 317.\n"
+	.string "I never entered that name.$"
 
 MeteorFalls_1F_1R_Text_WhatsTeamMagmaDoingAtMtChimney:
-	.string "PROF. COZMO: But that TEAM MAGMA…\p"
-	.string "What are they going to do with that\n"
-	.string "METEORITE at MT. CHIMNEY?$"
+	.string "PROF. COZMO: TEAM MAGMA took the\n"
+	.string "METEORITE to MT. CHIMNEY.\p"
+	.string "If they energize it there, they may wake\n"
+	.string "whatever is beneath us.$"
