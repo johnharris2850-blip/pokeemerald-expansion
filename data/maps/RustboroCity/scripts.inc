@@ -1036,10 +1036,11 @@ RustboroCity_Text_HeyThatsRustborosGymBadge:
 	.string "RUSTBORO's is the coolest, I'd say.$"
 
 RustboroCity_Text_YoureNewAroundHere:
-	.string "Oh? Who might you be?\n"
-	.string "You're a new face around these parts.\p"
-	.string "Have you just transferred into the\n"
-	.string "POKéMON TRAINER'S SCHOOL?$"
+	.string "You're new here, aren't you?\p"
+	.string "Don't mind the empty stone lot near\n"
+	.string "the old part of the city.\p"
+	.string "People keep asking what stood there.\n"
+	.string "Nothing did. It has always been empty.$"
 
 RustboroCity_Text_GymLeaderIsntEasyWithFire:
 	.string "I challenged the GYM LEADER, but…\p"
@@ -1242,8 +1243,9 @@ RustboroCity_Text_DevonCorpBranchOfficeSign:
 
 RustboroCity_Text_CitySign:
 	.string "RUSTBORO CITY\p"
-	.string "“The city probing the integration of\n"
-	.string "nature and science.”$"
+	.string "The city of stone and science.\p"
+	.string "Someone has scratched into the sign:\n"
+	.string "THE BELLS STOPPED AT 3:17.$"
 
 RustboroCity_Text_TrainersSchoolSign:
 	.string "POKéMON TRAINER'S SCHOOL\p"
