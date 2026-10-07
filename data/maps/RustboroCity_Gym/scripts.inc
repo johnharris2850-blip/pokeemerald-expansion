@@ -176,13 +176,14 @@ RustboroCity_Gym_Text_MarcPostBattle:
 	.string "pick the ROCK type at her young age.$"
 
 RustboroCity_Gym_Text_RoxanneIntro:
-	.string "Hello, I am ROXANNE, the RUSTBORO\n"
+	.string "Hello. I am ROXANNE, RUSTBORO's\n"
 	.string "POKéMON GYM LEADER.\p"
-	.string "I became a GYM LEADER so that I might\n"
-	.string "apply what I learned at the POKéMON\l"
-	.string "TRAINER'S SCHOOL in battle.\p"
-	.string "Would you kindly demonstrate how you\n"
-	.string "battle, and with which POKéMON?$"
+	.string "You have been asking about the bells,\n"
+	.string "haven't you?\p"
+	.string "There are no bells in RUSTBORO.\n"
+	.string "Please remember that.\p"
+	.string "...Why did I say 'remember'?\p"
+	.string "Forgive me. Let us battle.$"
 
 RustboroCity_Gym_Text_RoxanneDefeat:
 	.string "So…\n"
@@ -218,10 +219,13 @@ RustboroCity_Gym_Text_ExplainRockTomb:
 	.string "so think before you use it.$"
 
 RustboroCity_Gym_Text_RoxannePostBattle:
-	.string "Since you are so strong, you should\n"
-	.string "challenge other GYM LEADERS.\p"
-	.string "By battling many TRAINERS, you should\n"
-	.string "learn many things.$"
+	.string "{PLAYER}, I remembered something.\p"
+	.string "When I was little, bells rang every\n"
+	.string "evening from a stone tower.\p"
+	.string "Then one night they stopped at 3:17.\p"
+	.string "The next morning the tower was gone.\n"
+	.string "Everyone said it had never existed.\p"
+	.string "I believed them until you came here.$"
 
 RustboroCity_Gym_Text_GymStatue:
 	.string "RUSTBORO CITY POKéMON GYM$"
