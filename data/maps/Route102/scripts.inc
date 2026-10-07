@@ -74,16 +74,18 @@ Route102_EventScript_Allen::
 	end
 
 Route102_Text_WatchMeCatchPokemon:
-	.string "WALLY: {PLAYER}…\n"
-	.string "POKéMON hide in tall grass like this,\l"
-	.string "don't they?\p"
-	.string "Please watch me and see if I can\n"
-	.string "catch one properly.\p"
-	.string "…Whoa!$"
+	.string "WALLY: {PLAYER}...\n"
+	.string "POKéMON hide in this grass, right?\p"
+	.string "Please stay close.\n"
+	.string "I keep hearing two cries.\p"
+	.string "But I only see one POKéMON...\p"
+	.string "...Whoa!$"
 
 Route102_Text_WallyIDidIt:
-	.string "WALLY: I did it… It's my…\n"
-	.string "My POKéMON!$"
+	.string "WALLY: I did it! It's my POKéMON!\p"
+	.string "...Did your POKéDEX just beep twice?\p"
+	.string "That's strange.\n"
+	.string "There was only one RALTS here... right?$"
 
 Route102_Text_LetsGoBack:
 	.string "{PLAYER}, thank you!\n"
