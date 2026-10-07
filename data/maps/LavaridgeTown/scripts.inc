@@ -274,26 +274,23 @@ LavaridgeTown_EventScript_HerbShopSign::
 	end
 
 LavaridgeTown_Text_MayNiceBadgesTakeThis:
-	.string "MAY: {PLAYER}{KUN}! Long time no see!\p"
-	.string "Oh? While I visited the hot springs,\n"
-	.string "you got the LAVARIDGE GYM BADGE.\p"
-	.string "You must have collected\n"
-	.string "good POKéMON…\l"
-	.string "No, I believe you raised some.\p"
-	.string "I guess it would be okay for you to\n"
-	.string "have this.$"
+	.string "MAY: {PLAYER}!\n"
+	.string "...I remembered you this time.\p"
+	.string "The hot springs did something strange.\n"
+	.string "When I closed my eyes, I heard bells.\p"
+	.string "Then I remembered writing this:\n"
+	.string "DON'T LET HIM GO ALONE.\p"
+	.string "I don't know who I meant by him.\n"
+	.string "Please... take these GO-GOGGLES.$"
 
 LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
-	.string "MAY: With those GO-GOGGLES, you'll\n"
-	.string "have no trouble getting through the\l"
-	.string "desert near ROUTE 111.\p"
-	.string "But, wow, {PLAYER}{KUN}…\n"
-	.string "Challenging GYMS…\p"
-	.string "You're trying hard because you don't\n"
-	.string "want to lose to me, I bet!\p"
-	.string "{PLAYER}{KUN}, I think I should challenge\n"
-	.string "your dad in PETALBURG GYM.\p"
-	.string "See you again!$"
+	.string "MAY: You should go back to PETALBURG.\p"
+	.string "Your dad may know something about your\n"
+	.string "childhood that we don't.\p"
+	.string "And {PLAYER}...\n"
+	.string "if I forget you, show me my notebook.\p"
+	.string "Don't let The Forgotten decide which\n"
+	.string "memories I get to keep.$"
 
 LavaridgeTown_Text_BrendanNiceBadgesTakeThis:
 	.string "BRENDAN: {PLAYER}, hey, it's been a while.\n"
@@ -352,13 +349,11 @@ LavaridgeTown_Text_EverySoOftenEggFoundAtDayCare:
 	.string "Or at least that's how the rumor goes.$"
 
 LavaridgeTown_Text_HotSpringsNeverRunDry:
-	.string "We draw as much hot water as we need,\n"
-	.string "and yet the hot springs never run dry.\p"
-	.string "Isn't it magical?\p"
-	.string "These hot springs appear near active\n"
-	.string "volcanoes. Veins of water under the\l"
-	.string "ground are heated by magma to well up\l"
-	.string "as hot springs.$"
+	.string "The hot springs changed after the tremor.\p"
+	.string "Sometimes bubbles rise in groups:\n"
+	.string "three... one... seven.\p"
+	.string "Probably just volcanic pressure.\n"
+	.string "That's what we keep telling ourselves.$"
 
 LavaridgeTown_Text_PokemonNippedBackside:
 	.string "Being buried in this hot sand is…\n"
