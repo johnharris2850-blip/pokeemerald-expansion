@@ -362,24 +362,23 @@ OldaleTown_Text_PotionExplanation:
 	.string "in certain situations.$"
 
 OldaleTown_Text_WaitDontComeInHere:
-	.string "Aaaaah! Wait!\n"
-	.string "Please don't come in here.\p"
-	.string "I just discovered the footprints of\n"
-	.string "a rare POKéMON!\p"
-	.string "Wait until I finish sketching\n"
-	.string "them, okay?$"
+	.string "Wait! Please don't step there!\p"
+	.string "I found two sets of footprints.\n"
+	.string "One belongs to a POKéMON.\p"
+	.string "The other set just... stops.\n"
+	.string "Right in the middle of the road.\p"
+	.string "Let me finish sketching them first.$"
 
 OldaleTown_Text_DiscoveredFootprints:
-	.string "I just discovered the footprints of\n"
-	.string "a rare POKéMON!\p"
-	.string "Wait until I finish sketching\n"
-	.string "them, okay?$"
+	.string "Two sets of footprints.\n"
+	.string "Then suddenly only one.\p"
+	.string "I've never seen anything like it.\n"
+	.string "Please don't disturb them.$"
 
 OldaleTown_Text_FinishedSketchingFootprints:
-	.string "I finished sketching the footprints of\n"
-	.string "a rare POKéMON.\p"
-	.string "But it turns out they were only my\n"
-	.string "own footprints…$"
+	.string "Footprints? What footprints?\p"
+	.string "I was sketching the road.\n"
+	.string "There's nothing unusual here.$"
 
 OldaleTown_Text_MayLetsGoBack:
 	.string "MAY: {PLAYER}{KUN}!\n"
