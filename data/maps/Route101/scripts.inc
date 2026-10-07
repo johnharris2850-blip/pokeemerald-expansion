@@ -257,28 +257,34 @@ Route101_Movement_BirchApproachPlayer:
 	step_end
 
 Route101_Text_HelpMe:
-	.string "H-help me!$"
+	.string "H-help me!\p"
+	.string "It's looking at someone who isn't there!$"
 
 Route101_Text_PleaseHelp:
-	.string "Hello! You over there!\n"
-	.string "Please! Help!\p"
-	.string "In my BAG!\n"
-	.string "There's a POKé BALL!$"
+	.string "{PLAYER}! Thank goodness!\p"
+	.string "It isn't trying to attack me...\n"
+	.string "It keeps staring behind you!\p"
+	.string "Don't turn around!\p"
+	.string "My BAG! Pick a POKéMON!\n"
+	.string "We need to calm it down!$"
 
 Route101_Text_DontLeaveMe:
-	.string "Wh-Where are you going?!\n"
-	.string "Don't leave me like this!$"
+	.string "Don't leave!\p"
+	.string "Whatever it's watching...\n"
+	.string "it's following you!$"
 
 Route101_Text_YouSavedMe:
-	.string "PROF. BIRCH: Whew…\p"
-	.string "I was in the tall grass studying wild\n"
-	.string "POKéMON when I was jumped.\p"
-	.string "You saved me.\n"
-	.string "Thanks a lot!\p"
-	.string "Oh?\p"
-	.string "Hi, you're {PLAYER}{KUN}!\p"
-	.string "This is not the place to chat, so come\n"
-	.string "by my POKéMON LAB later, okay?$"
+	.string "PROF. BIRCH: It's calm now...\p"
+	.string "But that wasn't normal aggression.\n"
+	.string "It was terrified.\p"
+	.string "Before you arrived, it stared at an\n"
+	.string "empty patch of grass and whimpered.\p"
+	.string "Then I heard a second POKéMON cry.\n"
+	.string "There was nothing there.\p"
+	.string "And when you appeared... it looked\n"
+	.string "straight past you.\p"
+	.string "{PLAYER}, we need to talk privately.\n"
+	.string "Come to my LAB.$"
 
 Route101_Text_TakeTiredPokemonToPokeCenter:
 	.string "If POKéMON get tired, take them to\n"
@@ -287,10 +293,10 @@ Route101_Text_TakeTiredPokemonToPokeCenter:
 	.string "TOWN right close by.$"
 
 Route101_Text_WildPokemonInTallGrass:
-	.string "Wild POKéMON will jump out at you in\n"
-	.string "tall grass.\p"
-	.string "If you want to catch POKéMON, you have\n"
-	.string "to go into the tall grass and search.$"
+	.string "Sometimes the grass moves even when\n"
+	.string "there isn't a POKéMON there.\p"
+	.string "My brother says not to follow it.\n"
+	.string "I don't have a brother... do I?$"
 
 Route101_Text_RouteSign:
 	.string "ROUTE 101\n"
