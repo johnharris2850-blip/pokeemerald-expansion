@@ -288,13 +288,14 @@ PlayersHouse_1F_Text_IsntItNiceInHere:
 	.string "Isn't it nice in here, too?$"
 
 PlayersHouse_1F_Text_MoversPokemonGoSetClock:
-	.string "The mover's POKéMON do all the work\n"
-	.string "of moving us in and cleaning up after.\l"
-	.string "This is so convenient!\p"
+	.string "The mover's POKéMON did all the work.\p"
+	.string "Though... one of them kept staring at\n"
+	.string "the empty corner upstairs.\p"
 	.string "{PLAYER}, your room is upstairs.\n"
 	.string "Go check it out, dear!\p"
 	.string "DAD bought you a new clock to mark\n"
-	.string "our move here.\l"
+	.string "our move here.\p"
+	.string "It was already ticking when we arrived.\n"
 	.string "Don't forget to set it!$"
 
 PlayersHouse_1F_Text_ArentYouInterestedInRoom:
@@ -312,12 +313,14 @@ PlayersHouse_1F_Text_OhComeQuickly:
 
 PlayersHouse_1F_Text_MaybeDadWillBeOn:
 	.string "MOM: Look! It's PETALBURG GYM!\n"
-	.string "Maybe DAD will be on!$"
+	.string "Maybe DAD will be on!\p"
+	.string "...Why is the picture flickering?$"
 
 PlayersHouse_1F_Text_ItsOverWeMissedHim:
-	.string "MOM: Oh… It's over.\p"
-	.string "I think DAD was on, but we missed him.\n"
-	.string "Too bad.$"
+	.string "MOM: Oh... It's over.\p"
+	.string "Did the reporter just say your name?\p"
+	.string "...No. That's impossible.\n"
+	.string "I must have misheard it.$"
 
 PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor:
 	.string "Oh, yes.\n"
@@ -368,8 +371,11 @@ PlayersHouse_1F_Text_Vigoroth2:
 	.string "Huggoh, uggo uggo…$"
 
 PlayersHouse_1F_Text_ReportFromPetalburgGym:
-	.string "INTERVIEWER: …We brought you this\n"
-	.string "report from in front of PETALBURG GYM.$"
+	.string "INTERVIEWER: ...We brought you this\n"
+	.string "report from PETALBURG GYM.\p"
+	.string "...{PLAYER}...\p"
+	.string "Can you remember who is missing?\p"
+	.string "PLEASE DON'T FORGET M— BZZZT!$"
 
 PlayersHouse_1F_Text_TheresAMovieOnTV:
 	.string "There is a movie on TV.\p"
