@@ -246,18 +246,22 @@ NewMauville_Inside_EventScript_DefeatedVoltorb3::
 	end
 
 NewMauville_Inside_Text_GeneratorRadiatingHeat:
-	.string "The generator is radiating heat that\n"
-	.string "can be felt even at a distance.\p"
-	.string "It looks like it should be turned off\n"
-	.string "as soon as possible.$"
+	.string "The generator vibrates in a steady rhythm.\p"
+	.string "Your ITEMFINDER suddenly reacts.\p"
+	.string "Not toward the generator...\n"
+	.string "straight down beneath your feet.$"
 
 NewMauville_Inside_Text_GeneratorQuietedDown:
-	.string "The generator quieted down.$"
+	.string "The generator is silent.\p"
+	.string "But somewhere below the floor...\n"
+	.string "three faint knocks. One knock. Seven.$"
 
 NewMauville_Inside_Text_SteppedOnSwitchGeneratorStopped:
 	.string "{PLAYER} stepped on the switch.\p"
-	.string "Click…\p"
-	.string "… … … … … … … …\n"
-	.string "… … … … … … … …\p"
-	.string "The generator appears to have\n"
-	.string "stopped…$"
+	.string "Click...\p"
+	.string "The generator stopped.\p"
+	.string "... ... ...\p"
+	.string "A child's voice comes through the dead\n"
+	.string "speaker beside the generator:\p"
+	.string "{PLAYER}... YOU LET GO OF MY HAND.\p"
+	.string "The speaker goes silent.$"
