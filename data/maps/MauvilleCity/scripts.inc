@@ -573,19 +573,15 @@ MauvilleCity_Text_ScottYouDidntHoldBack:
 	.string "I'll be cheering for you!$"
 
 MauvilleCity_Text_WattsonNeedFavorTakeKey:
-	.string "WATTSON: Oh, {PLAYER}{KUN}!\n"
-	.string "You look like you have a lot of zip!\l"
-	.string "That's a good thing, wahahahaha!\p"
-	.string "Fine! I've decided!\n"
-	.string "I need a favor, {PLAYER}{KUN}!\p"
-	.string "MAUVILLE CITY has an underground\n"
-	.string "sector called NEW MAUVILLE.\p"
-	.string "{PLAYER}{KUN}, I'd like you to go there and\n"
-	.string "switch off the GENERATOR.\p"
-	.string "The GENERATOR has been running a bit\n"
-	.string "haywire. It's getting unsafe.\p"
-	.string "Here, this is the KEY to get into\n"
-	.string "NEW MAUVILLE.$"
+	.string "WATTSON: {PLAYER}! I need your help.\p"
+	.string "NEW MAUVILLE's generator is producing\n"
+	.string "a repeating pulse every few minutes.\p"
+	.string "Three short bursts. One long. Seven short.\p"
+	.string "3... 1... 7.\p"
+	.string "The engineers say it isn't electrical.\n"
+	.string "It seems to come from below the facility.\p"
+	.string "Take this KEY and shut the generator off.\n"
+	.string "Let's see if the signal stops too.$"
 
 MauvilleCity_Text_WattsonWontBeChallenge:
 	.string "WATTSON: Don't you worry about it.\n"
@@ -596,12 +592,13 @@ MauvilleCity_Text_WattsonWontBeChallenge:
 	.string "Wahahahaha!$"
 
 MauvilleCity_Text_WattsonThanksTakeTM:
-	.string "WATTSON: Wahahahaha!\p"
-	.string "I knew it, {PLAYER}{KUN}! I knew I'd made\n"
-	.string "the right choice asking you!\p"
-	.string "This is my thanks--a TM containing\n"
-	.string "THUNDERBOLT!\p"
-	.string "Go on, you've earned it!$"
+	.string "WATTSON: The generator stopped.\n"
+	.string "The signal didn't.\p"
+	.string "In fact, it's stronger now.\p"
+	.string "Whatever is making it was never part\n"
+	.string "of NEW MAUVILLE's machinery.\p"
+	.string "Take this THUNDERBOLT TM.\n"
+	.string "And be careful underground, {PLAYER}.$"
 
 MauvilleCity_Text_WattsonYoungTakeCharge:
 	.string "WATTSON: Wahahahaha!\p"
