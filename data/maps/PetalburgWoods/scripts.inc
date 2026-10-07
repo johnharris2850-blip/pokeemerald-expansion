@@ -316,19 +316,21 @@ PetalburgWoods_EventScript_JamesRematch::
 	end
 
 PetalburgWoods_Text_NotAOneToBeFound:
-	.string "Hmmm…\n"
-	.string "Not a one to be found…$"
+	.string "That's impossible...\p"
+	.string "My scanner counted six life signs.\n"
+	.string "I can only see five.$"
 
 PetalburgWoods_Text_HaveYouSeenShroomish:
-	.string "Hello, have you seen any POKéMON\n"
-	.string "called SHROOMISH around here?\p"
-	.string "I really love that POKéMON.$"
+	.string "Have you seen a SHROOMISH nearby?\p"
+	.string "One ran past me a moment ago.\n"
+	.string "Something was following it.\p"
+	.string "I couldn't make out what.$"
 
 PetalburgWoods_Text_IWasGoingToAmbushYou:
-	.string "I was going to ambush you, but you\n"
-	.string "had to dawdle in PETALBURG WOODS\l"
-	.string "forever, didn't you?\p"
-	.string "I got sick of waiting, so here I am!$"
+	.string "Finally! Another person!\p"
+	.string "I've been following this DEVON guy,\n"
+	.string "but something followed me too.\p"
+	.string "Forget it. Hand over those papers!$"
 
 PetalburgWoods_Text_HandOverThosePapers:
 	.string "You! DEVON RESEARCHER!\p"
@@ -350,27 +352,28 @@ PetalburgWoods_Text_YoureKiddingMe:
 	.string "You're kidding me! You're tough!$"
 
 PetalburgWoods_Text_YouveGotSomeNerve:
-	.string "Grrr… You've got some nerve\n"
-	.string "meddling with TEAM AQUA!\l"
-	.string "Come on and battle me again!\p"
-	.string "I wish I could say that, but I'm out of\n"
-	.string "POKéMON…\p"
-	.string "And, hey, we of TEAM AQUA are also\n"
-	.string "after something in RUSTBORO.\p"
-	.string "I'll let you go today!$"
+	.string "Grrr... You've got some nerve!\p"
+	.string "...Wait.\p"
+	.string "Who's standing behind you?\p"
+	.string "No. No way. I'm getting out of here!\p"
+	.string "TEAM AQUA is heading for RUSTBORO.\n"
+	.string "Whatever that thing is, keep it away!$"
 
 PetalburgWoods_Text_ThatWasAwfullyClose:
-	.string "Whew…\n"
-	.string "That was awfully close!\p"
-	.string "Thanks to you, he didn't rob me of\n"
-	.string "these important papers.\p"
-	.string "I know, I'll give you a GREAT BALL as\n"
-	.string "my thanks!$"
+	.string "That was too close...\p"
+	.string "{PLAYER}, don't move.\p"
+	.string "Your POKéDEX screen just turned on\n"
+	.string "by itself.\p"
+	.string "It says: 'I REMEMBER YOU.'\p"
+	.string "...Now it's blank.\p"
+	.string "Take this GREAT BALL. We need to get\n"
+	.string "out of these woods.$"
 
 PetalburgWoods_Text_TeamAquaAfterSomethingInRustboro:
-	.string "Didn't that TEAM AQUA thug say\n"
-	.string "they were after something in\l"
-	.string "RUSTBORO, too?$"
+	.string "TEAM AQUA is going to RUSTBORO.\p"
+	.string "And my scanner has changed.\n"
+	.string "It now says there are seven of us.\p"
+	.string "...There are only two people here.$"
 
 PetalburgWoods_Text_ICantBeWastingTime:
 	.string "Uh-oh! It's a crisis!\n"
@@ -434,10 +437,10 @@ PetalburgWoods_Text_StayOutOfTallGrass:
 	.string "of tall grass.$"
 
 PetalburgWoods_Text_HiddenItemsExplanation:
-	.string "Sometimes, there are things on the\n"
-	.string "ground even if you can't see them.\p"
-	.string "That's why I always check where I'm\n"
-	.string "walking.$"
+	.string "Sometimes there are things nearby\n"
+	.string "even if you can't see them.\p"
+	.string "If the trees go completely quiet,\n"
+	.string "I stop walking until the sound returns.$"
 
 PetalburgWoods_Text_TryUsingThisItem:
 	.string "Oh, neat!\n"
@@ -465,9 +468,8 @@ PetalburgWoods_Text_TrainerTipsExperience:
 
 PetalburgWoods_Text_TrainerTipsPP:
 	.string "TRAINER TIPS\p"
-	.string "In addition to Hit Points (HP), POKéMON\n"
-	.string "have Power Points (PP) that are used to\l"
-	.string "make moves during battle.\p"
-	.string "If a POKéMON runs out of PP, it must be\n"
-	.string "taken to a POKéMON CENTER.$"
+	.string "IF YOU HEAR YOUR NAME FROM DEEPER\n"
+	.string "IN THE WOODS, DO NOT ANSWER.\p"
+	.string "Someone has carved beneath the sign:\n"
+	.string "IT LEARNS YOUR VOICE.$"
 
