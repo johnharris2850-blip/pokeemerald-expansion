@@ -426,26 +426,27 @@ RusturfTunnel_Text_Peeko:
 	.string "PEEKO: Pii pihyoh!$"
 
 RusturfTunnel_Text_GruntIntro:
-	.string "Grah, keelhaul it all!\p"
-	.string "That hostage POKéMON turned out to\n"
-	.string "be worthless!\p"
-	.string "And to think I made a getaway…\n"
-	.string "In this tunnel to nowhere!\p"
-	.string "Hey! You!\n"
-	.string "So you want to battle me?$"
+	.string "Stay back!\p"
+	.string "That DEVON package started making\n"
+	.string "a sound inside my bag.\p"
+	.string "Like a tiny bell... over and over.\p"
+	.string "Then I heard my own voice answering it\n"
+	.string "from deeper inside this tunnel.\p"
+	.string "You want this thing? Fight me for it!$"
 
 RusturfTunnel_Text_GruntDefeat:
 	.string "Urrrggh! My career in crime comes to\n"
 	.string "a dead end!$"
 
 RusturfTunnel_Text_GruntTakePackage:
-	.string "This is plain not right…\p"
-	.string "The BOSS told me this would be a\n"
-	.string "slick-and-easy job to pull.\p"
-	.string "All I had to do was steal some package\n"
-	.string "from DEVON.\p"
-	.string "Tch!\n"
-	.string "You want it back that badly, take it!$"
+	.string "Take it! I don't want it!\p"
+	.string "The package opened by itself.\n"
+	.string "There's a piece of black stone inside.\p"
+	.string "It has 3:17 carved into it.\p"
+	.string "I touched it and remembered a building\n"
+	.string "I've never seen in my life.\p"
+	.string "A bell tower... and someone trapped\n"
+	.string "inside, calling your name.$"
 
 RusturfTunnel_Text_PeekoGladToSeeYouSafe:
 	.string "PEEKO!\n"
