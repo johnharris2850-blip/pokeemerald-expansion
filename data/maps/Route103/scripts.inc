@@ -287,34 +287,34 @@ Route103_EventScript_Isabelle::
 	end
 
 Route103_Text_MayRoute103Pokemon:
-	.string "MAY: Let's see… The POKéMON found\n"
-	.string "on ROUTE 103 include…$"
+	.string "MAY: Route 103... encounter log...\p"
+	.string "Why are there seven blank entries?\p"
+	.string "...And who wrote '3:17' again?$"
 
 Route103_Text_MayLetsBattle:
-	.string "Oh, hi, {PLAYER}{KUN}!\p"
-	.string "…Oh, I see, my dad gave you\n"
-	.string "a POKéMON as a gift.\p"
-	.string "Since we're here, let's have a quick\n"
-	.string "battle!\p"
-	.string "I'll give you a taste of what being\n"
-	.string "a TRAINER is like.$"
+	.string "Oh! {PLAYER}!\p"
+	.string "Dad sent you, didn't he?\p"
+	.string "Before we go back, battle me.\n"
+	.string "I want to test something.\p"
+	.string "My POKéMON have been nervous since\n"
+	.string "you came onto the route.$"
 
 Route103_Text_MayDefeated:
-	.string "Wow! That's great!\n"
-	.string "{PLAYER}{KUN}, you're pretty good!\p"
-	.string "I had a feeling there was something\n"
-	.string "special about you.$"
+	.string "...There it is again.\p"
+	.string "For one second I thought there were\n"
+	.string "two of you standing there.$"
 
 Route103_Text_MayTimeToHeadBack:
-	.string "MAY: I think I know why my dad has\n"
-	.string "an eye out for you now.\p"
-	.string "I mean, you just got that POKéMON,\n"
-	.string "but it already likes you.\p"
-	.string "You might be able to befriend any\n"
-	.string "kind of POKéMON easily.\p"
-	.string "I'm glad you moved to LITTLEROOT.\p"
-	.string "Come on, let's head back to the LAB\n"
-	.string "together.$"
+	.string "MAY: {PLAYER}... I found something.\p"
+	.string "My field notebook has a whole page\n"
+	.string "written in my handwriting.\p"
+	.string "It says: 'STONE. BELLS. 3:17.'\p"
+	.string "Under that is a place name:\n"
+	.string "RUSTBORO.\p"
+	.string "I've never been to RUSTBORO.\n"
+	.string "At least... I don't think I have.\p"
+	.string "Let's go back to Dad.\n"
+	.string "Please don't let me forget this.$"
 
 Route103_Text_BrendanRoute103Pokemon:
 	.string "BRENDAN: Okay, so it's this one and\n"
