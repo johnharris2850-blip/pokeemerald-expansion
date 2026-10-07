@@ -573,15 +573,15 @@ MauvilleCity_Text_ScottYouDidntHoldBack:
 	.string "I'll be cheering for you!$"
 
 MauvilleCity_Text_WattsonNeedFavorTakeKey:
-	.string "WATTSON: {PLAYER}! I need your help.\p"
-	.string "NEW MAUVILLE's generator is producing\n"
-	.string "a repeating pulse every few minutes.\p"
-	.string "Three short bursts. One long. Seven short.\p"
-	.string "3... 1... 7.\p"
-	.string "The engineers say it isn't electrical.\n"
-	.string "It seems to come from below the facility.\p"
-	.string "Take this KEY and shut the generator off.\n"
-	.string "Let's see if the signal stops too.$"
+	.string "WATTSON: {PLAYER}! I've got a favor.\p"
+	.string "There's an old underground sector called\n"
+	.string "NEW MAUVILLE south of here.\p"
+	.string "Its generator has become unstable.\n"
+	.string "I need it shut down.\p"
+	.string "You can't reach it safely without SURF,\n"
+	.string "so don't rush there unprepared.\p"
+	.string "When you can cross the water, use this\n"
+	.string "KEY and investigate it for me.$"
 
 MauvilleCity_Text_WattsonWontBeChallenge:
 	.string "WATTSON: Don't you worry about it.\n"
