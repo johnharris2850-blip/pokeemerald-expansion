@@ -270,18 +270,21 @@ PlayersHouse_2F_EventScript_GameCube::
 	end
 
 PlayersHouse_2F_Text_ClockIsStopped:
-	.string "The clock is stopped…\p"
-	.string "Better set it and start it!$"
+	.string "The clock is stopped...\p"
+	.string "The hands are frozen at 3:17.\p"
+	.string "Scratched into the wood beneath it:\n"
+	.string "“{PLAYER}, REMEMBER ME.”\p"
+	.string "Better set the clock...$"
 
 PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
 	.string "MOM: {PLAYER}, how do you like your\n"
 	.string "new room?\p"
 	.string "Good! Everything's put away neatly!\p"
-	.string "They finished moving everything in\n"
-	.string "downstairs, too.\p"
-	.string "POKéMON movers are so convenient!\p"
-	.string "Oh, you should make sure that\n"
-	.string "everything's all there on your desk.$"
+	.string "...What's wrong?\p"
+	.string "Writing under the clock? Honey, there's\n"
+	.string "nothing there.\p"
+	.string "The movers finished downstairs too.\n"
+	.string "Come down when you're ready.$"
 
 PlayersHouse_2F_Text_Notebook:
 	.string "{PLAYER} flipped open the notebook.\p"
@@ -289,7 +292,10 @@ PlayersHouse_2F_Text_Notebook:
 	.string "Open the MENU with START.\p"
 	.string "ADVENTURE RULE NO. 2\n"
 	.string "Record your progress with SAVE.\p"
-	.string "The remaining pages are blank…$"
+	.string "A sentence is written on the last page\n"
+	.string "in handwriting you don't recognize:\p"
+	.string "“If everyone forgets me, find the place\n"
+	.string "where the bells stopped.”$"
 
 Common_Text_LookCloserAtMap:
 	.string "{PLAYER} took a closer look at the\n"
