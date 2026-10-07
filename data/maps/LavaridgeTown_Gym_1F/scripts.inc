@@ -298,19 +298,15 @@ LavaridgeTown_Gym_B1F_Text_EliPostBattle:
 	.string "Hehehehe.$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryIntro:
-	.string "Welcome… No, wait.\p"
-	.string "Puny TRAINER, how good to see you've\n"
-	.string "made it here!\p"
-	.string "I have been entrusted with the…\n"
-	.string "No, wait.\p"
-	.string "I am FLANNERY, and I'm the GYM\n"
-	.string "LEADER here!\p"
-	.string "Uh…\n"
-	.string "Dare not underestimate me, though\l"
-	.string "I have been LEADER only a short time!\p"
-	.string "With skills inherited from my grand-\n"
-	.string "father, I shall, uh…demonstrate the\l"
-	.string "hot moves we have honed on this land!$"
+	.string "FLANNERY: You're {PLAYER}, aren't you?\p"
+	.string "The mountain shook before you arrived.\n"
+	.string "Every hot-spring pipe rang like a bell.\p"
+	.string "Grandpa used to tell me there were old\n"
+	.string "tunnels beneath LAVARIDGE.\p"
+	.string "Nobody remembers where they went.\p"
+	.string "But you're here for a GYM battle.\n"
+	.string "Whatever is happening below us...\p"
+	.string "We face what's in front of us first!$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryDefeat:
 	.string "Oh…\n"
@@ -351,9 +347,11 @@ LavaridgeTown_Gym_1F_Text_RegisteredFlannery:
 	.string "in the POKéNAV.$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPostBattle:
-	.string "Your power reminds me of someone…\p"
-	.string "Oh! I know! You battle like NORMAN,\n"
-	.string "the GYM LEADER of PETALBURG.$"
+	.string "FLANNERY: Go see NORMAN in PETALBURG.\p"
+	.string "He visited LAVARIDGE years ago with a\n"
+	.string "young child. I think it was you.\p"
+	.string "There was another child too...\p"
+	.string "...Why can't I remember their name?$"
 
 LavaridgeTown_Gym_1F_Text_GymStatue:
 	.string "LAVARIDGE TOWN POKéMON GYM$"
