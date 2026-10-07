@@ -58,10 +58,11 @@ FallarborTown_Text_ShadyCharactersCozmosHome:
 	.string "in and out of PROF. COZMO's home…$"
 
 FallarborTown_Text_RegionKnownForMeteors:
-	.string "This region's been known for meteors\n"
-	.string "since the olden days.\p"
-	.string "They say METEOR FALLS was gouged out\n"
-	.string "by a falling meteorite long ago.$"
+	.string "METEOR FALLS is famous for ancient stone.\p"
+	.string "PROF. COZMO drilled samples recently.\n"
+	.string "One layer made no geological sense.\p"
+	.string "Black stone, deep beneath HOENN.\n"
+	.string "He said it looked almost... constructed.$"
 
 FallarborTown_Text_MyPreciousAzurill:
 	.string "See! Take a look!\n"
