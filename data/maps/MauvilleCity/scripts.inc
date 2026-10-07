@@ -483,13 +483,12 @@ MauvilleCity_Text_WallyWeCanBeatAnyone:
 	.string "we can beat anyone!$"
 
 MauvilleCity_Text_WallyWillYouBattleMe:
-	.string "WALLY: Oh! Hi, {PLAYER}!\p"
-	.string "I've gotten a lot stronger since\n"
-	.string "we met.\p"
-	.string "{PLAYER}, I want you and my UNCLE to\n"
-	.string "understand that.\p"
-	.string "{PLAYER}, please, will you have\n"
-	.string "a battle with me?$"
+	.string "WALLY: {PLAYER}! I'm glad it's you.\p"
+	.string "RALTS still remembers that day.\n"
+	.string "Sometimes it stares beside me and cries.\p"
+	.string "I want to get stronger so neither of us\n"
+	.string "has to be afraid anymore.\p"
+	.string "Please battle me.$"
 
 MauvilleCity_Text_WallyMyUncleWontKnowImStrong:
 	.string "WALLY: Oh… If you won't battle me,\n"
@@ -512,9 +511,9 @@ MauvilleCity_Text_WallyHereICome:
 	.string "Okay… Here I come!$"
 
 MauvilleCity_Text_WallyDefeat:
-	.string "WALLY: … … … … … … …\p"
-	.string "… … … … … … … …\p"
-	.string "I lost…$"
+	.string "WALLY: I lost...\p"
+	.string "But RALTS isn't looking at me.\n"
+	.string "It's looking behind you again.$"
 
 MauvilleCity_Text_WallyIllGoBackToVerdanturf:
 	.string "WALLY: UNCLE…\n"
