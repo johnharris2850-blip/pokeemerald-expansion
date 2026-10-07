@@ -542,54 +542,42 @@ MtChimney_EventScript_SawyerRematch::
 	end
 
 MtChimney_Text_MeteoriteWillActivateVolcano:
-	.string "The power contained in the METEORITE…\p"
-	.string "By amplifying its power with this\n"
-	.string "machine, MT. CHIMNEY's volcanic\l"
-	.string "activity will instantly intensify…\p"
-	.string "Its energy will grow deep inside\n"
-	.string "the crater and…\l"
-	.string "Fufufu…$"
+	.string "The METEORITE is amplifying something\n"
+	.string "far below MT. CHIMNEY.\p"
+	.string "The machine displays a depth, then\n"
+	.string "replaces it with: ROOM 317.\p"
+	.string "The mountain is answering the signal.$"
+
 
 MtChimney_Text_MaxieIntro:
-	.string "MAXIE: Hm?\n"
-	.string "Who are you?\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "I'd heard ARCHIE bemoaning a child\n"
-	.string "who's been meddling in TEAM AQUA's\l"
-	.string "affairs.\p"
-	.string "It must be you he meant.\p"
-	.string "Humph! So you're thinking of\n"
-	.string "interfering with us, TEAM MAGMA?\p"
-	.string "Now you listen.\n"
-	.string "Long ago, living things used the\l"
-	.string "land to live and grow.\p"
-	.string "That is why land is all important!\n"
-	.string "It is the cradle of all!\p"
-	.string "That is why TEAM MAGMA is dedicated\n"
-	.string "to the expansion of the land mass.\p"
-	.string "It is for further advancement of\n"
-	.string "humankind and POKéMON!\p"
-	.string "And for that, we need the power of\n"
-	.string "what sleeps within this mountain…\p"
-	.string "Oh! There was no need for you to\n"
-	.string "learn that much.\p"
-	.string "But, no matter!\n"
-	.string "I'll teach you the consequences of\l"
-	.string "meddling in our grand design!$"
+	.string "MAXIE: So you're {PLAYER}.\p"
+	.string "ARCHIE wasn't exaggerating.\n"
+	.string "The machine reacted when you arrived.\p"
+	.string "We thought the black stone was buried\n"
+	.string "beneath HOENN. We were wrong.\p"
+	.string "It isn't buried beneath the land.\n"
+	.string "The land formed around it.\p"
+	.string "This METEORITE can open a path to it.\n"
+	.string "Think what we could learn there!\p"
+	.string "...What is that sound?\p"
+	.string "No. The machine is displaying your name.\p"
+	.string "{PLAYER}... what exactly are you?$"
+
 
 MtChimney_Text_MaxieDefeat:
 	.string "What?!\p"
 	.string "I, MAXIE, was caught off guard?!$"
 
 MtChimney_Text_MaxieYouHaventSeenLastOfMagma:
-	.string "MAXIE: But, enough.\n"
-	.string "I will back off this time.\p"
-	.string "But don't think that this is the last\n"
-	.string "you've seen of TEAM MAGMA.\p"
-	.string "Fufufu…\p"
-	.string "Even without the METEORITE, if we\n"
-	.string "obtain that ORB… Fufufu…$"
+	.string "MAXIE: Enough! We're leaving.\p"
+	.string "For three seconds, every instrument\n"
+	.string "showed a chamber inside the mountain.\p"
+	.string "It was larger than MT. CHIMNEY itself.\p"
+	.string "At its center stood the bell tower.\n"
+	.string "And there was someone at its window.\p"
+	.string "They weren't looking at us, {PLAYER}.\n"
+	.string "They were looking at you.$"
+
 
 MtChimney_Text_TabithaIntro:
 	.string "Hehehe!\p"
@@ -738,8 +726,12 @@ MtChimney_Text_RemoveTheMeteorite:
 	.string "Do you want to remove the METEORITE?$"
 
 MtChimney_Text_PlayerRemovedMeteorite:
-	.string "{PLAYER} removed the METEORITE from\n"
-	.string "the mysterious machine.$"
+	.string "{PLAYER} removed the METEORITE.\p"
+	.string "The machine dies instantly.\p"
+	.string "For a moment, the crater is completely\n"
+	.string "silent.\p"
+	.string "Then a bell rings once beneath you.$"
+
 
 MtChimney_Text_PlayerLeftMeteorite:
 	.string "{PLAYER} left the METEORITE where\n"
