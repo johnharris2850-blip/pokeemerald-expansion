@@ -169,18 +169,27 @@ Route121_EventScript_RematchCristin::
 	end
 
 Route121_Text_OkayMoveOutToMtPyre:
-	.string "Okay!\n"
-	.string "We're to move out to MT. PYRE!$"
+	.string "TEAM AQUA! Move out to MT. PYRE!\p"
+	.string "The BOSS wants that old record\n"
+	.string "before TEAM MAGMA finds it.\p"
+	.string "It mentions a bell at 3:17...\n"
+	.string "and a child nobody remembers.$"
 
 Route121_Text_AheadLoomsMtPyre:
-	.string "Ahead looms MT. PYRE…\p"
-	.string "It is a natural monument to the spirits \n"
-	.string "of departed POKéMON…$"
+	.string "Ahead is MT. PYRE, where people\n"
+	.string "honor departed POKéMON.\p"
+	.string "The caretakers keep a book of\n"
+	.string "names so none are forgotten.\p"
+	.string "Yesterday, a child's name\n"
+	.string "vanished from every page.\p"
+	.string "But someone keeps writing it back.$"
 
 Route121_Text_MtPyrePierSign:
 	.string "MT. PYRE PIER\p"
-	.string "…The sign is old and worn out.\n"
-	.string "The words are barely legible…$"
+	.string "A second message is scratched\n"
+	.string "into the old wooden sign:\p"
+	.string "TWO WENT BELOW.\n"
+	.string "ONE CAME HOME.$"
 
 Route121_Text_SafariZoneSign:
 	.string "“Filled with rare POKéMON!”\n"
