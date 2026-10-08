@@ -580,24 +580,31 @@ Route119_Text_DontGoNearWeatherInstitute:
 	.string "I heard a bell under the bridge.$"
 
 Route119_Text_ThoughtFlyByCatchingBirdMons:
-	.string "I thought you FLY by catching a whole\n"
-	.string "flock of BIRD POKéMON, and then\l"
-	.string "hanging on to them somehow.\p"
-	.string "But it turns out there's an HM move\n"
-	.string "called FLY!\p"
-	.string "I wish I'd known about that a long\n"
-	.string "time ago…$"
+	.string "I came here to watch the BIRD POKéMON.\p"
+	.string "Yesterday they all took off at once.\n"
+	.string "Every single one flew away from\l"
+	.string "the WEATHER INSTITUTE.\p"
+	.string "I looked up. For one second, the\n"
+	.string "clouds made the shape of a door.\p"
+	.string "Then the rain started again.$"
 
 Route119_Text_TallGrassSnaresBikeTires:
-	.string "Tch…\n"
-	.string "It's a no-go…\p"
-	.string "The tall grass snares BIKE tires.\n"
-	.string "There's no way you can cycle here.$"
+	.string "The grass is too thick for a BIKE.\p"
+	.string "I marked a trail through here\n"
+	.string "yesterday. Look at my map.\p"
+	.string "The trail is still on the paper.\n"
+	.string "But there's no trail in the grass.\p"
+	.string "How can a place forget a road?$"
 
 Route119_Text_CanYourMonMakeSecretBase:
-	.string "Can your POKéMON use its SECRET POWER\n"
-	.string "on a big pile of grass and make a\l"
-	.string "SECRET BASE?$"
+	.string "You can make a SECRET BASE in\n"
+	.string "some of this tall grass.\p"
+	.string "I found a hollow behind the trees.\n"
+	.string "It was dry, even in this rain.\p"
+	.string "Someone had scratched 317\n"
+	.string "into the dirt inside.\p"
+	.string "When I returned, the hollow\n"
+	.string "was gone.$"
 
 Route119_Text_RouteSignFortree:
 	.string "ROUTE 119\n"
