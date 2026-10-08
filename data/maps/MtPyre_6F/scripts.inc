@@ -28,15 +28,24 @@ MtPyre_6F_EventScript_Cedric::
 	end
 
 MtPyre_6F_Text_ValerieIntro:
-	.string "When I'm here…\n"
-	.string "A curious power flows into me…$"
+	.string "I can feel a memory clinging\n"
+	.string "to you, {PLAYER}.\p"
+	.string "It isn't yours.\n"
+	.string "Someone left it in your care.\p"
+	.string "Let me see what it holds!$"
 
 MtPyre_6F_Text_ValerieDefeat:
 	.string "The power is ebbing away…$"
 
 MtPyre_6F_Text_ValeriePostBattle:
-	.string "Perhaps the power is from the spirits\n"
-	.string "of POKéMON in fitful sleep here…$"
+	.string "I saw a door beneath black water.\n"
+	.string "ROOM 317 was written above it.\p"
+	.string "Two children went inside.\n"
+	.string "One came out without a shadow.\p"
+	.string "The other did not die.\n"
+	.string "The door simply forgot to open.\p"
+	.string "And the one who returned...\n"
+	.string "was you, {PLAYER}.$"
 
 MtPyre_6F_Text_ValerieRegister:
 	.string "Fufufu… I lost the match, but…\n"
