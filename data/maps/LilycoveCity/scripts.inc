@@ -589,8 +589,11 @@ LilycoveCity_Text_ContestHallInTown:
 	.string "My heart swells with excitement!$"
 
 LilycoveCity_Text_StrangeCaveInCove:
-	.string "Have you seen that strange cave in\n"
-	.string "the cove at the edge of town?$"
+	.string "Have you seen the cave by the cove?\p"
+	.string "The tide goes out every evening,\n"
+	.string "but the water inside never moves.\p"
+	.string "A child was seen at the entrance.\n"
+	.string "Nobody remembers their face.$"
 
 LilycoveCity_Text_GoingToMoveDeleterForHMs:
 	.string "I'm going to teach my POKéMON some new\n"
@@ -650,15 +653,14 @@ LilycoveCity_Text_SixtyYearsAgoHusbandProposed:
 	.string "Mufufufu mufufufufufu…$"
 
 LilycoveCity_Text_TeamAquaRenovatedCavern:
-	.string "Hm, you know of the peculiar cavern\n"
-	.string "in this cove?\p"
-	.string "That had been a natural formation,\n"
-	.string "but then that TEAM AQUA lot came\l"
-	.string "along and made their renovations.\p"
-	.string "They call themselves\n"
-	.string "the “nature-loving TEAM AQUA”!\p"
-	.string "But what they do and what they say\n"
-	.string "don't match at all!$"
+	.string "TEAM AQUA took over that cave\n"
+	.string "and started digging below it.\p"
+	.string "They found an old stone doorway\n"
+	.string "where the sea should be.\p"
+	.string "Their equipment kept displaying\n"
+	.string "the same number: 317.\p"
+	.string "I don't think they understand\n"
+	.string "what they've uncovered.$"
 
 LilycoveCity_Text_TeamAquaLotGoneForGood:
 	.string "That cave in the cove…\p"
@@ -669,8 +671,10 @@ LilycoveCity_Text_TeamAquaLotGoneForGood:
 
 LilycoveCity_Text_CitySign:
 	.string "LILYCOVE CITY\p"
-	.string "“Where the land ends and the\n"
-	.string "sea begins.”$"
+	.string "WHERE THE LAND ENDS AND\n"
+	.string "THE SEA BEGINS.\p"
+	.string "Below the lettering, someone\n"
+	.string "scratched out the word BEGINS.$"
 
 LilycoveCity_Text_ContestHallSign:
 	.string "POKéMON CONTEST HALL\n"
