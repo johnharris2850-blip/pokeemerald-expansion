@@ -476,12 +476,15 @@ Route119_EventScript_ScottWonAtFortreeGymCall::
 	end
 
 Route119_Text_MayIntro:
-	.string "MAY: {PLAYER}{KUN}!\n"
-	.string "Where were you? I was looking for you!\p"
-	.string "How much stronger have you gotten?\n"
-	.string "Let me check for you!\p"
-	.string "Ready with your POKéMON?\n"
-	.string "Of course you are! Go!$"
+	.string "MAY: {PLAYER}! Finally!\p"
+	.string "The rain has been falling upward\n"
+	.string "near the WEATHER INSTITUTE.\p"
+	.string "I heard someone call your name from\n"
+	.string "the river. It sounded like a child.\p"
+	.string "I didn't answer. I remembered what\n"
+	.string "we promised each other.\p"
+	.string "First, show me you're all right.\n"
+	.string "Let's battle!$"
 
 Route119_Text_MayDefeat:
 	.string "Achah!\n"
@@ -495,20 +498,17 @@ Route119_Text_MayPresentForYou:
 	.string "And, here! I have a present for you.$"
 
 Route119_Text_MayExplainFly:
-	.string "MAY: Use FLY, and your POKéMON will\n"
-	.string "instantly carry you to any town you've\l"
-	.string "already visited.\p"
-	.string "But, to use FLY, you have to get\n"
-	.string "the GYM BADGE from FORTREE CITY.\l"
-	.string "That's important, so don't forget.\p"
-	.string "You should FLY home and visit\n"
-	.string "LITTLEROOT for a change.\p"
-	.string "I bet your mom's worried about you,\n"
-	.string "{PLAYER}{KUN}.\p"
-	.string "And... I worry about you too. More than\n"
-	.string "I expected to.\p"
-	.string "Be careful, okay? I want to see you\n"
-	.string "again soon.$"
+	.string "MAY: FLY takes you back to towns\n"
+	.string "you've already visited.\p"
+	.string "You'll need the FORTREE GYM BADGE\n"
+	.string "before you can use it outside battle.\p"
+	.string "There's something else. My notebook\n"
+	.string "was soaked in the rain.\p"
+	.string "One page stayed completely dry:\n"
+	.string "TWO ENTERED. ONE RETURNED.\p"
+	.string "If you hear that child again,\n"
+	.string "please don't go alone.\p"
+	.string "Promise me we'll meet in FORTREE.$"
 
 Route119_Text_BrendanIntro:
 	.string "BRENDAN: {PLAYER}! So this is where\n"
@@ -567,14 +567,17 @@ Route119_Text_ScottYouWonAtFortreeGym:
 	.string "… … … … … Click!$"
 
 Route119_Text_StayAwayFromWeatherInstitute:
-	.string "We're standing lookout here.\p"
-	.string "Hey, you! Stay away from the WEATHER\n"
-	.string "INSTITUTE. It's not safe.$"
+	.string "AQUA: Stay away from the WEATHER\n"
+	.string "INSTITUTE! Orders from above.\p"
+	.string "Their machines recorded a storm\n"
+	.string "that doesn't exist on any map.\p"
+	.string "And the readings keep saying 3:17.$"
 
 Route119_Text_DontGoNearWeatherInstitute:
-	.string "Lookout duty is surprisingly boring.\p"
-	.string "Hey, you! Please don't go near the\n"
-	.string "WEATHER INSTITUTE.$"
+	.string "AQUA: Don't go near the WEATHER\n"
+	.string "INSTITUTE. Seriously.\p"
+	.string "The rain stopped for three seconds.\n"
+	.string "I heard a bell under the bridge.$"
 
 Route119_Text_ThoughtFlyByCatchingBirdMons:
 	.string "I thought you FLY by catching a whole\n"
@@ -601,7 +604,9 @@ Route119_Text_RouteSignFortree:
 	.string "{RIGHT_ARROW} FORTREE CITY$"
 
 Route119_Text_WeatherInstitute:
-	.string "WEATHER INSTITUTE$"
+	.string "WEATHER INSTITUTE\p"
+	.string "A faded notice is taped below:\n"
+	.string "REPORT IMPOSSIBLE WEATHER TO STAFF.$"
 
 Route119_Text_TrainerTipsDecoration:
 	.string "TRAINER TIPS\p"
