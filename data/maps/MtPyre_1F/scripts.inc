@@ -26,20 +26,28 @@ MtPyre_1F_EventScript_Man::
 	end
 
 MtPyre_1F_Text_TakeThisForYourOwnGood:
-	.string "All sorts of beings wander the slopes\n"
-	.string "of MT. PYRE…\p"
-	.string "There is no telling what may happen.\n"
-	.string "Take this. It's for your own good.$"
+	.string "Some spirits come to MT. PYRE\n"
+	.string "because they are remembered.\p"
+	.string "Others come because someone\n"
+	.string "has forgotten them.\p"
+	.string "Take this CLEANSE TAG.\n"
+	.string "Please, don't follow the bells.$"
 
 MtPyre_1F_Text_ExplainCleanseTag:
-	.string "Have a POKéMON hold that\n"
-	.string "CLEANSE TAG.\p"
-	.string "It will help ward off wild POKéMON.$"
+	.string "Let a POKéMON hold the\n"
+	.string "CLEANSE TAG to ward off wild ones.\p"
+	.string "But if you hear a child calling\n"
+	.string "from an empty room...\p"
+	.string "Do not answer until you can\n"
+	.string "see who is speaking.$"
 
 MtPyre_1F_Text_ComeToPayRespects:
-	.string "Did you come to pay your respect\n"
-	.string "to the spirits of departed POKéMON?\p"
-	.string "You must care for your POKéMON a lot.$"
+	.string "Have you come to remember the\n"
+	.string "POKéMON who have passed on?\p"
+	.string "The memorial book is missing\n"
+	.string "one name. The ink is still wet.\p"
+	.string "The empty space is beside\n"
+	.string "a drawing of a broken bell.$"
 
 MtPyre_1F_Text_RestingPlaceOfZigzagoon:
 	.string "This is the final resting place of my\n"
