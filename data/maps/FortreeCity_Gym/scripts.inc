@@ -233,21 +233,22 @@ FortreeCity_Gym_Text_DariusPostBattle:
 	.string "WINONA's POKéMON are all business.$"
 
 FortreeCity_Gym_Text_WinonaIntro:
-	.string "I am WINONA. I am the LEADER of\n"
-	.string "the FORTREE POKéMON GYM.\p"
-	.string "I have become one with BIRD POKéMON\n"
-	.string "and have soared the skies…\p"
-	.string "However grueling the battle, we have\n"
-	.string "triumphed with grace…\p"
-	.string "Witness the elegant choreography\n"
-	.string "of BIRD POKéMON and I!$"
+	.string "WINONA: I am the LEADER of the\n"
+	.string "FORTREE POKéMON GYM.\p"
+	.string "My BIRD POKéMON know every wind\n"
+	.string "that passes over HOENN.\p"
+	.string "But lately they refuse to fly\n"
+	.string "above the WEATHER INSTITUTE.\p"
+	.string "They see a tower hanging upside\n"
+	.string "down where no tower exists.\p"
+	.string "You have seen it too, haven't you?\p"
+	.string "Show me your courage in battle!$"
 
 FortreeCity_Gym_Text_WinonaDefeat:
-	.string "Never before have I seen a TRAINER\n"
-	.string "command POKéMON with more grace\l"
-	.string "than I…\p"
-	.string "In recognition of your prowess,\n"
-	.string "I present to you this GYM BADGE.$"
+	.string "WINONA: Your POKéMON trust you.\p"
+	.string "Even with that shadow following\n"
+	.string "you, they do not turn away.\p"
+	.string "You have earned the FEATHER BADGE.$"
 
 FortreeCity_Gym_Text_ReceivedFeatherBadge:
 	.string "{PLAYER} received the FEATHER BADGE\n"
@@ -273,8 +274,16 @@ FortreeCity_Gym_Text_RegisteredWinona:
 	.string "in the POKéNAV.$"
 
 FortreeCity_Gym_Text_WinonaPostBattle:
-	.string "Though I fell to you, I will remain\n"
-	.string "devoted to BIRD POKéMON.$"
+	.string "WINONA: My ALTARIA flew through\n"
+	.string "the storm above ROUTE 119.\p"
+	.string "For one heartbeat, it saw a\n"
+	.string "stone staircase in the clouds.\p"
+	.string "At the top stood a little child,\n"
+	.string "holding a broken bell.\p"
+	.string "When ALTARIA returned, its shadow\n"
+	.string "pointed the wrong way.\p"
+	.string "Go carefully, {PLAYER}.\n"
+	.string "Some doors should stay closed.$"
 
 FortreeCity_Gym_Text_GymStatue:
 	.string "FORTREE CITY POKéMON GYM$"
