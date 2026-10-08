@@ -331,24 +331,27 @@ MossdeepCity_Text_WailmerWatching:
 	.string "WAILMER watching!$"
 
 MossdeepCity_Text_SpaceCenterReceivedLetter:
-	.string "The island's SPACE CENTER has been\n"
-	.string "launching huge rockets.\p"
-	.string "There's been some kind of an uproar\n"
-	.string "over a letter they received recently.$"
+	.string "The SPACE CENTER received a letter.\p"
+	.string "It warned of TEAM MAGMA, but\n"
+	.string "there was another page inside.\p"
+	.string "Just a drawing of a black door\n"
+	.string "beneath the ocean.\p"
+	.string "Someone wrote 3:17 beside it.$"
 
 MossdeepCity_Text_SpaceCenterLaunchingRockets:
 	.string "The island's SPACE CENTER has been\n"
 	.string "launching huge rockets.$"
 
 MossdeepCity_Text_MossdeepTargetedByMagma:
-	.string "I heard from a SAILOR buddy that\n"
-	.string "TEAM AQUA set up shop in LILYCOVE.\p"
-	.string "I also heard that someone came along\n"
-	.string "and wiped the floor with them!\p"
-	.string "But MOSSDEEP here's been targeted\n"
-	.string "by that TEAM MAGMA.\p"
-	.string "If you want to know what they're up to,\n"
-	.string "go visit the SPACE CENTER.$"
+	.string "TEAM AQUA was driven out of\n"
+	.string "their LILYCOVE HIDEOUT.\p"
+	.string "Now TEAM MAGMA is after the\n"
+	.string "MOSSDEEP SPACE CENTER!\p"
+	.string "A SAILOR told me their sonar\n"
+	.string "found an impossible doorway\l"
+	.string "under the sea.\p"
+	.string "If you want answers, go see\n"
+	.string "what's happening at the CENTER.$"
 
 MossdeepCity_Text_FeelReliefOnLand:
 	.string "I'm a SAILOR, so the sea's obviously\n"
@@ -388,7 +391,10 @@ MossdeepCity_Text_SpecialSpaceCenterRock:
 	.string "That's what I do.$"
 
 MossdeepCity_Text_ItsAWhiteRock:
-	.string "It's a white rock.$"
+	.string "It's a white rock.\p"
+	.string "For a moment, its shadow looks\n"
+	.string "like two children holding hands.\p"
+	.string "Then the shadow is gone.$"
 
 MossdeepCity_Text_GymSign:
 	.string "MOSSDEEP CITY POKéMON GYM\n"
@@ -401,7 +407,9 @@ MossdeepCity_Text_CitySign:
 
 MossdeepCity_Text_SpaceCenterSign:
 	.string "MOSSDEEP SPACE CENTER\n"
-	.string "“The closest place to space.”$"
+	.string "THE CLOSEST PLACE TO SPACE.\p"
+	.string "Someone has written beneath it:\n"
+	.string "THE FARTHEST PLACE FROM HOME.$"
 
 MossdeepCity_Text_ScottSomethingWrongWithTown:
 	.string "SCOTT: {PLAYER}{KUN}, feeling good?\n"
