@@ -1249,26 +1249,21 @@ PetalburgCity_Gym_Text_YouHaveGottenStronger:
 	.string "that you've earned.$"
 
 PetalburgCity_Gym_Text_NormanIntro:
-	.string "DAD: Hm…\n"
-	.string "So, you did get four GYM BADGES.\p"
-	.string "Fine, as I promised, we will have\n"
-	.string "a POKéMON battle.\p"
-	.string "{PLAYER}…\p"
-	.string "I'm so happy that I can have\n"
-	.string "a real battle with my own child.\p"
-	.string "But, a battle is a battle!\p"
-	.string "I will do everything in my power as\n"
-	.string "a GYM LEADER to win.\p"
-	.string "{PLAYER}, you'd better give it your\n"
-	.string "best shot, too!$"
+	.string "DAD: Four BADGES. You kept your promise.\p"
+	.string "I heard about MT. CHIMNEY.\n"
+	.string "And about the bells.\p"
+	.string "There are things I should have told you\n"
+	.string "when you were younger, {PLAYER}.\p"
+	.string "But first, we battle.\n"
+	.string "I need to know you're strong enough.\p"
+	.string "Afterward, I'll tell you why we moved.$"
 
 PetalburgCity_Gym_Text_NormanDefeat:
-	.string "…\p"
-	.string "I… I can't…\p"
-	.string "I can't believe it. {PLAYER}…\p"
-	.string "I lost to {PLAYER}?\p"
-	.string "But, rules are rules!\n"
-	.string "Here, take this.$"
+	.string "DAD: You've grown stronger than I knew.\p"
+	.string "I kept quiet to protect you.\n"
+	.string "Maybe silence only helped it.\p"
+	.string "Take the BALANCE BADGE, {PLAYER}.\n"
+	.string "You earned it.$"
 
 PetalburgCity_Gym_Text_ReceivedBalanceBadge:
 	.string "{PLAYER} received the BALANCE BADGE\n"
@@ -1291,10 +1286,17 @@ PetalburgCity_Gym_Text_ExplainFacade:
 	.string "situation into an advantage.$"
 
 PetalburgCity_Gym_Text_DadHappyAndSad:
-	.string "DAD: As the GYM LEADER, I can't\n"
-	.string "express how upset I am…\p"
-	.string "But as a father, it makes me both\n"
-	.string "happy and a little sad. It's odd…$"
+	.string "DAD: Years ago, you vanished for hours.\p"
+	.string "We found you near an empty stone lot\n"
+	.string "in RUSTBORO, holding a broken bell.\p"
+	.string "You kept asking where the other child\n"
+	.string "had gone. We searched everywhere.\p"
+	.string "The next morning, even the police\n"
+	.string "couldn't remember the search.\p"
+	.string "Your mother and I moved to LITTLEROOT\n"
+	.string "because you began hearing bells again.\p"
+	.string "I remember the child existed.\n"
+	.string "But I can't remember their name.$"
 
 PetalburgCity_Gym_Text_PleaseComeWithMe:
 	.string "Ah, there you are, {PLAYER}{KUN}!\p"
