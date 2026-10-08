@@ -245,23 +245,26 @@ Route119_WeatherInstitute_2F_Text_Grunt5PostBattle:
 	.string "Ihihihihi…$"
 
 Route119_WeatherInstitute_2F_Text_ShellyIntro:
-	.string "Ahahahaha!\p"
-	.string "You're going to meddle in TEAM AQUA's\n"
-	.string "affairs?\p"
-	.string "You're either absolutely fearless,\n"
-	.string "simply ignorant, or both!\p"
-	.string "You're so cute, you're disgusting!\n"
-	.string "I'll put you down, kiddy!$"
+	.string "SHELLY: So you're {PLAYER}.\p"
+	.string "The machine started saying your\n"
+	.string "name before you came inside.\p"
+	.string "A storm that never moves...\n"
+	.string "a tower that isn't on any map...\p"
+	.string "ARCHIE wants answers. So do I.\n"
+	.string "Let's see what you know!$"
 
 Route119_WeatherInstitute_2F_Text_ShellyDefeat:
 	.string "Ahahahaha!\n"
 	.string "You're disgustingly strong!$"
 
 Route119_WeatherInstitute_2F_Text_ShellyPostBattle:
-	.string "It's bad enough to have TEAM MAGMA\n"
-	.string "blunder about, but now there's you!\p"
-	.string "What makes you want to sniff around\n"
-	.string "in our business, anyway?$"
+	.string "SHELLY: That storm isn't natural.\p"
+	.string "Our scanner found two life signs\n"
+	.string "beneath its center.\p"
+	.string "One is moving. The other hasn't\n"
+	.string "moved for years.\p"
+	.string "Tell me, {PLAYER}...\n"
+	.string "why does the scanner know you?$"
 
 Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy:
 	.string "We have a situation here!\p"
@@ -278,10 +281,12 @@ Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre:
 	.string "TEAM MAGMA, just you wait!$"
 
 Route119_WeatherInstitute_2F_Text_ThanksPleaseTakePokemon:
-	.string "Thanks!\n"
-	.string "Thanks to you, we're safe!\p"
-	.string "It might be an odd way of thanking you,\n"
-	.string "but take this POKéMON.$"
+	.string "You saved our research!\p"
+	.string "Please take this CASTFORM.\n"
+	.string "It responds to changes in weather.\p"
+	.string "During the impossible storm, it\n"
+	.string "kept staring at an empty corner.\p"
+	.string "Perhaps it will be safer with you.$"
 
 @ Unused
 Route119_WeatherInstitute_2F_Text_NoRoomForPokemon:
@@ -292,10 +297,11 @@ Route119_WeatherInstitute_2F_Text_PlayerReceivedCastform:
 	.string "{PLAYER} received CASTFORM!$"
 
 Route119_WeatherInstitute_2F_Text_PokemonChangesWithWeather:
-	.string "That POKéMON changes shape according\n"
-	.string "to the weather conditions.\p"
-	.string "There're plenty of them in the\n"
-	.string "INSTITUTE--go ahead and take it.$"
+	.string "CASTFORM changes with the weather.\p"
+	.string "But when our clocks struck 3:17,\n"
+	.string "it changed without any storm.\p"
+	.string "The instruments recorded a voice:\n"
+	.string "WHERE THE SEA HAS NO SHORE.$"
 
 Route119_WeatherInstitute_2F_Text_ChangingWeatherRidiculous:
 	.string "I've been researching rain for many\n"
