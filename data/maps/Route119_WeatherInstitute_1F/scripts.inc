@@ -97,35 +97,39 @@ Route119_WeatherInstitute_1F_Text_Grunt4PostBattle:
 	.string "I should just take a nap in the bed…$"
 
 Route119_WeatherInstitute_1F_Text_EveryoneWentUpstairs:
-	.string "While I was sleeping, everyone went\n"
-	.string "upstairs!$"
+	.string "I fell asleep while it was raining.\p"
+	.string "When I woke up, everyone was gone.\n"
+	.string "I heard a bell from upstairs.\p"
+	.string "But there isn't a bell here.$"
 
 Route119_WeatherInstitute_1F_Text_WowYoureStrong:
-	.string "Wow, you're really strong!\p"
-	.string "I wish I could be a POKéMON TRAINER\n"
-	.string "like you!$"
+	.string "You made TEAM AQUA leave!\p"
+	.string "The rain sounds normal again...\n"
+	.string "except when you say my name.\p"
+	.string "Then it goes quiet.$"
 
 Route119_WeatherInstitute_1F_Text_ProfStudyingRain:
-	.string "The PROFESSOR loves rain.\n"
-	.string "That's a fact.\p"
-	.string "But if it keeps raining, people will be in\n"
-	.string "trouble. That's another fact.\p"
-	.string "And thus, the PROFESSOR is studying\n"
-	.string "if the rain can be put to good use.$"
+	.string "Our instruments show a storm\n"
+	.string "standing perfectly still.\p"
+	.string "Its center is over ROUTE 119.\n"
+	.string "The clock there always reads 3:17.\p"
+	.string "But our clocks are working fine.\n"
+	.string "We can't explain it.$"
 
 Route119_WeatherInstitute_1F_Text_NoticingAbnormalWeather:
-	.string "On the 2nd floor of the INSTITUTE,\n"
-	.string "we study the weather patterns over\l"
-	.string "the HOENN region.\p"
-	.string "We've been noticing temporary and\n"
-	.string "isolated cases of droughts and\l"
-	.string "heavy rain lately…$"
+	.string "We track unusual weather all\n"
+	.string "across HOENN.\p"
+	.string "One reading shows a patch of sea\n"
+	.string "where there should be dry land.\p"
+	.string "The location isn't on any map.\n"
+	.string "Our archive calls it SECTOR 317.$"
 
 Route119_WeatherInstitute_1F_Text_WhatWereAquasUpTo:
-	.string "Hello!\n"
-	.string "We've been saved by your actions!\p"
-	.string "What I don't understand is what on\n"
-	.string "earth the AQUAS were up to.$"
+	.string "Thank you for driving AQUA away!\p"
+	.string "They weren't after our forecasts.\n"
+	.string "They wanted an old weather chart.\p"
+	.string "Someone had drawn a bell tower\n"
+	.string "where the storm should be.$"
 
 Route119_WeatherInstitute_1F_Text_TakeRestInBed:
 	.string "There's a bed…\n"
