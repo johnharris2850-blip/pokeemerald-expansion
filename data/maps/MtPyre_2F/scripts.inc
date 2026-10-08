@@ -43,14 +43,20 @@ MtPyre_2F_EventScript_Zander::
 	end
 
 MtPyre_2F_Text_MemoriesOfSkitty:
-	.string "Memories of my darling SKITTY…\n"
-	.string "My eyes overflow thinking about it.$"
+	.string "I came to remember my SKITTY.\p"
+	.string "But someone left a child's toy\n"
+	.string "beside its memorial stone.\p"
+	.string "A tiny brass bell, cracked in two.\n"
+	.string "It rings when nobody touches it.$"
 
 MtPyre_2F_Text_TumbledFromFloorAbove:
-	.string "Ooch, ouch… There are holes in the\n"
-	.string "ground here and there.\p"
-	.string "I didn't notice and took a tumble from\n"
-	.string "the floor above.$"
+	.string "I fell through a hole upstairs!\p"
+	.string "While I was falling, I saw\n"
+	.string "a room below the mountain.\p"
+	.string "Two little chairs. One empty.\n"
+	.string "One facing the wall.\p"
+	.string "But there's no room down there...\n"
+	.string "is there?$"
 
 MtPyre_2F_Text_MarkIntro:
 	.string "Hey! Are you searching for POKéMON?\n"
@@ -115,10 +121,14 @@ MtPyre_2F_Text_LeahDefeat:
 	.string "You're durable.$"
 
 MtPyre_2F_Text_LeahPostBattle:
-	.string "Our family has been TRAINERS here\n"
-	.string "since my great-grandmother's time…\p"
-	.string "It is my duty to protect this\n"
-	.string "mountain…$"
+	.string "My family has guarded MT. PYRE\n"
+	.string "for generations.\p"
+	.string "My great-grandmother wrote of\n"
+	.string "a child erased from the records.\p"
+	.string "She left only two words:\n"
+	.string "NOT DEAD.\p"
+	.string "If that child is still waiting,\n"
+	.string "someone must remember them.$"
 
 MtPyre_2F_Text_ZanderIntro:
 	.string "Kiyaaaaah!\n"
