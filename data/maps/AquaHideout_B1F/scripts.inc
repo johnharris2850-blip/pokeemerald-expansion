@@ -107,18 +107,21 @@ AquaHideout_B1F_EventScript_Grunt7::
 	end
 
 AquaHideout_B1F_Text_Grunt2Intro:
-	.string "If you want to know the secret about\n"
-	.string "our HIDEOUT, you have me to beat!$"
+	.string "You found our HIDEOUT?\p"
+	.string "Then maybe you know why the\n"
+	.string "sonar keeps saying your name!\p"
+	.string "You aren't getting past me!$"
 
 AquaHideout_B1F_Text_Grunt2Defeat:
 	.string "I can't win at all…$"
 
 AquaHideout_B1F_Text_Grunt2PostBattle:
-	.string "Our HIDEOUT's secret?\p"
-	.string "Well, let's just say…\n"
-	.string "There's a submarine at the far end!\p"
-	.string "But, by now…\n"
-	.string "Kekekeke…$"
+	.string "There's a submarine at the end\n"
+	.string "of this HIDEOUT.\p"
+	.string "Its sonar picked up a doorway\n"
+	.string "beneath the sea floor.\p"
+	.string "The reading says ROOM 317.\n"
+	.string "We can't find it twice.$"
 
 AquaHideout_B1F_Text_Grunt3Intro:
 	.string "Fuel supply loaded A-OK!\n"
@@ -130,9 +133,12 @@ AquaHideout_B1F_Text_Grunt3Defeat:
 	.string "I took a serious licking!$"
 
 AquaHideout_B1F_Text_Grunt3PostBattle:
-	.string "Humph!\n"
-	.string "This was supposed to happen!\p"
-	.string "My mission was to just hold you up!$"
+	.string "I was ordered to delay you!\p"
+	.string "The BOSS is taking the submarine\n"
+	.string "to the underwater cavern.\p"
+	.string "One of our divers heard a child\n"
+	.string "knocking from inside the hull.\p"
+	.string "We checked. Nobody was there.$"
 
 AquaHideout_B1F_Text_Grunt5Intro:
 	.string "Yawn… Keeping watch over the\n"
