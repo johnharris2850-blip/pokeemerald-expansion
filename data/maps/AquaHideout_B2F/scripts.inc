@@ -87,33 +87,37 @@ AquaHideout_B2F_EventScript_Grunt8::
 	end
 
 AquaHideout_B2F_Text_MattIntro:
-	.string "Hehehe…\p"
-	.string "Got here already, did you?\n"
-	.string "We underestimated you!\p"
-	.string "But this is it!\p"
-	.string "I'm a cut above the GRUNTS you've seen\n"
-	.string "so far.\p"
-	.string "I'm not stalling for time.\n"
-	.string "I'm going to pulverize you!$"
+	.string "MATT: So you're {PLAYER}.\p"
+	.string "Our sonar picked up your name\n"
+	.string "before you entered this place.\p"
+	.string "The BOSS says it's interference.\n"
+	.string "I say you're bad luck!\p"
+	.string "Either way, you stop here!$"
 
 AquaHideout_B2F_Text_MattDefeat:
 	.string "Hehehe…\n"
 	.string "So, I lost, too…$"
 
 AquaHideout_B2F_Text_OurBossGotThroughHisPreparations:
-	.string "Hehehe!\p"
-	.string "While I was toying with you, our BOSS\n"
-	.string "got through his preparations!$"
+	.string "MATT: Too late!\p"
+	.string "While we battled, the BOSS\n"
+	.string "finished preparing the submarine!\p"
+	.string "The sonar found a cavern below\n"
+	.string "the sea. Something rang inside.\p"
+	.string "At exactly 3:17, every screen\n"
+	.string "showed the same words:\p"
+	.string "TWO ENTERED. ONE RETURNED.$"
 
 AquaHideout_B2F_Text_MattPostBattle:
-	.string "Hehehe!\p"
-	.string "Our BOSS has already gone on his way to\n"
-	.string "some cave under the sea!\p"
-	.string "If you're going to give chase, you'd\n"
-	.string "better search the big, wide sea beyond\l"
-	.string "LILYCOVE.\p"
-	.string "But will you find it then?\n"
-	.string "Hehehe!$"
+	.string "MATT: The BOSS is already headed\n"
+	.string "for a cave under the sea!\p"
+	.string "If you want to follow, search\n"
+	.string "the waters beyond LILYCOVE.\p"
+	.string "But listen, {PLAYER}.\n"
+	.string "When the submarine departed,\l"
+	.string "I heard a child call your name.\p"
+	.string "The voice came from below us.\n"
+	.string "Don't tell the BOSS I said that.$"
 
 AquaHideout_B2F_Text_Grunt4Intro:
 	.string "Wahahah, I grew weary of waiting!\n"
