@@ -360,17 +360,14 @@ Route120_EventScript_Callie::
 	end
 
 Route120_Text_StevenGreeting:
-	.string "STEVEN: Hm? {PLAYER}{KUN}, hi.\n"
-	.string "It's been a while.\p"
-	.string "There's something here that you can't\n"
-	.string "see, right?\p"
-	.string "Now, if I were to use this device on\n"
-	.string "the invisible obstacle…\p"
-	.string "No, no. Rather than describing it,\n"
-	.string "I should just show you.\l"
-	.string "That would be more fun.\p"
-	.string "{PLAYER}{KUN}, are your POKéMON ready for\n"
-	.string "battle?$"
+	.string "STEVEN: {PLAYER}, you're here.\p"
+	.string "My father's DEVON SCOPE detects\n"
+	.string "things hidden from normal sight.\p"
+	.string "Something is blocking this bridge.\n"
+	.string "It has a POKéMON's shape...\p"
+	.string "But the device briefly showed\n"
+	.string "two shadows standing together.\p"
+	.string "Are your POKéMON ready for battle?$"
 
 Route120_Text_StevenIllWaitHere:
 	.string "STEVEN: No?\p"
@@ -386,26 +383,26 @@ Route120_Text_StevenShowMeYourPower:
 
 Route120_Text_StevenUsedDevonScope:
 	.string "STEVEN used the DEVON SCOPE.\p"
-	.string "An invisible POKéMON became completely\n"
-	.string "visible!\p"
+	.string "A hidden KECLEON appeared!\p"
+	.string "For a moment, another small\n"
+	.string "shadow stood behind it.\p"
 	.string "The startled POKéMON attacked!$"
 
 Route120_Text_StevenGiveDevonScope:
-	.string "STEVEN: I see…\n"
-	.string "Your battle style is intriguing.\p"
-	.string "Your POKéMON have obviously grown\n"
-	.string "since I first met you in DEWFORD.\p"
-	.string "I'd like you to have this\n"
-	.string "DEVON SCOPE.\p"
-	.string "Who knows, there may be other\n"
-	.string "concealed POKéMON.$"
+	.string "STEVEN: That was impressive.\p"
+	.string "Take this DEVON SCOPE.\n"
+	.string "You'll need it near FORTREE GYM.\p"
+	.string "The old maps show a path under\n"
+	.string "the sea, but no coastline.\p"
+	.string "It is marked ROOM 317.\n"
+	.string "I think we're getting closer.$"
 
 Route120_Text_StevenGoodbye:
-	.string "STEVEN: {PLAYER}{KUN}.\p"
-	.string "I enjoy seeing POKéMON and TRAINERS\n"
-	.string "who strive together.\p"
-	.string "I think you're doing great.\p"
-	.string "Well, let's meet again somewhere.$"
+	.string "STEVEN: One more thing, {PLAYER}.\p"
+	.string "When I looked through the scope,\n"
+	.string "the second shadow waved at you.\p"
+	.string "Please be careful.\n"
+	.string "We'll meet again.$"
 
 Kecleon_Text_SomethingUnseeable:
 	.string "Something unseeable is in the way.$"
