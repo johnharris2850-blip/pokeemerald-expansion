@@ -33,17 +33,23 @@ MtPyre_3F_EventScript_RematchGabrielle::
 	end
 
 MtPyre_3F_Text_WilliamIntro:
-	.string "The rich atmosphere of the mountain\n"
-	.string "has elevated my psychic power!\p"
-	.string "A mere child like you…\n"
-	.string "You dream of winning?$"
+	.string "My psychic power lets me see\n"
+	.string "the memories people hide.\p"
+	.string "But yours has a door in it.\n"
+	.string "A black door marked 317.\p"
+	.string "Something on the other side\n"
+	.string "is trying to open it!$"
 
 MtPyre_3F_Text_WilliamDefeat:
 	.string "I drown in self-pity…$"
 
 MtPyre_3F_Text_WilliamPostBattle:
-	.string "My psychic powers have surely\n"
-	.string "grown several times, but…$"
+	.string "I saw two children holding hands\n"
+	.string "at the bottom of stone steps.\p"
+	.string "One of them was you, {PLAYER}.\n"
+	.string "I could not see the other face.\p"
+	.string "The second child said:\n"
+	.string "YOU PROMISED TO COME BACK.$"
 
 MtPyre_3F_Text_KaylaIntro:
 	.string "Ahahahaha!\p"
@@ -54,11 +60,11 @@ MtPyre_3F_Text_KaylaDefeat:
 	.string "I lost that cleanly…$"
 
 MtPyre_3F_Text_KaylaPostBattle:
-	.string "This means my training is still not\n"
-	.string "enough…\p"
-	.string "I've got to keep working toward the\n"
-	.string "summit…\p"
-	.string "Go, me!$"
+	.string "I heard a bell during our battle.\p"
+	.string "My POKéMON heard it too.\n"
+	.string "But the sound came from below us.\p"
+	.string "The clock on my POKéNAV\n"
+	.string "stopped at 3:17.$"
 
 MtPyre_3F_Text_GabrielleIntro:
 	.string "Why have you come here?$"
@@ -68,12 +74,14 @@ MtPyre_3F_Text_GabrielleDefeat:
 	.string "You're a very special TRAINER.$"
 
 MtPyre_3F_Text_GabriellePostBattle:
-	.string "POKéMON no longer of this world.\n"
-	.string "POKéMON that are with you now.\p"
-	.string "And the POKéMON that you will meet\n"
-	.string "in the future…\p"
-	.string "They are all to be equally cherished.\n"
-	.string "Please remember that.$"
+	.string "Some memories fade with time.\n"
+	.string "Others are taken away.\p"
+	.string "I sensed a small hand reaching\n"
+	.string "for yours in the darkness.\p"
+	.string "Whoever waits behind that door\n"
+	.string "has not forgotten you.\p"
+	.string "Remember them, {PLAYER}.\n"
+	.string "Even if the world cannot.$"
 
 MtPyre_3F_Text_GabrielleRegister:
 	.string "I would like to see your POKéMON\n"
