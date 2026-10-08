@@ -537,18 +537,19 @@ Route119_Text_BrendanExplainFly:
 	.string "Anyway, I have to move along.$"
 
 Route119_Text_ScottWayToGoBeSeeingYou:
-	.string "SCOTT: Hahahah!\n"
-	.string "Way to go, {PLAYER}{KUN}!\p"
-	.string "I just passed by a TRAINER riding\n"
-	.string "a BIKE.\p"
-	.string "You just beat that TRAINER, didn't you?\n"
-	.string "It was pretty obvious that you did.\p"
-	.string "The kid looked really upset with\n"
-	.string "a face all red from anger.\p"
-	.string "I sure seem to run into you often.\n"
-	.string "Are you off to FORTREE GYM next?\p"
-	.string "I expect that you'll do well at the GYM.\n"
-	.string "Well, I'll be seeing you!$"
+	.string "SCOTT: {PLAYER}! There you are!\p"
+	.string "I just passed a TRAINER on a BIKE.\n"
+	.string "Looked like you won that battle!\p"
+	.string "Something strange, though...\n"
+	.string "The kid asked who you were.\p"
+	.string "Then a second later, the kid said\n"
+	.string "you'd been missing for years.\p"
+	.string "The WEATHER INSTITUTE called about\n"
+	.string "a storm that won't move.\p"
+	.string "They say its center is a perfect\n"
+	.string "circle, right over the river.\p"
+	.string "You should get to FORTREE.\n"
+	.string "I'll be cheering you on!$"
 
 
 Route119_Text_ScottYouWonAtFortreeGym:
