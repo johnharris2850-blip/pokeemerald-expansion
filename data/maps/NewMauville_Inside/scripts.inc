@@ -254,7 +254,9 @@ NewMauville_Inside_Text_GeneratorRadiatingHeat:
 NewMauville_Inside_Text_GeneratorQuietedDown:
 	.string "The generator is silent.\p"
 	.string "But somewhere below the floor...\n"
-	.string "three faint knocks. One knock. Seven.$"
+	.string "three faint knocks. One knock. Seven.\p"
+	.string "The monitor flashes: FIND THE DOOR\n"
+	.string "WHERE THE SEA HAS NO SHORE.$"
 
 NewMauville_Inside_Text_SteppedOnSwitchGeneratorStopped:
 	.string "{PLAYER} stepped on the switch.\p"
@@ -264,4 +266,8 @@ NewMauville_Inside_Text_SteppedOnSwitchGeneratorStopped:
 	.string "A child's voice comes through the dead\n"
 	.string "speaker beside the generator:\p"
 	.string "{PLAYER}... YOU LET GO OF MY HAND.\p"
-	.string "The speaker goes silent.$"
+	.string "The speaker goes silent.\p"
+	.string "A final line appears on the monitor:\n"
+	.string "ROOM 317 - OCCUPANTS: 2.\p"
+	.string "STATUS: ONE RETURNED.\p"
+	.string "STATUS: ONE STILL WAITING.$"
