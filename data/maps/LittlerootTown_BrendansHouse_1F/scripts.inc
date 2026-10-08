@@ -375,7 +375,7 @@ PlayersHouse_1F_Text_ReportFromPetalburgGym:
 	.string "report from PETALBURG GYM.\p"
 	.string "...{PLAYER}...\p"
 	.string "Can you remember who is missing?\p"
-	.string "PLEASE DON'T FORGET M— BZZZT!$"
+	.string "PLEASE DON'T FORGET M... BZZZT!$"
 
 PlayersHouse_1F_Text_TheresAMovieOnTV:
 	.string "There is a movie on TV.\p"
