@@ -7,6 +7,7 @@ on:
       - master
       - upcoming
       - crown-and-chaos-experiment
+      - the-forgotten
   pull_request:
 
 env:
@@ -59,6 +60,14 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: crown-and-chaos-expansion-baseline-${{ github.sha }}
+          path: crown_and_chaos.gba
+          if-no-files-found: error
+
+      - name: Package The Forgotten ROM
+        if: github.ref == 'refs/heads/the-forgotten'
+        uses: actions/upload-artifact@v4
+        with:
+          name: the-forgotten-${{ github.sha }}
           path: crown_and_chaos.gba
           if-no-files-found: error
 
