@@ -16,21 +16,22 @@ SeafloorCavern_Room1_Text_Grunt1Intro:
 	.string "Go on home already!$"
 
 SeafloorCavern_Room1_Text_Grunt1Defeat:
-	.string "I want to go home…$"
+	.string "I heard someone call my name…$"
 
 SeafloorCavern_Room1_Text_Grunt1PostBattle:
-	.string "I want to get a promotion so I can\n"
-	.string "boss around the GRUNTS…$"
+	.string "The sonar showed ROOM 317.\p"
+	.string "There is no room by that name.\n"
+	.string "So why is it calling us?$"
 
 SeafloorCavern_Room1_Text_Grunt2Intro:
-	.string "That submarine… It's tiny inside.\n"
-	.string "I'm sore all over!$"
+	.string "The submarine picked up a voice.\n"
+	.string "It sounded exactly like mine!$"
 
 SeafloorCavern_Room1_Text_Grunt2Defeat:
 	.string "Losing makes me sore!$"
 
 SeafloorCavern_Room1_Text_Grunt2PostBattle:
-	.string "That submarine we jacked, man,\n"
-	.string "it's brutal as a ride.\l"
-	.string "It's way too tight in there!$"
+	.string "The radio whispered RETURNED.\p"
+	.string "Then it whispered FORGOTTEN.\n"
+	.string "We shut it off. It kept talking.$"
 
