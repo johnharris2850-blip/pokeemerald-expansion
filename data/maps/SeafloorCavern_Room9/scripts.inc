@@ -249,18 +249,21 @@ SeafloorCavern_Room9_Text_ArchieWithThisRedOrb:
 	.string "With this RED ORB, I can make KYOGRE…$"
 
 SeafloorCavern_Room9_Text_RedOrbShinesByItself:
-	.string "The RED ORB suddenly began shining\n"
-	.string "by itself!$"
+	.string "The RED ORB began to shine.\p"
+	.string "A bell rang beneath the sea.\n"
+	.string "The stone floor shook.$"
 
 SeafloorCavern_Room9_Text_ArchieWhereDidKyogreGo:
 	.string "ARCHIE: What?!\p"
 	.string "I didn't do anything.\n"
 	.string "Why did the RED ORB…\p"
-	.string "Where did KYOGRE go?$"
+	.string "Where did KYOGRE go?\p"
+	.string "Why does the cave echo 317?$"
 
 SeafloorCavern_Room9_Text_ArchieAMessageFromOutside:
-	.string "ARCHIE: Hm? It's a message from our\n"
-	.string "members outside…$"
+	.string "ARCHIE: A message from outside…\p"
+	.string "The radio says RETURNED.\n"
+	.string "Who's sending that?$"
 
 SeafloorCavern_Room9_Text_ArchieWhatRainingTooHard:
 	.string "ARCHIE: Yes, what is it?\p"
@@ -312,5 +315,6 @@ SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue:
 	.string "world that we desired!$"
 
 SeafloorCavern_Room9_Text_MaxieComeOnPlayer:
-	.string "MAXIE: {PLAYER}, come on, you have\n"
-	.string "to get out of here, too!$"
+	.string "MAXIE: {PLAYER}, get out of here!\p"
+	.string "The sealed chamber is waking.\n"
+	.string "We must reach the surface!$"
