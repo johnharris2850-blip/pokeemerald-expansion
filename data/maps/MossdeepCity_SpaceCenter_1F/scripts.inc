@@ -350,16 +350,16 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream:
 	.string "I'm not having any of that!$"
 
 MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel:
-	.string "STEVEN: {PLAYER}{KUN}, have you read that\n"
-	.string "proclamation already?\p"
-	.string "TEAM MAGMA is coming after the rocket\n"
-	.string "fuel on this island.\p"
-	.string "I don't know what they'd need it for,\n"
-	.string "but they can't be allowed to take it.\p"
-	.string "I'll keep an eye on things for\n"
-	.string "a while longer.\p"
-	.string "In the meantime, why don't you go\n"
-	.string "check out the town?$"
+	.string "STEVEN: {PLAYER}{KUN}, have you\n"
+	.string "read TEAM MAGMA's warning?\p"
+	.string "They intend to steal rocket fuel.\n"
+	.string "We must not let them take it.\p"
+	.string "But the SPACE CENTER has also\n"
+	.string "detected something impossible.\p"
+	.string "A signal rose from beneath the sea\n"
+	.string "at exactly 3:17.\p"
+	.string "It repeated your name, {PLAYER}.\n"
+	.string "I'll investigate. Stay alert.$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt3Intro:
 	.string "As promised, we've come for\n"
@@ -394,10 +394,12 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt4Defeat:
 	.string "Even a chintzy cup will do!$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt4PostBattle:
-	.string "What are we going to do with\n"
-	.string "the rocket fuel?\p"
-	.string "How would I know?\n"
-	.string "Ask our leader upstairs!$"
+	.string "Why steal rocket fuel?\n"
+	.string "Ask MAXIE upstairs!\p"
+	.string "He says MT. CHIMNEY is hiding\n"
+	.string "something far beneath the rock.\p"
+	.string "Our survey clock stopped at 3:17.\n"
+	.string "I don't like that number.$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt2Intro:
 	.string "Our leader said no one, but no one,\n"
@@ -412,13 +414,10 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt2PostBattle:
 	.string "That I stayed to the bitter end…$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice:
-	.string "This is…\n"
-	.string "An intent-to-steal notice?\p"
-	.string "“To the staff of the SPACE CENTER:\n"
-	.string "How are you? We are doing fine.\p"
-	.string "“We will soon visit you to take your\n"
-	.string "rocket fuel.\p"
-	.string "“Please don't try to stop us.\n"
-	.string "We will take the fuel no matter what.\p"
-	.string "“Let there be more land!\n"
-	.string "                                          TEAM MAGMA”$"
+	.string "A notice from TEAM MAGMA:\p"
+	.string "WE WILL TAKE YOUR ROCKET FUEL.\n"
+	.string "DO NOT TRY TO STOP US.\p"
+	.string "LET THERE BE MORE LAND!\n"
+	.string "             TEAM MAGMA\p"
+	.string "On the back, in different ink:\n"
+	.string "ROOM 317. DO NOT OPEN THE DOOR.$"
