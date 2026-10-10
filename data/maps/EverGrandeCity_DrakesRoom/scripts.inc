@@ -72,7 +72,11 @@ EverGrandeCity_DrakesRoom_Text_IntroSpeech:
 	.string "partners, do you know what it takes?\p"
 	.string "Do you know what is needed?\p"
 	.string "If you don't, then you will never\n"
-	.string "prevail over me!$"
+	.string "prevail over me!\p"
+	.string "At sea, I found a ship's log.\n"
+	.string "Its last entry was ROOM 317.\p"
+	.string "The crew heard a bell below deck.\n"
+	.string "There was no bell aboard.$"
 
 EverGrandeCity_DrakesRoom_Text_Defeat:
 	.string "Superb, it should be said.$"
@@ -88,5 +92,7 @@ EverGrandeCity_DrakesRoom_Text_PostBattleSpeech:
 	.string "They touch the good hearts of\n"
 	.string "TRAINERS and grow strong.\p"
 	.string "Go! Go onwards!\n"
-	.string "The CHAMPION is waiting!$"
+	.string "The CHAMPION is waiting!\p"
+	.string "But heed an old sailor's warning:\n"
+	.string "not all who return are saved.$"
 
