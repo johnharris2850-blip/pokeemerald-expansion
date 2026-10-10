@@ -29,7 +29,9 @@ VictoryRoad_B1F_EventScript_Halle::
 VictoryRoad_B1F_Text_SamuelIntro:
 	.string "The thought that I'm getting closer to\n"
 	.string "the POKéMON LEAGUE…\p"
-	.string "I'm getting stage fright…$"
+	.string "I'm getting stage fright…\p"
+	.string "Someone whispered RETURNED\n"
+	.string "from the tunnel behind me.$"
 
 VictoryRoad_B1F_Text_SamuelDefeat:
 	.string "I couldn't do a thing…$"
@@ -60,7 +62,9 @@ VictoryRoad_B1F_Text_MichelleDefeat:
 
 VictoryRoad_B1F_Text_MichellePostBattle:
 	.string "You'll do fine, for sure!\n"
-	.string "Your POKéMON are all eager to go!$"
+	.string "Your POKéMON are all eager to go!\p"
+	.string "Mine keep staring at the dark.\n"
+	.string "There's nothing there… I think.$"
 
 VictoryRoad_B1F_Text_MitchellIntro:
 	.string "My POKéMON are cosmically\n"
