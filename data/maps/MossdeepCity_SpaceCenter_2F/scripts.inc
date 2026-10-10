@@ -115,13 +115,13 @@ MossdeepCity_SpaceCenter_2F_EventScript_Investigate317::
 	end
 
 MossdeepCity_SpaceCenter_2F_EventScript_Read317::
-	goto_if_set FLAG_UNUSED_0x020, MossdeepCity_SpaceCenter_2F_EventScript_317AlreadyRead
+	goto_if_set FLAG_UNUSED_0x021, MossdeepCity_SpaceCenter_2F_EventScript_317AlreadyRead
 	msgbox MossdeepCity_SpaceCenter_2F_Text_SealedRecord317, MSGBOX_DEFAULT
-	setflag FLAG_UNUSED_0x020
+	setflag FLAG_UNUSED_0x021
 	release
 	end
 
-@ FLAG_UNUSED_0x020 is reserved for the persistent Room 317 archive clue.
+@ FLAG_UNUSED_0x021 is reserved for the persistent Room 317 archive clue.
 MossdeepCity_SpaceCenter_2F_EventScript_317AlreadyRead::
 	msgbox MossdeepCity_SpaceCenter_2F_Text_317NextLead, MSGBOX_DEFAULT
 	release
