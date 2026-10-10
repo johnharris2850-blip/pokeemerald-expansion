@@ -430,7 +430,7 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice:
 
 @ Postgame hint directing the player to the second-floor archive.
 MossdeepCity_SpaceCenter_1F_Text_Postgame317Directions:
-	.string "SCIENTIST: The sealed records\\n"
-	.string "are kept upstairs.\\p"
-	.string "Ask my colleague about FILE 317.\\n"
+	.string "SCIENTIST: The sealed records\n"
+	.string "are kept upstairs.\p"
+	.string "Ask my colleague about FILE 317.\n"
 	.string "STEVEN said you might come.$"
