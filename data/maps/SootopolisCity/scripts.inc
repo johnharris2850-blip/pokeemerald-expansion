@@ -1558,8 +1558,8 @@ SootopolisCity_Text_WeatherWentWild:
 	.string "All of a sudden, dark clouds brewed up,\n"
 	.string "rain started falling in sheets, and\l"
 	.string "there was thunder and lightning, too.\p"
-	.string "The weather just went completely\n"
-	.string "wild!\p"
+	.string "The rain began when the old bell\n"
+	.string "rang beneath the city.\p"
 	.string "Is all of this because of those\n"
 	.string "POKéMON?$"
 
@@ -1613,6 +1613,8 @@ SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
 	.string "were awakened from a long sleep…\p"
 	.string "And now they are smashing each other\n"
 	.string "with their uncontrollable energy…\p"
+	.string "MOSSDEEP's scanner showed 317.\n"
+	.string "Then the signal vanished.\p"
 	.string "…{PLAYER}{KUN}.\p"
 	.string "You being here now I'll take to mean\n"
 	.string "that you're prepared to become\l"
@@ -1634,6 +1636,8 @@ SootopolisCity_Text_HereWereAreHelpWallace:
 	.string "STEVEN: Okay, here we are!\p"
 	.string "Inside here you'll find someone named\n"
 	.string "WALLACE.\p"
+	.string "He knows about the sealed chamber\n"
+	.string "and the missing heartbeat.\p"
 	.string "I think you have what's needed to\n"
 	.string "help him…$"
 
