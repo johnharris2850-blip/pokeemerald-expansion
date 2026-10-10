@@ -508,20 +508,20 @@ MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome:
 
 @ The Forgotten: accessible only after entering the Hall of Fame.
 MossdeepCity_SpaceCenter_2F_Text_AskAbout317:
-	.string "SCIENTIST: STEVEN left a request.\\p"
-	.string "Do you want to inspect the\\n"
+	.string "SCIENTIST: STEVEN left a request.\p"
+	.string "Do you want to inspect the\n"
 	.string "sealed ROOM 317 file?$"
 
 MossdeepCity_SpaceCenter_2F_Text_KeepRecordsSealed:
-	.string "SCIENTIST: I'll keep it safe.\\n"
+	.string "SCIENTIST: I'll keep it safe.\n"
 	.string "Ask whenever you're ready.$"
 
 MossdeepCity_SpaceCenter_2F_Text_SealedRecord317:
-	.string "FILE 317 - ACCESS GRANTED.\\p"
-	.string "Two children entered the chamber.\\n"
-	.string "Only one came back.\\p"
-	.string "The returned child's heartbeat\\n"
-	.string "was recorded twice.\\p"
-	.string "The other entry was erased.\\p"
-	.string "FINAL NOTE: The bell was heard\\n"
+	.string "FILE 317 - ACCESS GRANTED.\p"
+	.string "Two children entered the chamber.\n"
+	.string "Only one came back.\p"
+	.string "The returned child's heartbeat\n"
+	.string "was recorded twice.\p"
+	.string "The other entry was erased.\p"
+	.string "FINAL NOTE: The bell was heard\n"
 	.string "beneath the SEAFLOOR CAVERN.$"
