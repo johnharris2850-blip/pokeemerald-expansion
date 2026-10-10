@@ -1498,7 +1498,9 @@ SootopolisCity_Text_NoOrdinaryTourist:
 	.string "an extraordinary tourist, either.$"
 
 SootopolisCity_Text_CityRegainedCalm:
-	.string "The city has regained its calm…$"
+	.string "The city has regained its calm…\p"
+	.string "But at night, a bell can still be\n"
+	.string "heard beneath the water.$"
 
 SootopolisCity_Text_CaveOfOriginPleaseLeave:
 	.string "Who might you be?\p"
@@ -1653,7 +1655,9 @@ SootopolisCity_Text_NeverBeenToSkyPillar:
 SootopolisCity_Text_SoThatsRayquaza:
 	.string "STEVEN: So that's RAYQUAZA…\p"
 	.string "It's incredible how the two rampaging\n"
-	.string "POKéMON would flee from it in fear…$"
+	.string "POKéMON would flee from it in fear…\p"
+	.string "Yet the bell has not stopped.\n"
+	.string "The second heartbeat is still there.$"
 
 SootopolisCity_Text_MaxieArchieLeft:
 	.string "STEVEN: It looks like both MAXIE and\n"
@@ -1683,7 +1687,9 @@ SootopolisCity_Text_ThankYouForHelpAcceptThis:
 	.string "No, all of HOENN was saved.\p"
 	.string "On behalf of the people, I thank you.\p"
 	.string "This is a gift from me.\n"
-	.string "Please accept it.$"
+	.string "Please accept it.\p"
+	.string "When the League is behind you,\n"
+	.string "remember the number 317.$"
 
 SootopolisCity_Text_ExplainWaterfallGoToGym:
 	.string "That HIDDEN MACHINE contains\n"
