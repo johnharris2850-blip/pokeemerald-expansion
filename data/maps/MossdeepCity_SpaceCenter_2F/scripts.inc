@@ -115,7 +115,15 @@ MossdeepCity_SpaceCenter_2F_EventScript_Investigate317::
 	end
 
 MossdeepCity_SpaceCenter_2F_EventScript_Read317::
+	goto_if_set FLAG_UNUSED_0x020, MossdeepCity_SpaceCenter_2F_EventScript_317AlreadyRead
 	msgbox MossdeepCity_SpaceCenter_2F_Text_SealedRecord317, MSGBOX_DEFAULT
+	setflag FLAG_UNUSED_0x020
+	release
+	end
+
+@ FLAG_UNUSED_0x020 is reserved for the persistent Room 317 archive clue.
+MossdeepCity_SpaceCenter_2F_EventScript_317AlreadyRead::
+	msgbox MossdeepCity_SpaceCenter_2F_Text_317NextLead, MSGBOX_DEFAULT
 	release
 	end
 
@@ -525,3 +533,9 @@ MossdeepCity_SpaceCenter_2F_Text_SealedRecord317:
 	.string "The other entry was erased.\p"
 	.string "FINAL NOTE: The bell was heard\n"
 	.string "beneath the SEAFLOOR CAVERN.$"
+
+MossdeepCity_SpaceCenter_2F_Text_317NextLead:
+	.string "SCIENTIST: You have FILE 317.\p"
+	.string "The last signal came from\n"
+	.string "SEAFLOOR CAVERN.\p"
+	.string "Go there and search for clues.$"
