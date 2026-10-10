@@ -89,8 +89,14 @@ MossdeepCity_SpaceCenter_1F_EventScript_ShowLaunchNumberMagma::
 MossdeepCity_SpaceCenter_1F_EventScript_Scientist::
 	lock
 	faceplayer
+	goto_if_set FLAG_SYS_GAME_CLEAR, MossdeepCity_SpaceCenter_1F_EventScript_ScientistPostgame317
 	goto_if_eq VAR_MOSSDEEP_CITY_STATE, 2, MossdeepCity_SpaceCenter_1F_EventScript_ScientistMagma
 	msgbox MossdeepCity_SpaceCenter_1F_Text_RocketLaunchDemandsPerfection, MSGBOX_DEFAULT
+	release
+	end
+
+MossdeepCity_SpaceCenter_1F_EventScript_ScientistPostgame317::
+	msgbox MossdeepCity_SpaceCenter_1F_Text_Postgame317Directions, MSGBOX_DEFAULT
 	release
 	end
 
@@ -421,3 +427,10 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice:
 	.string "             TEAM MAGMA\p"
 	.string "On the back, in different ink:\n"
 	.string "ROOM 317. DO NOT OPEN THE DOOR.$"
+
+@ Postgame hint directing the player to the second-floor archive.
+MossdeepCity_SpaceCenter_1F_Text_Postgame317Directions:
+	.string "SCIENTIST: The sealed records\\n"
+	.string "are kept upstairs.\\p"
+	.string "Ask my colleague about FILE 317.\\n"
+	.string "STEVEN said you might come.$"
