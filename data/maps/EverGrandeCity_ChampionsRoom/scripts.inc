@@ -240,7 +240,11 @@ EverGrandeCity_ChampionsRoom_Text_IntroSpeech:
 	.string "Now!\p"
 	.string "Who can most elegantly dance with\n"
 	.string "their POKéMON in HOENN?\p"
-	.string "Show me right here and now!$"
+	.string "Show me right here and now!\p"
+	.string "And {PLAYER}… That second heartbeat\n"
+	.string "never vanished from the scanner.\p"
+	.string "The reading still says RETURNED.\n"
+	.string "We must speak after this battle.$"
 
 EverGrandeCity_ChampionsRoom_Text_Defeat:
 	.string "I, the CHAMPION, fall in defeat…\p"
@@ -264,7 +268,9 @@ EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech:
 	.string "You now stand at the glorious peak\n"
 	.string "of the POKéMON LEAGUE.\p"
 	.string "I now proclaim you to be the new\n"
-	.string "HOENN region…$"
+	.string "HOENN region…\p"
+	.string "Yet one mystery remains.\n"
+	.string "Room 317 is still calling.$"
 
 EverGrandeCity_ChampionsRoom_Text_MayAdvice:
 	.string "MAY: {PLAYER}{KUN}!\p"
