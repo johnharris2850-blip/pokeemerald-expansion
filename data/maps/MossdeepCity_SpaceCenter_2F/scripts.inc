@@ -101,7 +101,21 @@ MossdeepCity_SpaceCenter_2F_EventScript_Scientist::
 	end
 
 MossdeepCity_SpaceCenter_2F_EventScript_ScientistNormal::
+	goto_if_set FLAG_SYS_GAME_CLEAR, MossdeepCity_SpaceCenter_2F_EventScript_Investigate317
 	msgbox MossdeepCity_SpaceCenter_2F_Text_MossdeepIdealForRockets, MSGBOX_DEFAULT
+	release
+	end
+
+@ Postgame investigation: the player must actively request the sealed file.
+MossdeepCity_SpaceCenter_2F_EventScript_Investigate317::
+	msgbox MossdeepCity_SpaceCenter_2F_Text_AskAbout317, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, MossdeepCity_SpaceCenter_2F_EventScript_Read317
+	msgbox MossdeepCity_SpaceCenter_2F_Text_KeepRecordsSealed, MSGBOX_DEFAULT
+	release
+	end
+
+MossdeepCity_SpaceCenter_2F_EventScript_Read317::
+	msgbox MossdeepCity_SpaceCenter_2F_Text_SealedRecord317, MSGBOX_DEFAULT
 	release
 	end
 
@@ -491,3 +505,23 @@ MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome:
 	.string "Come see me at my house here\n"
 	.string "in MOSSDEEP. I have something\l"
 	.string "important to give you.$"
+
+@ The Forgotten: accessible only after entering the Hall of Fame.
+MossdeepCity_SpaceCenter_2F_Text_AskAbout317:
+	.string "SCIENTIST: STEVEN left a request.\\p"
+	.string "Do you want to inspect the\\n"
+	.string "sealed ROOM 317 file?$"
+
+MossdeepCity_SpaceCenter_2F_Text_KeepRecordsSealed:
+	.string "SCIENTIST: I'll keep it safe.\\n"
+	.string "Ask whenever you're ready.$"
+
+MossdeepCity_SpaceCenter_2F_Text_SealedRecord317:
+	.string "FILE 317 - ACCESS GRANTED.\\p"
+	.string "Two children entered the chamber.\\n"
+	.string "Only one came back.\\p"
+	.string "The returned child's heartbeat\\n"
+	.string "was recorded twice.\\p"
+	.string "The other entry was erased.\\p"
+	.string "FINAL NOTE: The bell was heard\\n"
+	.string "beneath the SEAFLOOR CAVERN.$"
