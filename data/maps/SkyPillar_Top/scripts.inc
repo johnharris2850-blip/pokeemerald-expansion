@@ -178,5 +178,10 @@ SkyPillar_Top_Movement_CameraPanDown:
 	step_end
 
 SkyPillar_Top_Text_RayquazaFlewOff:
-	.string "The awakened RAYQUAZA flew off…$"
+	.string "RAYQUAZA answered the storm.\p"
+	.string "A distant bell rang three times.\p"
+	.string "For a moment, the clouds formed\n"
+	.string "the number 317.\p"
+	.string "Then RAYQUAZA flew toward\n"
+	.string "SOOTOPOLIS CITY…$"
 
