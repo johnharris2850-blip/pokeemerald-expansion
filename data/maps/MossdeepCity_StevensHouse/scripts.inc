@@ -206,6 +206,12 @@ MossdeepCity_StevensHouse_Text_LetterFromSteven:
 	.string "POKéMON.\p"
 	.string "I'm counting on you.\p"
 	.string "May our paths cross someday.\p"
+	.string "P.S. The scanner still detects\n"
+	.string "two heartbeats beneath HOENN.\p"
+	.string "One signal reads RETURNED.\n"
+	.string "The other reads FORGOTTEN.\p"
+	.string "Search the SPACE CENTER records.\n"
+	.string "Ask about ROOM 317.\p"
 	.string "STEVEN STONE$"
 
 MossdeepCity_StevensHouse_Text_CollectionOfRareRocks:
