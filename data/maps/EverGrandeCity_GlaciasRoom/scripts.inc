@@ -67,7 +67,10 @@ EverGrandeCity_GlaciasRoom_Text_IntroSpeech:
 	.string "weak TRAINERS and their POKéMON.\p"
 	.string "What about you?\p"
 	.string "It would please me to no end if I could\n"
-	.string "go all out against you!$"
+	.string "go all out against you!\p"
+	.string "Before you came, frost formed\n"
+	.string "the number 317 on my mirror.\p"
+	.string "No one had touched the glass.$"
 
 EverGrandeCity_GlaciasRoom_Text_Defeat:
 	.string "You and your POKéMON…\n"
@@ -79,5 +82,7 @@ EverGrandeCity_GlaciasRoom_Text_Defeat:
 EverGrandeCity_GlaciasRoom_Text_PostBattleSpeech:
 	.string "Advance to the next room.\p"
 	.string "And there, confirm the truly fearsome\n"
-	.string "side of the POKéMON LEAGUE.$"
+	.string "side of the POKéMON LEAGUE.\p"
+	.string "I heard a child beneath the ice.\n"
+	.string "It asked, 'Which one returned?'$"
 
