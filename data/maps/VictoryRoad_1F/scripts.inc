@@ -128,6 +128,8 @@ VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore:
 	.string "But I'm not going to lose anymore!\p"
 	.string "I'm going to win! For the POKéMON who\n"
 	.string "gave me courage and strength!\p"
+	.string "I heard a bell echoing down here.\n"
+	.string "But I won't let fear stop me!\p"
 	.string "Okay… Here I come!$"
 
 VictoryRoad_1F_Text_WallyEntranceDefeat:
@@ -157,7 +159,9 @@ VictoryRoad_1F_Text_WallyPostBattle:
 
 VictoryRoad_1F_Text_EdgarIntro:
 	.string "I've made it this far a couple times,\n"
-	.string "but the last stretch is so long…$"
+	.string "but the last stretch is so long…\p"
+	.string "And who keeps carving 317\n"
+	.string "into these walls?$"
 
 VictoryRoad_1F_Text_EdgarDefeat:
 	.string "My dream ends here again…$"
