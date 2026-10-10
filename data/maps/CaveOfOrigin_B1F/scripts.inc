@@ -81,7 +81,14 @@ CaveOfOrigin_B1F_Text_WallaceStory:
 	.string "becalmed the two combatants in\l"
 	.string "the distant past.\p"
 	.string "But even I have no clue as to\n"
-	.string "RAYQUAZA's whereabouts…$"
+	.string "RAYQUAZA's whereabouts…\p"
+	.string "There is something else.\p"
+	.string "The walls here bear the number 317.\n"
+	.string "No one remembers carving it.\p"
+	.string "STEVEN spoke of two heartbeats.\n"
+	.string "One was marked RETURNED.\p"
+	.string "First, we must calm the legends.\n"
+	.string "Then we can face this mystery.$"
 
 CaveOfOrigin_B1F_Text_WhereIsRayquaza:
 	.string "WALLACE: {PLAYER}{KUN}, do you perhaps\n"
@@ -114,5 +121,6 @@ CaveOfOrigin_B1F_Text_WellHeadToSkyPillar:
 	.string "That's it!\n"
 	.string "It must be the SKY PILLAR!\p"
 	.string "{PLAYER}{KUN}, there's not a moment to lose!\n"
-	.string "We'll head to the SKY PILLAR right away!$"
+	.string "We'll head to the SKY PILLAR right away!\p"
+	.string "The bell can wait. HOENN cannot.$"
 
