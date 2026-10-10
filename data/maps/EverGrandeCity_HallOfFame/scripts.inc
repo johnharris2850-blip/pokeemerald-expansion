@@ -85,11 +85,16 @@ EverGrandeCity_HallOfFame_Text_HereWeHonorLeagueChampions:
 	.string "POKéMON that prevailed through\l"
 	.string "harsh battles.\p"
 	.string "It is here that the LEAGUE CHAMPIONS\n"
-	.string "are honored.$"
+	.string "are honored.\p"
+	.string "But a name vanished from these\n"
+	.string "records long before you came.\p"
+	.string "The empty entry reads 317.$"
 
 EverGrandeCity_HallOfFame_Text_LetsRecordYouAndYourPartnersNames:
 	.string "WALLACE: Come on, let's record your\n"
 	.string "name as a TRAINER who triumphed over\l"
 	.string "the POKéMON LEAGUE, and the names of\l"
-	.string "the partners who battled with you.$"
+	.string "the partners who battled with you.\p"
+	.string "When you return home, find STEVEN.\n"
+	.string "The missing record is our clue.$"
 
