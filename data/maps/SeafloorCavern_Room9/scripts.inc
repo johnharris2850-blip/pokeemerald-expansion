@@ -350,7 +350,23 @@ SeafloorCavern_Room9_EventScript_TouchSeal::
 
 @ Persistent clue marker, reserved for the postgame Room 317 story.
 SeafloorCavern_Room9_EventScript_SealRemembered::
+	goto_if_set FLAG_UNUSED_0x023, SeafloorCavern_Room9_EventScript_SealInspected
 	msgbox SeafloorCavern_Room9_Text_SealRemembered, MSGBOX_DEFAULT
+	msgbox SeafloorCavern_Room9_Text_ListenAtDoor, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, SeafloorCavern_Room9_EventScript_ListenAtDoor
+	release
+	end
+
+SeafloorCavern_Room9_EventScript_ListenAtDoor::
+	playse SE_M_DETECT
+	waitse
+	msgbox SeafloorCavern_Room9_Text_DoorWhisper, MSGBOX_DEFAULT
+	setflag FLAG_UNUSED_0x023
+	release
+	end
+
+SeafloorCavern_Room9_EventScript_SealInspected::
+	msgbox SeafloorCavern_Room9_Text_DoorInspected, MSGBOX_DEFAULT
 	release
 	end
 
@@ -392,3 +408,21 @@ SeafloorCavern_Room9_Text_SealRemembered:
 	.string "You remember the second voice:\n"
 	.string "NOT FOR ME.\p"
 	.string "Somewhere below, a lock clicks.$"
+
+@ Second postgame clue is saved independently of the first handprint.
+SeafloorCavern_Room9_Text_ListenAtDoor:
+	.string "A thin crack has opened.\p"
+	.string "Put your ear against the stone?$"
+
+SeafloorCavern_Room9_Text_DoorWhisper:
+	.string "A child whispers from below.\p"
+	.string "THE FIRST DOOR WAS A LIE.\p"
+	.string "THE REAL ONE HAS NO HANDLE.\p"
+	.string "A second voice counts:\n"
+	.string "THREE... ONE... SEVEN...\p"
+	.string "The crack seals itself again.$"
+
+SeafloorCavern_Room9_Text_DoorInspected:
+	.string "The stone is smooth and cold.\p"
+	.string "Someone has scratched a warning:\n"
+	.string "DO NOT TRUST THE RETURNED.$"
