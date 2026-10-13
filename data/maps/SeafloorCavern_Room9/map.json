@@ -133,14 +133,5 @@
       "script": "SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre"
     }
   ],
-  "bg_events": [
-    {
-      "type": "sign",
-      "x": 15,
-      "y": 40,
-      "elevation": 3,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SeafloorCavern_Room9_EventScript_SealedChamberTrace"
-    }
-  ]
+  "bg_events": []
 }
