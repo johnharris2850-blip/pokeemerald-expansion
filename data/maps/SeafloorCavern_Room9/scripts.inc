@@ -332,6 +332,7 @@ SeafloorCavern_Room9_EventScript_SealedChamberTrace::
 	end
 
 SeafloorCavern_Room9_EventScript_TracePostgame::
+	goto_if_set FLAG_UNUSED_0x022, SeafloorCavern_Room9_EventScript_SealRemembered
 	msgbox SeafloorCavern_Room9_Text_TracePostgame, MSGBOX_DEFAULT
 	msgbox SeafloorCavern_Room9_Text_TouchSeal, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, SeafloorCavern_Room9_EventScript_TouchSeal
@@ -343,6 +344,13 @@ SeafloorCavern_Room9_EventScript_TouchSeal::
 	playse SE_M_DETECT
 	waitse
 	msgbox SeafloorCavern_Room9_Text_SealResponds, MSGBOX_DEFAULT
+	setflag FLAG_UNUSED_0x022
+	release
+	end
+
+@ Persistent clue marker, reserved for the postgame Room 317 story.
+SeafloorCavern_Room9_EventScript_SealRemembered::
+	msgbox SeafloorCavern_Room9_Text_SealRemembered, MSGBOX_DEFAULT
 	release
 	end
 
@@ -377,3 +385,10 @@ SeafloorCavern_Room9_Text_SealResponds:
 	.string "briefly shines through the rock.\p"
 	.string "Its number is 317.\p"
 	.string "Then the wall is silent again.$"
+
+SeafloorCavern_Room9_Text_SealRemembered:
+	.string "The handprints are gone.\p"
+	.string "Only 317 remains in the stone.\p"
+	.string "You remember the second voice:\n"
+	.string "NOT FOR ME.\p"
+	.string "Somewhere below, a lock clicks.$"
