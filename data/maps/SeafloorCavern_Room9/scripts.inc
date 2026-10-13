@@ -316,5 +316,9 @@ SeafloorCavern_Room9_Text_MaxieWeDontHaveTimeToArgue:
 
 SeafloorCavern_Room9_Text_MaxieComeOnPlayer:
 	.string "MAXIE: {PLAYER}, get out of here!\p"
-	.string "The sealed chamber is waking.\n"
+	.string "The sealed chamber is waking.\p"
+	.string "I saw a door marked 317.\n"
+	.string "There were two shadows inside.\p"
+	.string "One shadow turned toward me.\n"
+	.string "The other had no face.\p"
 	.string "We must reach the surface!$"
