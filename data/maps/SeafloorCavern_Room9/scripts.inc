@@ -333,6 +333,16 @@ SeafloorCavern_Room9_EventScript_SealedChamberTrace::
 
 SeafloorCavern_Room9_EventScript_TracePostgame::
 	msgbox SeafloorCavern_Room9_Text_TracePostgame, MSGBOX_DEFAULT
+	msgbox SeafloorCavern_Room9_Text_TouchSeal, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, SeafloorCavern_Room9_EventScript_TouchSeal
+	msgbox SeafloorCavern_Room9_Text_LeaveSeal, MSGBOX_DEFAULT
+	release
+	end
+
+SeafloorCavern_Room9_EventScript_TouchSeal::
+	playse SE_M_DETECT
+	waitse
+	msgbox SeafloorCavern_Room9_Text_SealResponds, MSGBOX_DEFAULT
 	release
 	end
 
@@ -348,3 +358,22 @@ SeafloorCavern_Room9_Text_TracePostgame:
 	.string "You hear three distant bells.\p"
 	.string "A voice whispers: FIND THE DOOR.\p"
 	.string "The rock feels warm now.$"
+
+
+SeafloorCavern_Room9_Text_TouchSeal:
+	.string "Press your hand against\n"
+	.string "the mark in the stone?$"
+
+SeafloorCavern_Room9_Text_LeaveSeal:
+	.string "You step away from the wall.\p"
+	.string "The bells stop immediately.$"
+
+SeafloorCavern_Room9_Text_SealResponds:
+	.string "The stone pulses under your hand.\p"
+	.string "A heartbeat answers your own.\p"
+	.string "A child's voice: YOU CAME BACK.\p"
+	.string "Another voice: NOT FOR ME.\p"
+	.string "The outline of a locked door\n"
+	.string "briefly shines through the rock.\p"
+	.string "Its number is 317.\p"
+	.string "Then the wall is silent again.$"
