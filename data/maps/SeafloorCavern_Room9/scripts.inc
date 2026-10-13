@@ -322,3 +322,29 @@ SeafloorCavern_Room9_Text_MaxieComeOnPlayer:
 	.string "One shadow turned toward me.\n"
 	.string "The other had no face.\p"
 	.string "We must reach the surface!$"
+
+@ Optional post-League investigation; does not alter Kyogre or story flags.
+SeafloorCavern_Room9_EventScript_SealedChamberTrace::
+	lock
+	goto_if_set FLAG_SYS_GAME_CLEAR, SeafloorCavern_Room9_EventScript_TracePostgame
+	msgbox SeafloorCavern_Room9_Text_TraceBeforeLeague, MSGBOX_DEFAULT
+	release
+	end
+
+SeafloorCavern_Room9_EventScript_TracePostgame::
+	msgbox SeafloorCavern_Room9_Text_TracePostgame, MSGBOX_DEFAULT
+	release
+	end
+
+SeafloorCavern_Room9_Text_TraceBeforeLeague:
+	.string "A cold mark cuts through the rock.\p"
+	.string "Three scratches. Then 1 and 7.\p"
+	.string "Something is sealed below.$"
+
+SeafloorCavern_Room9_Text_TracePostgame:
+	.string "The stone is marked ROOM 317.\p"
+	.string "A child's handprint appears\n"
+	.string "beside a second, smaller print.\p"
+	.string "You hear three distant bells.\p"
+	.string "A voice whispers: FIND THE DOOR.\p"
+	.string "The rock feels warm now.$"
