@@ -473,7 +473,8 @@ Route116_Text_TrainerTipsBagHasPockets:
 Route116_EventScript_ForgottenCaveEntrance::
 	lock
 	msgbox Route116_Text_ForgottenCaveEntrance, MSGBOX_DEFAULT
-	release
+	warp MAP_RUSTURF_TUNNEL, 4, 11
+	waitstate
 	end
 
 Route116_Text_ForgottenCaveEntrance:
