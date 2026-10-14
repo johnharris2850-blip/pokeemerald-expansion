@@ -97,7 +97,7 @@
 #define FLAG_UNUSED_0x04B    0x4B // Unused Flag
 #define FLAG_UNUSED_0x04C    0x4C // Unused Flag
 #define FLAG_UNUSED_0x04D    0x4D // Unused Flag
-#define FLAG_UNUSED_0x04E    0x4E // Unused Flag
+#define FLAG_FORGOTTEN_THREE_BELLS 0x4E // The Forgotten: three-bell puzzle completed
 #define FLAG_FORGOTTEN_DUSKULL_ENCOUNTER 0x4F // The Forgotten: first ghost encounter completed
 
 // Scripts
