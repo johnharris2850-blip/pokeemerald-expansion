@@ -245,6 +245,14 @@
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "RusturfTunnel_EventScript_ForgottenApparition"
+    },
+    {
+      "type": "sign",
+      "x": 9,
+      "y": 11,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "RusturfTunnel_EventScript_ForgottenBell"
     }
   ]
 }
