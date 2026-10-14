@@ -34,3 +34,19 @@ GraniteCave_1F_Text_ExplainFlash:
 	.string "And if you hear somebody walking just\n"
 	.string "behind you... don't turn around.$"
 
+
+
+@ The Forgotten: clue encountered beyond the three bell symbols.
+GraniteCave_1F_EventScript_ForgottenPassage::
+	lock
+	msgbox GraniteCave_1F_Text_ForgottenPassage, MSGBOX_DEFAULT
+	release
+	end
+
+GraniteCave_1F_Text_ForgottenPassage:
+	.string "A rusted metal plate is buried\p"
+	.string "in the cave wall.\p"
+	.string "PROJECT RETURN - RESTRICTED\p"
+	.string "ROOM 317 - LOWER LEVEL\p"
+	.string "Someone scratched beneath it:\p"
+	.string "“The one who came back is lying.”$"
