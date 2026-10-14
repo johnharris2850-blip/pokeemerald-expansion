@@ -565,3 +565,28 @@ RusturfTunnel_Text_ForgottenEcho:
 	.string "Three distant bells ring.\p"
 	.string "Someone has carved a warning:\p"
 	.string "DO NOT TRUST THE RETURNED.$"
+
+
+@ The Forgotten: a visible apparition appears only while this event runs.
+@ A wild ghost battle uses the existing Emerald battle system and species.
+RusturfTunnel_EventScript_ForgottenApparition::
+	lock
+	playse SE_PIN
+	msgbox RusturfTunnel_Text_ForgottenApparition, MSGBOX_DEFAULT
+	setwildbattle SPECIES_DUSKULL, 12
+	dowildbattle
+	msgbox RusturfTunnel_Text_ForgottenAfterBattle, MSGBOX_DEFAULT
+	release
+	end
+
+RusturfTunnel_Text_ForgottenApparition:
+	.string "A small shadow peels away from\p"
+	.string "the cave wall.\p"
+	.string "For a moment it looks like a child.\p"
+	.string "Then its eyes begin to glow!$"
+
+RusturfTunnel_Text_ForgottenAfterBattle:
+	.string "The shadow fades into the stone.\p"
+	.string "A whisper follows you:\p"
+	.string "“He remembers everything.”\p"
+	.string "“And he wants you to forget.”$"
