@@ -603,3 +603,55 @@ RusturfTunnel_Text_ForgottenApparitionDone:
 	.string "The shadow is gone.\p"
 	.string "The words remain scratched here:\p"
 	.string "DO NOT TRUST THE RETURNED.$"
+
+
+@ The Forgotten: the first bell puzzle. It only unlocks after the
+@ apparition encounter, and the player must ring the bell three times.
+RusturfTunnel_EventScript_ForgottenBell::
+	lock
+	goto_if_unset FLAG_FORGOTTEN_DUSKULL_ENCOUNTER, RusturfTunnel_EventScript_ForgottenBellLocked
+	goto_if_set FLAG_FORGOTTEN_THREE_BELLS, RusturfTunnel_EventScript_ForgottenBellSolved
+	addvar VAR_FORGOTTEN_BELL_COUNT, 1
+	playse SE_PIN
+	goto_if_eq VAR_FORGOTTEN_BELL_COUNT, 3, RusturfTunnel_EventScript_ForgottenBellThird
+	msgbox RusturfTunnel_Text_ForgottenBellRings, MSGBOX_DEFAULT
+	release
+	end
+
+RusturfTunnel_EventScript_ForgottenBellThird::
+	setflag FLAG_FORGOTTEN_THREE_BELLS
+	msgbox RusturfTunnel_Text_ForgottenBellThird, MSGBOX_DEFAULT
+	release
+	end
+
+RusturfTunnel_EventScript_ForgottenBellLocked::
+	msgbox RusturfTunnel_Text_ForgottenBellLocked, MSGBOX_DEFAULT
+	release
+	end
+
+RusturfTunnel_EventScript_ForgottenBellSolved::
+	msgbox RusturfTunnel_Text_ForgottenBellSolved, MSGBOX_DEFAULT
+	release
+	end
+
+RusturfTunnel_Text_ForgottenBellLocked:
+	.string "An old bell hangs in the dark.\p"
+	.string "A cold shadow guards the rope.$"
+
+RusturfTunnel_Text_ForgottenBellRings:
+	.string "The bell rings once.\p"
+	.string "Somewhere deeper in the rock,\p"
+	.string "something knocks in reply.$"
+
+RusturfTunnel_Text_ForgottenBellThird:
+	.string "The third bell rings.\p"
+	.string "The cave goes completely silent.\p"
+	.string "A child's voice whispers:\p"
+	.string "“Now you remember the number.”\p"
+	.string "317.\p"
+	.string "A hidden mechanism clicks.$"
+
+RusturfTunnel_Text_ForgottenBellSolved:
+	.string "The bell will not ring again.\p"
+	.string "Scratched beneath it:\p"
+	.string "ONE RETURNED. ONE REMAINED.$"
