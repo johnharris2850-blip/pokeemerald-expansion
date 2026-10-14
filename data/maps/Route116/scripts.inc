@@ -482,5 +482,4 @@ Route116_Text_ForgottenCaveEntrance:
 	.string "Scratched into the wood: 317.\p"
 	.string "A bell rings three times from\p"
 	.string "somewhere deep inside.\p"
-	.string "The boards fall away.\\p"
-	.string "A dark tunnel lies beyond.$"
+	.string "The entrance will not open yet.$"
