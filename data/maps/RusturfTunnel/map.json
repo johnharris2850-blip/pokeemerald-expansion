@@ -252,7 +252,31 @@
       "y": 11,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "RusturfTunnel_EventScript_ForgottenBell"
+      "script": "RusturfTunnel_EventScript_ForgottenSymbolLeft"
+    },
+    {
+      "type": "sign",
+      "x": 10,
+      "y": 11,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "RusturfTunnel_EventScript_ForgottenSymbolMiddle"
+    },
+    {
+      "type": "sign",
+      "x": 11,
+      "y": 11,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "RusturfTunnel_EventScript_ForgottenSymbolRight"
+    },
+    {
+      "type": "sign",
+      "x": 12,
+      "y": 11,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "RusturfTunnel_EventScript_ForgottenHiddenDoor"
     }
   ]
 }
