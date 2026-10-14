@@ -605,53 +605,96 @@ RusturfTunnel_Text_ForgottenApparitionDone:
 	.string "DO NOT TRUST THE RETURNED.$"
 
 
-@ The Forgotten: the first bell puzzle. It only unlocks after the
-@ apparition encounter, and the player must ring the bell three times.
-RusturfTunnel_EventScript_ForgottenBell::
+@ The Forgotten: touch three wall symbols once, left to right.
+@ The fourth interaction is the hidden doorway, available after symbol three.
+RusturfTunnel_EventScript_ForgottenSymbolLeft::
 	lock
-	goto_if_unset FLAG_FORGOTTEN_DUSKULL_ENCOUNTER, RusturfTunnel_EventScript_ForgottenBellLocked
-	goto_if_set FLAG_FORGOTTEN_THREE_BELLS, RusturfTunnel_EventScript_ForgottenBellSolved
-	addvar VAR_FORGOTTEN_BELL_COUNT, 1
+	goto_if_set FLAG_FORGOTTEN_THREE_BELLS, RusturfTunnel_EventScript_ForgottenSymbolsComplete
+	goto_if_eq VAR_FORGOTTEN_BELL_COUNT, 0, RusturfTunnel_EventScript_ForgottenSymbolLeftCorrect
+	msgbox RusturfTunnel_Text_SymbolAlreadyTouched, MSGBOX_DEFAULT
+	release
+	end
+
+RusturfTunnel_EventScript_ForgottenSymbolLeftCorrect::
+	setvar VAR_FORGOTTEN_BELL_COUNT, 1
 	playse SE_PIN
-	goto_if_eq VAR_FORGOTTEN_BELL_COUNT, 3, RusturfTunnel_EventScript_ForgottenBellThird
-	msgbox RusturfTunnel_Text_ForgottenBellRings, MSGBOX_DEFAULT
+	msgbox RusturfTunnel_Text_SymbolLeft, MSGBOX_DEFAULT
 	release
 	end
 
-RusturfTunnel_EventScript_ForgottenBellThird::
+RusturfTunnel_EventScript_ForgottenSymbolMiddle::
+	lock
+	goto_if_set FLAG_FORGOTTEN_THREE_BELLS, RusturfTunnel_EventScript_ForgottenSymbolsComplete
+	goto_if_eq VAR_FORGOTTEN_BELL_COUNT, 1, RusturfTunnel_EventScript_ForgottenSymbolMiddleCorrect
+	msgbox RusturfTunnel_Text_SymbolWrongOrder, MSGBOX_DEFAULT
+	release
+	end
+
+RusturfTunnel_EventScript_ForgottenSymbolMiddleCorrect::
+	setvar VAR_FORGOTTEN_BELL_COUNT, 2
+	playse SE_PIN
+	msgbox RusturfTunnel_Text_SymbolMiddle, MSGBOX_DEFAULT
+	release
+	end
+
+RusturfTunnel_EventScript_ForgottenSymbolRight::
+	lock
+	goto_if_set FLAG_FORGOTTEN_THREE_BELLS, RusturfTunnel_EventScript_ForgottenSymbolsComplete
+	goto_if_eq VAR_FORGOTTEN_BELL_COUNT, 2, RusturfTunnel_EventScript_ForgottenSymbolRightCorrect
+	msgbox RusturfTunnel_Text_SymbolWrongOrder, MSGBOX_DEFAULT
+	release
+	end
+
+RusturfTunnel_EventScript_ForgottenSymbolRightCorrect::
 	setflag FLAG_FORGOTTEN_THREE_BELLS
-	msgbox RusturfTunnel_Text_ForgottenBellThird, MSGBOX_DEFAULT
+	playse SE_PIN
+	msgbox RusturfTunnel_Text_SymbolRight, MSGBOX_DEFAULT
 	release
 	end
 
-RusturfTunnel_EventScript_ForgottenBellLocked::
-	msgbox RusturfTunnel_Text_ForgottenBellLocked, MSGBOX_DEFAULT
+RusturfTunnel_EventScript_ForgottenSymbolsComplete::
+	msgbox RusturfTunnel_Text_SymbolAlreadyTouched, MSGBOX_DEFAULT
 	release
 	end
 
-RusturfTunnel_EventScript_ForgottenBellSolved::
-	msgbox RusturfTunnel_Text_ForgottenBellSolved, MSGBOX_DEFAULT
+RusturfTunnel_EventScript_ForgottenHiddenDoor::
+	lock
+	goto_if_unset FLAG_FORGOTTEN_THREE_BELLS, RusturfTunnel_EventScript_ForgottenDoorLocked
+	msgbox RusturfTunnel_Text_DoorOpened, MSGBOX_DEFAULT
+	warp MAP_GRANITE_CAVE_1F, 36, 11
+	waitstate
+	end
+
+RusturfTunnel_EventScript_ForgottenDoorLocked::
+	msgbox RusturfTunnel_Text_DoorLocked, MSGBOX_DEFAULT
 	release
 	end
 
-RusturfTunnel_Text_ForgottenBellLocked:
-	.string "An old bell hangs in the dark.\p"
-	.string "A cold shadow guards the rope.$"
+RusturfTunnel_Text_SymbolLeft:
+	.string "You touch the LEFT bell symbol.\p"
+	.string "It glows faintly. One of three.$"
 
-RusturfTunnel_Text_ForgottenBellRings:
-	.string "The bell rings once.\p"
-	.string "Somewhere deeper in the rock,\p"
-	.string "something knocks in reply.$"
+RusturfTunnel_Text_SymbolMiddle:
+	.string "You touch the MIDDLE bell symbol.\p"
+	.string "A second mark begins to glow.$"
 
-RusturfTunnel_Text_ForgottenBellThird:
-	.string "The third bell rings.\p"
-	.string "The cave goes completely silent.\p"
-	.string "A child's voice whispers:\p"
-	.string "“Now you remember the number.”\p"
-	.string "317.\p"
-	.string "A hidden mechanism clicks.$"
+RusturfTunnel_Text_SymbolRight:
+	.string "You touch the RIGHT bell symbol.\p"
+	.string "All three marks glow at once!\p"
+	.string "A hidden stone doorway opens.$"
 
-RusturfTunnel_Text_ForgottenBellSolved:
-	.string "The bell will not ring again.\p"
-	.string "Scratched beneath it:\p"
-	.string "ONE RETURNED. ONE REMAINED.$"
+RusturfTunnel_Text_SymbolWrongOrder:
+	.string "A bell symbol is carved here.\p"
+	.string "Touch the symbols left to right.$"
+
+RusturfTunnel_Text_SymbolAlreadyTouched:
+	.string "The bell symbols are glowing.\p"
+	.string "A doorway has opened nearby.$"
+
+RusturfTunnel_Text_DoorLocked:
+	.string "A stone doorway is sealed shut.\p"
+	.string "Three bell symbols are above it.$"
+
+RusturfTunnel_Text_DoorOpened:
+	.string "The stone door slides aside.\p"
+	.string "A passage leads into darkness.$"
