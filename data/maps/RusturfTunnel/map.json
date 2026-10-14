@@ -221,5 +221,14 @@
       "script": "RusturfTunnel_EventScript_TunnelBlockagePos3"
     }
   ],
-  "bg_events": []
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 6,
+      "y": 11,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "RusturfTunnel_EventScript_ForgottenFootprints"
+    }
+  ]
 }
