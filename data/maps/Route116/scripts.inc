@@ -468,3 +468,18 @@ Route116_Text_TrainerTipsBagHasPockets:
 	.string "No TRAINER can afford to be without\n"
 	.string "a BAG of their own.$"
 
+@ The Forgotten: the abandoned cave entrance on Route 116.
+@ Uses an existing secret-base wall location; no new map IDs or layouts.
+Route116_EventScript_ForgottenCaveEntrance::
+	lock
+	msgbox Route116_Text_ForgottenCaveEntrance, MSGBOX_DEFAULT
+	release
+	end
+
+Route116_Text_ForgottenCaveEntrance:
+	.string "A strange cave opening is sealed\p"
+	.string "with old boards.\p"
+	.string "Scratched into the wood: 317.\p"
+	.string "A bell rings three times from\p"
+	.string "somewhere deep inside.\p"
+	.string "The entrance will not open yet.$"
