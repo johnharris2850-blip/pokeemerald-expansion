@@ -467,11 +467,12 @@
       "script": "Route116_EventScript_TunnelersRestHouseSign"
     },
     {
-      "type": "secret_base",
+      "type": "sign",
       "x": 71,
       "y": 4,
       "elevation": 0,
-      "secret_base_id": "SECRET_BASE_BLUE_CAVE1_1"
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Route116_EventScript_ForgottenCaveEntrance"
     },
     {
       "type": "secret_base",
