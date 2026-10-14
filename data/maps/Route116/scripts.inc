@@ -473,6 +473,8 @@ Route116_Text_TrainerTipsBagHasPockets:
 Route116_EventScript_ForgottenCaveEntrance::
 	lock
 	msgbox Route116_Text_ForgottenCaveEntrance, MSGBOX_DEFAULT
+	warp MAP_RUSTURF_TUNNEL, 0, 4, 11
+	waitstate
 	release
 	end
 
@@ -482,4 +484,5 @@ Route116_Text_ForgottenCaveEntrance:
 	.string "Scratched into the wood: 317.\p"
 	.string "A bell rings three times from\p"
 	.string "somewhere deep inside.\p"
-	.string "The entrance will not open yet.$"
+	.string "The boards fall away.\\p"
+	.string "A dark tunnel lies beyond.$"
