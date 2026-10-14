@@ -571,11 +571,18 @@ RusturfTunnel_Text_ForgottenEcho:
 @ A wild ghost battle uses the existing Emerald battle system and species.
 RusturfTunnel_EventScript_ForgottenApparition::
 	lock
+	goto_if_set FLAG_FORGOTTEN_DUSKULL_ENCOUNTER, RusturfTunnel_EventScript_ForgottenApparitionDone
 	playse SE_PIN
 	msgbox RusturfTunnel_Text_ForgottenApparition, MSGBOX_DEFAULT
 	setwildbattle SPECIES_DUSKULL, 12
 	dowildbattle
+	setflag FLAG_FORGOTTEN_DUSKULL_ENCOUNTER
 	msgbox RusturfTunnel_Text_ForgottenAfterBattle, MSGBOX_DEFAULT
+	release
+	end
+
+RusturfTunnel_EventScript_ForgottenApparitionDone::
+	msgbox RusturfTunnel_Text_ForgottenApparitionDone, MSGBOX_DEFAULT
 	release
 	end
 
@@ -590,3 +597,9 @@ RusturfTunnel_Text_ForgottenAfterBattle:
 	.string "A whisper follows you:\p"
 	.string "“He remembers everything.”\p"
 	.string "“And he wants you to forget.”$"
+
+
+RusturfTunnel_Text_ForgottenApparitionDone:
+	.string "The shadow is gone.\p"
+	.string "The words remain scratched here:\p"
+	.string "DO NOT TRUST THE RETURNED.$"
