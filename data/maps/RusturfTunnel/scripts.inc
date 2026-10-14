@@ -606,16 +606,10 @@ RusturfTunnel_Text_ForgottenApparitionDone:
 
 
 @ The Forgotten: touch three wall symbols once, left to right.
-@ The fourth interaction is the hidden doorway, available after symbol three.
 RusturfTunnel_EventScript_ForgottenSymbolLeft::
 	lock
 	goto_if_set FLAG_FORGOTTEN_THREE_BELLS, RusturfTunnel_EventScript_ForgottenSymbolsComplete
-	goto_if_eq VAR_FORGOTTEN_BELL_COUNT, 0, RusturfTunnel_EventScript_ForgottenSymbolLeftCorrect
-	msgbox RusturfTunnel_Text_SymbolAlreadyTouched, MSGBOX_DEFAULT
-	release
-	end
-
-RusturfTunnel_EventScript_ForgottenSymbolLeftCorrect::
+	goto_if_ne VAR_FORGOTTEN_BELL_COUNT, 0, RusturfTunnel_EventScript_ForgottenSymbolsWait
 	setvar VAR_FORGOTTEN_BELL_COUNT, 1
 	playse SE_PIN
 	msgbox RusturfTunnel_Text_SymbolLeft, MSGBOX_DEFAULT
@@ -625,12 +619,7 @@ RusturfTunnel_EventScript_ForgottenSymbolLeftCorrect::
 RusturfTunnel_EventScript_ForgottenSymbolMiddle::
 	lock
 	goto_if_set FLAG_FORGOTTEN_THREE_BELLS, RusturfTunnel_EventScript_ForgottenSymbolsComplete
-	goto_if_eq VAR_FORGOTTEN_BELL_COUNT, 1, RusturfTunnel_EventScript_ForgottenSymbolMiddleCorrect
-	msgbox RusturfTunnel_Text_SymbolWrongOrder, MSGBOX_DEFAULT
-	release
-	end
-
-RusturfTunnel_EventScript_ForgottenSymbolMiddleCorrect::
+	goto_if_ne VAR_FORGOTTEN_BELL_COUNT, 1, RusturfTunnel_EventScript_ForgottenSymbolsWait
 	setvar VAR_FORGOTTEN_BELL_COUNT, 2
 	playse SE_PIN
 	msgbox RusturfTunnel_Text_SymbolMiddle, MSGBOX_DEFAULT
@@ -640,20 +629,20 @@ RusturfTunnel_EventScript_ForgottenSymbolMiddleCorrect::
 RusturfTunnel_EventScript_ForgottenSymbolRight::
 	lock
 	goto_if_set FLAG_FORGOTTEN_THREE_BELLS, RusturfTunnel_EventScript_ForgottenSymbolsComplete
-	goto_if_eq VAR_FORGOTTEN_BELL_COUNT, 2, RusturfTunnel_EventScript_ForgottenSymbolRightCorrect
-	msgbox RusturfTunnel_Text_SymbolWrongOrder, MSGBOX_DEFAULT
-	release
-	end
-
-RusturfTunnel_EventScript_ForgottenSymbolRightCorrect::
+	goto_if_ne VAR_FORGOTTEN_BELL_COUNT, 2, RusturfTunnel_EventScript_ForgottenSymbolsWait
 	setflag FLAG_FORGOTTEN_THREE_BELLS
 	playse SE_PIN
 	msgbox RusturfTunnel_Text_SymbolRight, MSGBOX_DEFAULT
 	release
 	end
 
+RusturfTunnel_EventScript_ForgottenSymbolsWait::
+	msgbox RusturfTunnel_Text_SymbolWait, MSGBOX_DEFAULT
+	release
+	end
+
 RusturfTunnel_EventScript_ForgottenSymbolsComplete::
-	msgbox RusturfTunnel_Text_SymbolAlreadyTouched, MSGBOX_DEFAULT
+	msgbox RusturfTunnel_Text_SymbolComplete, MSGBOX_DEFAULT
 	release
 	end
 
@@ -671,30 +660,25 @@ RusturfTunnel_EventScript_ForgottenDoorLocked::
 	end
 
 RusturfTunnel_Text_SymbolLeft:
-	.string "You touch the LEFT bell symbol.\p"
-	.string "It glows faintly. One of three.$"
+	.string "The left bell symbol glows.$"
 
 RusturfTunnel_Text_SymbolMiddle:
-	.string "You touch the MIDDLE bell symbol.\p"
-	.string "A second mark begins to glow.$"
+	.string "The middle bell symbol glows.$"
 
 RusturfTunnel_Text_SymbolRight:
-	.string "You touch the RIGHT bell symbol.\p"
-	.string "All three marks glow at once!\p"
-	.string "A hidden stone doorway opens.$"
+	.string "The right bell symbol glows!\p"
+	.string "A hidden doorway opens.$"
 
-RusturfTunnel_Text_SymbolWrongOrder:
-	.string "A bell symbol is carved here.\p"
-	.string "Touch the symbols left to right.$"
+RusturfTunnel_Text_SymbolWait:
+	.string "Touch the bell symbols\p"
+	.string "from left to right.$"
 
-RusturfTunnel_Text_SymbolAlreadyTouched:
-	.string "The bell symbols are glowing.\p"
-	.string "A doorway has opened nearby.$"
+RusturfTunnel_Text_SymbolComplete:
+	.string "All three symbols glow.$"
 
 RusturfTunnel_Text_DoorLocked:
-	.string "A stone doorway is sealed shut.\p"
-	.string "Three bell symbols are above it.$"
+	.string "The doorway is sealed.\p"
+	.string "Three bell symbols mark the wall.$"
 
 RusturfTunnel_Text_DoorOpened:
-	.string "The stone door slides aside.\p"
-	.string "A passage leads into darkness.$"
+	.string "The hidden passage opens.$"
