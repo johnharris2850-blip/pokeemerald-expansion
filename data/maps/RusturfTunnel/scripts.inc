@@ -545,3 +545,23 @@ RusturfTunnel_Text_ForgottenFootprints:
 	.string "“Only one came back.”\p"
 	.string "Scratched into the wall:\p"
 	.string "PROJECT RETURN - ROOM 317.$"
+
+
+@ The Forgotten: the second clue reveals the two voices are not the same.
+@ A separate optional interaction avoids changing Emerald's tunnel storyline.
+RusturfTunnel_EventScript_ForgottenEcho::
+	lock
+	playse SE_PIN
+	msgbox RusturfTunnel_Text_ForgottenEcho, MSGBOX_DEFAULT
+	release
+	end
+
+RusturfTunnel_Text_ForgottenEcho:
+	.string "The air turns suddenly cold.\p"
+	.string "A child's voice echoes:\p"
+	.string "“You heard my brother, didn't you?”\p"
+	.string "“He says he came back…”\p"
+	.string "“But he never left this place.”\p"
+	.string "Three distant bells ring.\p"
+	.string "Someone has carved a warning:\p"
+	.string "DO NOT TRUST THE RETURNED.$"
