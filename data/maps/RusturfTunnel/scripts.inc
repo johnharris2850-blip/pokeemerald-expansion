@@ -526,3 +526,22 @@ RusturfTunnel_Text_MikePostBattle:
 	.string "protect POKéMON, right?\l"
 	.string "There's a feel-good story!$"
 
+
+
+@ The Forgotten: first clue in the tunnel. Optional, repeatable and
+@ independent of Rusturf Tunnel's existing story flags.
+RusturfTunnel_EventScript_ForgottenFootprints::
+	lock
+	playse SE_PIN
+	msgbox RusturfTunnel_Text_ForgottenFootprints, MSGBOX_DEFAULT
+	release
+	end
+
+RusturfTunnel_Text_ForgottenFootprints:
+	.string "Tiny footprints cross the dust.\p"
+	.string "They stop in front of the stone.\p"
+	.string "A child's voice whispers:\p"
+	.string "“There were two of us…”\p"
+	.string "“Only one came back.”\p"
+	.string "Scratched into the wall:\p"
+	.string "PROJECT RETURN - ROOM 317.$"
