@@ -510,6 +510,18 @@ static u8 PickWildMonNature(enum Species species)
     return GetSynchronizedNature(WILDMON_ORIGIN, species);
 }
 
+// The Forgotten: randomize ordinary wild encounters across the enabled National Dex.
+// Scripted encounters and trainer battles still use their specified species.
+static enum Species ForgottenRandomWildSpecies(void)
+{
+    enum Species species;
+    do
+    {
+        species = NationalPokedexNumToSpecies(1 + (Random() % NATIONAL_DEX_COUNT));
+    } while (species == SPECIES_NONE);
+    return species;
+}
+
 void CreateWildMon(enum Species species, u8 level)
 {
     ZeroEnemyPartyMons();
@@ -578,7 +590,7 @@ bool8 TryGenerateWildMon(const struct WildPokemonInfo *wildMonInfo, enum WildPok
     if (gMapHeader.mapLayoutId != LAYOUT_BATTLE_FRONTIER_BATTLE_PIKE_ROOM_WILD_MONS && flags & WILD_CHECK_KEEN_EYE && !IsAbilityAllowingEncounter(level))
         return FALSE;
 
-    CreateWildMon(wildMonInfo->wildPokemon[wildMonIndex].species, level);
+    CreateWildMon(ForgottenRandomWildSpecies(), level);
     return TRUE;
 }
 
@@ -589,6 +601,7 @@ static u16 GenerateFishingWildMon(const struct WildPokemonInfo *wildMonInfo, u8 
     u8 level = ChooseWildMonLevel(wildMonInfo->wildPokemon, wildMonIndex, WILD_AREA_FISHING);
 
     UpdateChainFishingStreak();
+    wildMonSpecies = ForgottenRandomWildSpecies();
     CreateWildMon(wildMonSpecies, level);
     return wildMonSpecies;
 }
