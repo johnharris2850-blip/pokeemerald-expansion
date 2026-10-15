@@ -67,3 +67,29 @@ GraniteCave_1F_Text_ReturnResearchNote:
 	.string "But its memories were wrong.\p"
 	.string "FINAL WARNING:\p"
 	.string "Do not let it reach Room 317.$"
+
+
+@ The Forgotten: optional early preview of the final Wally reveal.
+@ This is a test encounter; Wally's normal story events remain unchanged.
+GraniteCave_1F_EventScript_ReturnedWallyPreview::
+	lock
+	faceplayer
+	msgbox GraniteCave_1F_Text_ReturnedWallyReveal, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_WALLY_VR_5, GraniteCave_1F_Text_ReturnedWallyDefeated
+	msgbox GraniteCave_1F_Text_ReturnedWallyAfter, MSGBOX_DEFAULT
+	release
+	end
+
+GraniteCave_1F_Text_ReturnedWallyReveal:
+	.string "WALLY: Oh... you found me.\p"
+	.string "I was hoping you wouldn't.\p"
+	.string "You thought I was weak?\p"
+	.string "I'm THE RETURNED.\p"
+	.string "Now you know the truth!$"
+
+GraniteCave_1F_Text_ReturnedWallyDefeated:
+	.string "WALLY: No... impossible!$"
+
+GraniteCave_1F_Text_ReturnedWallyAfter:
+	.string "WALLY: This isn't over.\p"
+	.string "You haven't seen my true power.$"
