@@ -50,3 +50,20 @@ GraniteCave_1F_Text_ForgottenPassage:
 	.string "ROOM 317 - LOWER LEVEL\p"
 	.string "Someone scratched beneath it:\p"
 	.string "“The one who came back is lying.”$"
+
+
+@ The Forgotten: an optional research note. No character is identified.
+GraniteCave_1F_EventScript_ReturnResearchNote::
+	lock
+	msgbox GraniteCave_1F_Text_ReturnResearchNote, MSGBOX_DEFAULT
+	release
+	end
+
+GraniteCave_1F_Text_ReturnResearchNote:
+	.string "A faded research note is pinned\p"
+	.string "to the rock.\p"
+	.string "PROJECT RETURN: TRIAL 03\p"
+	.string "The subject came back alive.\p"
+	.string "But its memories were wrong.\p"
+	.string "FINAL WARNING:\p"
+	.string "Do not let it reach Room 317.$"
