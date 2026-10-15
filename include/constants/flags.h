@@ -107,7 +107,7 @@
 #define FLAG_LEGENDARIES_IN_SOOTOPOLIS           0x53
 
 #define FLAG_FORGOTTEN_B1F_GHOST_BATTLE       0x54  // The Forgotten: lower cave encounter
-#define FLAG_UNUSED_0x055                    0x55  // Unused Flag
+#define FLAG_FORGOTTEN_B2F_DOLL_BATTLE        0x55  // The Forgotten: haunted doll battle
 
 #define FLAG_HIDE_CONTEST_POKE_BALL          0x56  // Always set after new game, object it hides is added directly
 #define FLAG_MET_RIVAL_MOM                   0x57
