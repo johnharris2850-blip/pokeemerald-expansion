@@ -73,5 +73,14 @@
     }
   ],
   "coord_events": [],
-  "bg_events": []
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 35,
+      "y": 11,
+      "elevation": 3,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "GraniteCave_1F_EventScript_ForgottenPassage"
+    }
+  ]
 }
