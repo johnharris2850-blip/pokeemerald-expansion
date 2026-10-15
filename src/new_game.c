@@ -174,6 +174,8 @@ void NewGameInitData(void)
     ZeroPlayerPartyMons();
     ZeroEnemyPartyMons();
     ResetPokedex();
+    // The Forgotten: unlock the full National Pokedex from the beginning.
+    EnableNationalPokedex();
     ClearFrontierRecord();
     ClearSav1();
     ClearSav3();
